@@ -1,14 +1,29 @@
+/*
+ * Paramètres de l'imprimante :
+ * - extrusion width        : 0.40mm
+ * - infill extrusion width : 0.43mm
+ * - layer thickness        : 0.25mm
+ * - infill                 : 100% (quasiment pas de solide, en dehors des bords. Les rendre plein ne change pas grand chose au poids mais augmente la résistance=
+ * - speed                  : 20mm/s
+ * - main temp              : 200°C
+ * - 1st layer temp         : 205°C
+ * - support                : off, mais garde le "raft" en "skirt" pour dégager le surplus dans l'extruder au démarrage.
+ */
+
+
 sep=1;
 gap=4;
 inter_gap=1.5;
 bord=4;
 
+grille_w=1.5;
+
 battery_w=42;
 battery_h=66;
 battery_d=5;
 
-arduino_w=18;
-arduino_h=33.5;
+arduino_w=18.5;
+arduino_h=33.6;
 arduino_d=3;
 
 xbee_w=31;
@@ -79,15 +94,21 @@ module battery_box(inv=false, d=5) {
                 
                 for (i = [0:10:battery_h-5])
                 translate([sep, sep+i, 0])
-                cube([battery_w, 2, socle_d+(inv?0:2)]);
+                cube([battery_w, grille_w, socle_d+(inv?0:2)]);
                
                 //
                 // Support pour les connecteurs.
                 //
                 
                 if (!inv)
-                translate([5, socle_int_h-2-sep, 0])
-                cube([13, 2, socle_d+2]);
+                difference() {
+                    translate([5, socle_int_h-5-sep, 0])
+                    cube([13, 5, socle_d+2]);
+            
+                    for (i = [0:3])
+                    translate([sep+5.5+i*3, socle_int_h-3, -1])
+                    cube([1, 1, battery_d+1]);
+                }
             }
             
             //
@@ -95,8 +116,8 @@ module battery_box(inv=false, d=5) {
             //
             
             for (i = [0:3])
-            translate([sep+5.5+i*3, socle_int_h-2, socle_d+2])
-            cube([0.5, 6, battery_d]);
+            translate([sep+5.5+i*3, socle_int_h-2, socle_d+3])
+            cube([1, 6, battery_d]);
             
             if(inv) {
                 //
@@ -138,13 +159,25 @@ module arduino_box(inv=false, d=5) {
         // Grille de support
         //
         
-        for (i = [3:8:arduino_h-2])
-        translate([sep, sep+i, 0])
-        cube([arduino_w, 2, socle_d]);
+        difference() {
+            union() {
+                for (i = [3:8:arduino_h-2])
+                translate([sep, sep+i, 0])
+                cube([arduino_w, grille_w, socle_d+(inv?0:1)]);
+            }
+            
+            if(!inv) {
+                translate([sep, 0, socle_d-0.5])
+                cube([3, arduino_h, +3]);
+                translate([sep+arduino_w-3, 0, socle_d-0.5])
+                cube([3, arduino_h, +3]);
+            }
+        }
     }
 }
 
 module xbee_box(inv=false, d=5) {
+    
     union() {
         bb(xbee_w, xbee_h, d);
     
@@ -153,13 +186,13 @@ module xbee_box(inv=false, d=5) {
         //
         
         translate([sep, sep+4, 0])
-        cube([xbee_w, 2, socle_d]);
+        cube([xbee_w, grille_w, socle_d]);
         
-        translate([sep+(inv?0:7), sep+xbee_h/2-1, 0])
-        cube([xbee_w-(inv?0:7), 2, socle_d]);
+        translate([sep+(inv?0:0), sep+xbee_h/2-grille_w/2, 0])
+        cube([(inv?xbee_w:xbee_support_w-5), grille_w, socle_d]);
         
-        translate([sep, sep+xbee_h-2-4, 0])
-        cube([xbee_w, 2, socle_d]);
+        translate([sep, sep+xbee_h-grille_w-4, 0])
+        cube([xbee_w, grille_w, socle_d]);
         
         //
         // Butée pour le support
@@ -167,7 +200,7 @@ module xbee_box(inv=false, d=5) {
     
         if(!inv) {
             for (i=[4,xbee_h-6])
-            translate([sep+xbee_support_w, sep+i, socle_d])
+            translate([sep, sep+i, socle_d])
             cube([xbee_w-xbee_support_w, 2, 1.5]);
         }
         
@@ -176,8 +209,8 @@ module xbee_box(inv=false, d=5) {
         //
         
         if(!inv)
-        translate([sep+5, 6+sep, 0])
-        cube([2, xbee_h-12, socle_d]);
+        translate([sep+xbee_support_w-5-grille_w, sep+4+grille_w, 0])
+        cube([grille_w, xbee_h-8-2*grille_w, socle_d]);
     }
 }
 

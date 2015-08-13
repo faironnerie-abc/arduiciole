@@ -1,2 +1,4 @@
 *.stl
 *.bfb
+.pioenvs
+.sconsign.dblite
