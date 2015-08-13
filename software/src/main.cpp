@@ -34,6 +34,10 @@
 #define BLINK(L, D, C) for (int blinki = 0; blinki < C; blinki++) \
   { digitalWrite(L, HIGH); delay(D); digitalWrite(L, LOW); delay(D); }
 
+#ifndef TIMEOUT
+# define TIMEOUT 2000
+#endif
+
 XBee xbee;
 
 void xbee_magic()
@@ -90,15 +94,108 @@ void setup()
   digitalWrite(CLED, HIGH);
 }
 
+void flash()
+{
+  Tx16Request tx;
+  TxStatusResponse txStatus = TxStatusResponse();
+  uint8_t data = 1;
+  
+  tx = Tx16Request(__xbee_coordinator__, &data, sizeof(uint8_t));
+  xbee.send(tx);
+
+  /*
+
+  //
+  // This is a part where we check that the packet has been received.
+  // But we do not really want to worry with that...
+  //
+
+  if (xbee.readPacket(XBEE_STATUS_RESPONSE_DELAY)) {
+    if (xbee.getResponse().getApiId() == TX_STATUS_RESPONSE) {
+      xbee.getResponse().getZBTxStatusResponse(txStatus);
+
+      if (txStatus.getStatus() == SUCCESS) {
+        // ...
+      } else {
+        // ...
+      }
+    }
+  } else if (xbee.getResponse().isError()) {
+    // ...
+  }
+  */
+}
+
+void sync()
+{
+  unsigned long clock = millis();
+  unsigned long sum = 0;
+  unsigned int count = 0;
+  uint8_t *data;
+
+  while (millis() < clock + TIMEOUT)
+  {
+    xbee.readPacket(max(1, TIMEOUT - millis() + clock));
+
+    if (xbee.getResponse().isAvailable())
+    {
+  		if (xbee.getResponse().getApiId() == RX_16_RESPONSE ||
+  		    xbee.getResponse().getApiId() == RX_64_RESPONSE)
+      {
+  			if (xbee.getResponse().getApiId() == RX_16_RESPONSE)
+        {
+  				Rx16Response rx = Rx16Response();
+  				xbee.getResponse().getRx16Response(rx);
+          data = rx.getData();
+  			}
+        else
+        {
+  				Rx64Response rx = Rx64Response();
+  				xbee.getResponse().getRx64Response(rx);
+          data = rx.getData();
+  			}
+
+        count += data[0];
+        sum += (millis() - clock) * data[0];
+  		}
+  	}
+
+    sum /= count;
+  }
+
+  delay(max(0, clock + TIMEOUT + sum - millis());
+}
+
 void loop()
 {
+  //
+  // Dawn
+  //
+
   for (int i=0; i<=255; i++)
     A_WRITE(i, 1);
 
-  D_WRITE(HIGH, 1000);
+  D_WRITE(HIGH, 0);
+
+  //
+  // XBee-flash
+  //
+
+  flash();
+  delay(1000);
+
+  //
+  // Twilight
+  //
 
   for (int i=255; i>=0; i--)
     A_WRITE(i, 2);
 
-  D_WRITE(LOW, 3000);
+  D_WRITE(LOW, 0);
+
+  //
+  // Finaly, sync
+  //
+
+  sync();
 }
