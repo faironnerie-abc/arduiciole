@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Arduicioles | Faironnerie ABC</title>
+        <meta name="description" content="Présentation du projet Arduicioles de la faironnerie ABC, le FabLab de l'université du Havre.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Guilhelm Savin">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="fonts/exo2/stylesheet.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <section>
+          <div id="moon"></div>
+          <div id="code">
+            <pre id="date">
+/*
+ * Du 8 au 10 octobre
+ * à la bibliothèque universitaire
+ */</pre>
+          <pre>
+#ifdef ENERGIA
+  #include "Energia.h"
+#else
+  #include "Arduino.h"
+#endif
+
+#include <XBee.h>
+
+#define HLED 3
+#define LLED 5
+#define CLED 13
+
+#define BLINK(L, D, C)
+
+XBee xbee;
+
+void setup()
+{
+  pinMode(CLED, OUTPUT);
+
+  BLINK(CLED, 150, 5);
+
+  pinMode(HLED, OUTPUT);
+  pinMode(LLED, OUTPUT);
+
+  //
+  // XBee initialization
+  //
+
+  digitalWrite(CLED, LOW);
+
+  xbee = XBee();
+  xbee_magic();
+
+  digitalWrite(CLED, HIGH);
+}
+
+void xbee_magic()
+{
+  char thisByte = 0;
+
+  Serial.begin(9600);
+  xbee.setSerial(Serial);
+  Serial.print("+++");
+
+  while (thisByte != '\r' &&
+    thisByte != '\n')
+  {
+    if (Serial.available() > 0)
+      thisByte = Serial.read();
+  }
+
+  Serial.print("ATRE\r");
+	Serial.print("ATAP2\r");
+	Serial.print("ATCE0\r");
+	Serial.print("ATMY1\r");
+	Serial.print("ATID111\r");
+	Serial.print("ATCH0C\r");
+	Serial.print("ATCN\r");
+}
+          </pre>
+          </div>
+
+          <div id="lucioles-container-1" class="lucioles-container"></div>
+          <div id="tree"></div>
+          <div id="lucioles-container-2" class="lucioles-container"></div>
+
+          <div id="grass"></div>
+          <div id="lucioles-container-3" class="lucioles-container"></div>
+
+          <!-- Cricket at night, Recorded by Mike Koenig -->
+          <audio id="sound" src="audio/night2.mp3" autoplay="true" loop="true"></audio>
+          <a id="muter" href="#"><i class="fa fa-volume-up fa-2x"></i></a>
+
+          <div id="savoirplus_content">
+            <h1>arduicioles</h1>
+            <div class="subtitle" style="text-align:right;">
+              Un projet de la <a href="http://faironnerie-abc.xyz">faironnerie ABC</a> de l'université du Havre.
+            </div>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-map-marker"></i><a href="https://bu.univ-lehavre.fr/">Bibliothèque universitaire</a>, 25 rue P. Lebon, Le Havre</li>
+              <li><i class="fa-li fa fa-calendar-check-o"></i>du 8 au 10 octobre</li>
+            </ul>
+
+            <p>
+              La <a href="http://faironnerie-abc.xyz">faironnerie ABC</a> est un FabLab du Havre regroupant <a href="http://www.univ-lehavre.fr">l'université du Havre</a>,
+              l'école d'art <a href="http://www.esadhar.fr/">ESADHaR</a> ainsi que le studio Alvéole Zéro du fort de Tourneville.
+              Dans la lignée du <span style="font-style: italic;">"fait le toi-même"</span> (Do It Yourself), ABC tente de diffuser
+              la connaissance et d'apporter à tout un chacun de l'aide concernant l'utilisation d'outils tels que la conception et
+              l'impression 3D, l'électronique, etc.
+            </p>
+
+            <p>
+              À l'occasion de <a href="http://www.fetedelascience.fr/">la fête de la science 2015</a> qui se déroulera du 7 au 11 octobre
+              à l'échelle nationale, la faironnerie a choisi de s'inspirer d'un phénomène que l'on peut observer chez les lucioles afin
+              d'apporter sa contribution à cet événement.
+              En effet, chez ces petites bêtes, les mâles émettent des signaux lumineux pour attirer les femelles. En observant des groupes
+              de lucioles, on peut constater qu'un phénomène de synchronisation se met en place, c'est à dire qu'au fur et à mesure,
+              les lucioles vont émettre leur signal lumineux en même temps.
+            </p>
+
+            <p>
+              Le projet consiste à créer de petites lucioles électroniques basées sur de petits contrôleurs <a href="https://www.arduino.cc">Arduino</a>
+              qui permettront aux <span style="font-weight:400;">arduicioles</span> d'imiter les signaux lumineux de leurs congénères organiques.
+              Leurs ailes seront faites d'un ballon d'hélium qui leur permettra de s'élever au milieu de l'atrium de la
+              <a href="https://bu.univ-lehavre.fr/">bibliothèque universitaire</a>.
+            </p>
+
+            <p style="text-align: right;">
+              <a class="savoirplusswitch" href="#"><i class="fa fa-minus-square-o"></i>&nbsp;Fermer le cadre</a>
+            </p>
+          </div>
+
+          <div id="infos">
+            <div id="title">arduicioles</div>
+            <div class="subtitle">
+              Un projet de la <a href="http://faironnerie-abc.xyz">faironnerie ABC</a> de l'université du Havre.
+              <a class="savoirplusswitch" href="#">En savoir <i class="fa fa-plus-square"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/d3.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
