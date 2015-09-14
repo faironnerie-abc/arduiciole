@@ -33,7 +33,7 @@
   const LUCIOLE_VIEW = 10;
   const LUCIOLE_FLASH_LENGTH = 30;
   const LUCIOLE_DELAY = 65;
-  const LUCIOLE_PER_CONTAINER = 15;
+  const LUCIOLE_PER_CONTAINER = 10;
 
   const ATAN_10 = Math.atan(10);
   const ATAN_M_10 = Math.atan(-10);
