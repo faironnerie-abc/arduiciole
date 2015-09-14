@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="affiche.svg"
-   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/affiche.png"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/affiche.png"
    inkscape:export-xdpi="200.05524"
    inkscape:export-ydpi="200.05524">
   <defs
@@ -288,7 +288,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="1042.6495"
-     inkscape:cy="845.69615"
+     inkscape:cy="643.66564"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -334,27 +334,27 @@
          id="tspan4631"
          x="544.15161"
          y="-383.90842"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1">/*</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1">/*</tspan><tspan
          sodipodi:role="line"
          x="544.15161"
          y="-348.81653"
          id="tspan4633"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> * Du 8 au 10 octobre</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1"> * Du 8 au 10 octobre</tspan><tspan
          sodipodi:role="line"
          x="544.15161"
          y="-313.72464"
          id="tspan4635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> * à la bibliothèque universitaire</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1"> * à la bibliothèque universitaire</tspan><tspan
          sodipodi:role="line"
          x="544.15161"
          y="-278.63275"
          id="tspan4637"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> */</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1"> */</tspan><tspan
          sodipodi:role="line"
          x="544.15161"
          y="-243.54086"
          id="tspan4687"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1" /></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1" /></text>
     <circle
        style="opacity:1;fill:url(#radialGradient4162);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146"
@@ -399,13 +399,13 @@
        r="37.929527" />
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/moon.png"
-       xlink:href="assets/moon.png"
-       y="-406.96878"
-       x="22.410461"
-       id="image4246"
-       preserveAspectRatio="none"
+       xlink:href="moon.png"
+       width="424.09799"
        height="412.07901"
-       width="424.09799" />
+       preserveAspectRatio="none"
+       id="image4246"
+       x="22.410461"
+       y="-406.96878" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-2);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-8"
@@ -547,13 +547,13 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /></text>
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
-       xlink:href="assets/tree.png"
-       y="-111.57658"
-       x="12.384201"
-       id="image4416"
-       preserveAspectRatio="none"
+       xlink:href="tree.png"
+       width="1399.1636"
        height="1133.5087"
-       width="1399.1636" />
+       preserveAspectRatio="none"
+       id="image4416"
+       x="12.384201"
+       y="-111.57658" />
     <circle
        style="opacity:0.625;fill:url(#radialGradient4162-4-65);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-6"
@@ -568,13 +568,13 @@
        r="37.929527" />
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
-       xlink:href="assets/grass.png"
-       y="562.31915"
-       x="-639.62988"
-       id="image4292"
-       preserveAspectRatio="none"
+       xlink:href="grass.png"
+       width="2244.5134"
        height="493.793"
-       width="2244.5134" />
+       preserveAspectRatio="none"
+       id="image4292"
+       x="-639.62988"
+       y="562.31915" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-1);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-1"
@@ -656,7 +656,7 @@
          x="175.19475"
          style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.9;fill:#a09b1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#a09b1a;fill-opacity:1;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#c4c20d;fill-opacity:1"
            y="1035.9336"
            x="175.19475"
            id="tspan4541"
