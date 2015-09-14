@@ -287,7 +287,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="1043.6597"
+     inkscape:cx="1042.6495"
      inkscape:cy="845.69615"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -307,7 +307,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -398,14 +398,14 @@
        cy="762.29688"
        r="37.929527" />
     <image
-       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/moon.png"
-       xlink:href="www/img/moon.png"
-       width="424.09799"
-       height="412.07901"
-       preserveAspectRatio="none"
-       id="image4246"
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/moon.png"
+       xlink:href="assets/moon.png"
+       y="-406.96878"
        x="22.410461"
-       y="-406.96878" />
+       id="image4246"
+       preserveAspectRatio="none"
+       height="412.07901"
+       width="424.09799" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-2);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-8"
@@ -546,14 +546,14 @@
          id="tspan5337"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /></text>
     <image
-       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/tree.png"
-       xlink:href="www/img/tree.png"
-       width="1399.1636"
-       height="1133.5087"
-       preserveAspectRatio="none"
-       id="image4416"
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
+       xlink:href="assets/tree.png"
+       y="-111.57658"
        x="12.384201"
-       y="-111.57658" />
+       id="image4416"
+       preserveAspectRatio="none"
+       height="1133.5087"
+       width="1399.1636" />
     <circle
        style="opacity:0.625;fill:url(#radialGradient4162-4-65);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-6"
@@ -567,14 +567,14 @@
        cy="770.1134"
        r="37.929527" />
     <image
-       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/grass.png"
-       xlink:href="www/img/grass.png"
-       width="2244.5134"
-       height="493.793"
-       preserveAspectRatio="none"
-       id="image4292"
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
+       xlink:href="assets/grass.png"
+       y="562.31915"
        x="-639.62988"
-       y="562.31915" />
+       id="image4292"
+       preserveAspectRatio="none"
+       height="493.793"
+       width="2244.5134" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-1);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-1"
