@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="420mm"
+   viewBox="0 0 1052.3622 1488.189"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="affiche.svg"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/affiche.png"
+   inkscape:export-xdpi="200.05524"
+   inkscape:export-ydpi="200.05524">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4156">
+      <stop
+         style="stop-color:#c4c20d;stop-opacity:1;"
+         offset="0"
+         id="stop4158" />
+      <stop
+         style="stop-color:#c4c20d;stop-opacity:0;"
+         offset="1"
+         id="stop4160" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4138">
+      <stop
+         style="stop-color:#482c8b;stop-opacity:1;"
+         offset="0"
+         id="stop4140" />
+      <stop
+         style="stop-color:#161620;stop-opacity:1"
+         offset="1"
+         id="stop4142" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4138"
+       id="linearGradient4144"
+       x1="573.7514"
+       y1="852.35205"
+       x2="582.90869"
+       y2="441.46771"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0261507,0,0,2.7015995,-1.87883,-1287.1971)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,2.73394,-426.32653)" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,631.3583,176.36017)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,836.6327,-484.43526)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-6"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,357.46717,54.701404)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-5"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,1041.4073,140.36221)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-3"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,79.70833,171.61865)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-2"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-334.56733,122.43003)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-0"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-228.1832,-501.96016)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-1"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,157.82755,-39.749882)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-11"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,533.81203,-18.69475)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-2"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-223.17007,-249.29858)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-7"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,526.79367,-545.07305)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-4"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,472.65189,133.10271)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-6"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-2.5925,62.517897)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-0"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,224.00082,-375.62937)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-65"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,28.48888,195.26549)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-22"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4613"
+       x="-0.031498618"
+       width="1.0629972"
+       y="-0.6305536"
+       height="2.2611072">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.1252188"
+         id="feGaussianBlur4615" />
+    </filter>
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-1-4"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,446.53917,-172.93644)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-1-7"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,114.19898,-493.65987)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient4162-4-1-3"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#161620"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="1043.6597"
+     inkscape:cy="845.69615"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2031"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     borderlayer="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,435.82675)">
+    <rect
+       style="opacity:1;fill:url(#linearGradient4144);fill-opacity:1;stroke:none;stroke-width:3.49864888;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4136"
+       width="1072.3302"
+       height="1495.507"
+       x="-1.87883"
+       y="-449.97122" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.05513191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#7f791b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="544.15161"
+       y="-383.90842"
+       id="text4629"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4631"
+         x="544.15161"
+         y="-383.90842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1">/*</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-348.81653"
+         id="tspan4633"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> * Du 8 au 10 octobre</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-313.72464"
+         id="tspan4635"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> * à la bibliothèque universitaire</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-278.63275"
+         id="tspan4637"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1"> */</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-243.54086"
+         id="tspan4687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#7f791b;fill-opacity:1" /></text>
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146"
+       cx="388.05542"
+       cy="281.26892"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-6);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-1"
+       cx="1221.9541"
+       cy="223.16016"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-3);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-6"
+       cx="1426.7288"
+       cy="847.9577"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-2);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-58"
+       cx="465.02979"
+       cy="879.21405"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-0);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-4"
+       cx="50.754143"
+       cy="830.02551"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5"
+       cx="1016.6797"
+       cy="883.95563"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-5);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-8"
+       cx="742.78857"
+       cy="762.29688"
+       r="37.929527" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/moon.png"
+       xlink:href="www/img/moon.png"
+       width="424.09799"
+       height="412.07901"
+       preserveAspectRatio="none"
+       id="image4246"
+       x="22.410461"
+       y="-406.96878" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-2);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-8"
+       cx="919.13342"
+       cy="688.9007"
+       r="37.929527" />
+    <circle
+       style="opacity:0.57099998;fill:url(#radialGradient4162-4-7);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-16"
+       cx="162.15137"
+       cy="458.29691"
+       r="37.929527" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:21.05513191px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#402c8c;fill-opacity:0.72941176;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="544.15161"
+       y="-220.07944"
+       id="text5289"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5291"
+         x="544.15161"
+         y="-220.07944"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#ifdef ENERGIA</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-184.98755"
+         id="tspan5293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">  #include &quot;Energia.h&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-149.89566"
+         id="tspan5295"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#else</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-114.80378"
+         id="tspan5297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">  #include &quot;Arduino.h&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-79.711891"
+         id="tspan5299"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#endif</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-44.620007"
+         id="tspan5301"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="-9.5281181"
+         id="tspan5303"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#include &lt;XBee.h&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="25.563768"
+         id="tspan5305"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="60.655655"
+         id="tspan5307"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#define HLED 3</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="95.747543"
+         id="tspan5309"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#define LLED 5</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="130.83943"
+         id="tspan5311"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#define CLED 13</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="165.93132"
+         id="tspan5313"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="201.02319"
+         id="tspan5315"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">#define BLINK(L, D, C)</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="236.11508"
+         id="tspan5317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="271.20697"
+         id="tspan5319"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">XBee xbee;</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="306.29886"
+         id="tspan5321"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="341.39075"
+         id="tspan5323"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">void setup()</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="376.48264"
+         id="tspan5325"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">{</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="411.57452"
+         id="tspan5327"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">  pinMode(CLED, OUTPUT);</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="446.66641"
+         id="tspan5329"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="481.7583"
+         id="tspan5331"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">  BLINK(CLED, 150, 5);</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="516.85016"
+         id="tspan5333"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="551.94208"
+         id="tspan5335"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176">  pinMode(HLED, OUTPUT);</tspan><tspan
+         sodipodi:role="line"
+         x="544.15161"
+         y="587.03394"
+         id="tspan5337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.07350922px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#402c8c;fill-opacity:0.72941176" /></text>
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/tree.png"
+       xlink:href="www/img/tree.png"
+       width="1399.1636"
+       height="1133.5087"
+       preserveAspectRatio="none"
+       id="image4416"
+       x="12.384201"
+       y="-111.57658" />
+    <circle
+       style="opacity:0.625;fill:url(#radialGradient4162-4-65);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-6"
+       cx="609.32227"
+       cy="331.96613"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-0);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-2"
+       cx="382.72894"
+       cy="770.1134"
+       r="37.929527" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/www/img/grass.png"
+       xlink:href="www/img/grass.png"
+       width="2244.5134"
+       height="493.793"
+       preserveAspectRatio="none"
+       id="image4292"
+       x="-639.62988"
+       y="562.31915" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-1);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-1"
+       cx="157.13824"
+       cy="205.63528"
+       r="37.929527" />
+    <circle
+       style="opacity:0.49800002;fill:url(#radialGradient4162-4-11);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-0"
+       cx="543.14899"
+       cy="667.84558"
+       r="37.929527" />
+    <circle
+       style="opacity:0.66399997;fill:url(#radialGradient4162-4-4);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-5"
+       cx="912.11511"
+       cy="162.52243"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-6);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-88"
+       cx="857.97333"
+       cy="840.69824"
+       r="37.929527" />
+    <circle
+       style="opacity:0.672;fill:url(#radialGradient4162-4-22);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-4"
+       cx="413.8103"
+       cy="902.86096"
+       r="37.929527" />
+    <g
+       id="g4617"
+       transform="matrix(1.4036754,0,0,1.4036754,3.73657,-879.51317)"
+       style="opacity:0.9">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4531"
+         y="966.21936"
+         x="243.59814"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.75px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';opacity:1;fill:#efefef;fill-opacity:0.8"
+           y="966.21936"
+           x="243.59814"
+           id="tspan4533"
+           sodipodi:role="line">arduicioles</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4535"
+         y="996.79071"
+         x="111"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:0.66666667"
+           y="996.79071"
+           x="111"
+           id="tspan4537"
+           sodipodi:role="line">Un projet de la faironnerie ABC de l'université du Havre.</tspan></text>
+    </g>
+    <g
+       id="g4623"
+       transform="matrix(1.4036754,0,0,1.4036754,65.351316,-426.32653)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4539-6"
+         y="1035.9336"
+         x="175.19475"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#a09b1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4613)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#a09b1a;fill-opacity:1"
+           y="1035.9336"
+           x="175.19475"
+           id="tspan4541-4"
+           sodipodi:role="line">http://lucioles.faironnerie-abc.xyz</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4539"
+         y="1035.9336"
+         x="175.19475"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.9;fill:#a09b1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#a09b1a;fill-opacity:1;"
+           y="1035.9336"
+           x="175.19475"
+           id="tspan4541"
+           sodipodi:role="line">http://lucioles.faironnerie-abc.xyz</tspan></text>
+    </g>
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-1-4);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-1-0"
+       cx="134.85536"
+       cy="613.45099"
+       r="37.929527" />
+    <circle
+       style="opacity:0.735;fill:url(#radialGradient4162-4-1-7);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-1-1"
+       cx="831.8606"
+       cy="534.65906"
+       r="37.929527" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient4162-4-1-3);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4146-5-1-7"
+       cx="499.52042"
+       cy="213.93561"
+       r="37.929527" />
+  </g>
+</svg>
