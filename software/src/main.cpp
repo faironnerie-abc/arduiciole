@@ -97,20 +97,20 @@ void setup()
 void flash()
 {
   Tx16Request tx;
-  TxStatusResponse txStatus = TxStatusResponse();
+  //TxStatusResponse txStatus = TxStatusResponse();
   uint8_t data = 1;
-  
+
   tx = Tx16Request(__xbee_coordinator__, &data, sizeof(uint8_t));
   xbee.send(tx);
 
-  /*
+
 
   //
   // This is a part where we check that the packet has been received.
   // But we do not really want to worry with that...
   //
-
-  if (xbee.readPacket(XBEE_STATUS_RESPONSE_DELAY)) {
+/*
+  if (xbee.readPacket(1000)) {
     if (xbee.getResponse().getApiId() == TX_STATUS_RESPONSE) {
       xbee.getResponse().getZBTxStatusResponse(txStatus);
 
@@ -123,7 +123,7 @@ void flash()
   } else if (xbee.getResponse().isError()) {
     // ...
   }
-  */
+*/
 }
 
 void sync()
@@ -155,6 +155,11 @@ void sync()
           data = rx.getData();
   			}
 
+        //
+        // We do not use "1" here, so we let the door open to some improvments
+        // where one flash can be done for several devices.
+        //
+
         count += data[0];
         sum += (millis() - clock) * data[0];
   		}
@@ -163,7 +168,7 @@ void sync()
     sum /= count;
   }
 
-  delay(max(0, clock + TIMEOUT + sum - millis());
+  delay(max(0, clock + TIMEOUT + sum - millis()));
 }
 
 void loop()
@@ -197,5 +202,6 @@ void loop()
   // Finaly, sync
   //
 
-  sync();
+  //sync();
+  delay(1000);
 }
