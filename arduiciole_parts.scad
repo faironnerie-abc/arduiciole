@@ -36,12 +36,17 @@ bord=4;
 
 grille_w=1.5;
 
-battery_w=42;
-battery_h=66;
+// Batterie HF5X :
+//  battery_w=42;
+//  battery_h=66;
+
+// Batterie Samsung :
+battery_w=46.25;
+battery_h=59+sep+4;
 battery_d=5;
 
-arduino_w=18.5;
-arduino_h=33.6;
+arduino_w=18.75;
+arduino_h=33.8;
 arduino_d=3;
 
 xbee_w=31;
@@ -59,6 +64,11 @@ socle_int_h=battery_h+2*sep;
 socle_w=socle_int_w+2*bord;
 socle_h=socle_int_h+2*bord;
 socle_d=2;
+
+delta = 2;
+$fn=20;
+
+echo(socle_w, socle_h);
 
 //
 // Emplacements.
@@ -110,22 +120,28 @@ module battery_box(inv=false, d=5) {
                 // Grille de support
                 //
 
-                for (i = [0:10:battery_h-5])
+                for (i = [0:13:battery_h-5])
                 translate([sep, sep+i, 0])
                 cube([battery_w, grille_w, socle_d+(inv?0:2)]);
 
-                //
-                // Support pour les connecteurs.
-                //
+                if (!inv) {
+                  //
+                  // Fin de la batterie
+                  //
 
-                if (!inv)
-                difference() {
-                    translate([5, socle_int_h-5-sep, 0])
-                    cube([13, 5, socle_d+2]);
+                  translate([sep, sep+59, 0])
+                  cube([battery_w, sep, d+socle]);
 
-                    for (i = [0:3])
-                    translate([sep+5.5+i*3, socle_int_h-3, -1])
-                    cube([1, 1, battery_d+1]);
+                  //
+                  // Support pour les connecteurs.
+                  //
+                  union() {
+                    translate([sep+7.25, sep+59+sep, 0])
+                    cube([3*2.54+1, 4, socle_d+2+1.25]);
+
+                    translate([sep+7.25, sep+59+sep+2.5, socle_d+2])
+                    cube([3*2.54+1, 1.5, 1.25+1.25]);
+                  }
                 }
             }
 
@@ -133,9 +149,10 @@ module battery_box(inv=false, d=5) {
             // Fentes des connecteurs de la batterie
             //
 
+            if(!inv)
             for (i = [0:3])
-            translate([sep+5.5+i*3, socle_int_h-2, socle_d+3])
-            cube([1, 6, battery_d]);
+            translate([sep+7.25+i*2.54, socle_int_h-7, socle_d+3+1.25])
+            cube([1, 9, battery_d]);
 
             if(inv) {
                 //
@@ -179,7 +196,7 @@ module arduino_box(inv=false, d=5) {
 
         difference() {
             union() {
-                for (i = [3:8:arduino_h-2])
+                for (i = [3:12.5:arduino_h-2])
                 translate([sep, sep+i, 0])
                 cube([arduino_w, grille_w, socle_d+(inv?0:1)]);
             }
@@ -206,8 +223,8 @@ module xbee_box(inv=false, d=5) {
         translate([sep, sep+4, 0])
         cube([xbee_w, grille_w, socle_d]);
 
-        translate([sep+(inv?0:0), sep+xbee_h/2-grille_w/2, 0])
-        cube([(inv?xbee_w:xbee_support_w-5), grille_w, socle_d]);
+        translate([sep+(inv?0:6+grille_w), sep+xbee_h/2-grille_w/2, 0])
+        cube([(inv?xbee_w:xbee_w-6-grille_w), grille_w, socle_d]);
 
         translate([sep, sep+xbee_h-grille_w-4, 0])
         cube([xbee_w, grille_w, socle_d]);
@@ -218,7 +235,7 @@ module xbee_box(inv=false, d=5) {
 
         if(!inv) {
             for (i=[4,xbee_h-6])
-            translate([sep, sep+i, socle_d])
+            translate([sep+xbee_support_w, sep+i, socle_d])
             cube([xbee_w-xbee_support_w, 2, 1.5]);
         }
 
@@ -227,7 +244,7 @@ module xbee_box(inv=false, d=5) {
         //
 
         if(!inv)
-        translate([sep+xbee_support_w-5-grille_w, sep+4+grille_w, 0])
+        translate([sep+6, sep+4+grille_w, 0])
         cube([grille_w, xbee_h-8-2*grille_w, socle_d]);
     }
 }
@@ -253,11 +270,11 @@ module interior(inv=false) {
         // On enlève un peu de plastique pour alléger et permettre le passage des câbles
         //
 
-        for (i = [10,22, 34, 49, 58, 67])
+        for (i = [10,22, 34, 47, 56])
         translate([-socle_w/2, -socle_h/2+i-2.5, 7-2.5])
         cube([socle_w, 5, 5]);
 
-        for (i = [25, 34, 43, 52.5, 66, 74])
+        for (i = [25, 34, 43, 55, 69, 79])
         translate([-socle_w/2+i-2.5, -socle_h/2, 7-2.5])
         cube([5, , socle_h, 5]);
     }
@@ -282,6 +299,7 @@ module hled() {
 }
 
 module part1() {
+  difference() {
     union() {
         difference() {
             union() {
@@ -309,7 +327,22 @@ module part1() {
                 cube([hled_w-6, hled_h-6, 3]);
             }
         }
+
+        //
+        // Boucle d'attaches
+        //
+
+        for (p = [[-socle_w / 2, -socle_h / 2], [-socle_w / 2, socle_h / 2], [socle_w / 2, -socle_h / 2], [socle_w / 2, socle_h / 2]])
+        translate([p.x + (p.x < 0 ? delta : -delta), p.y + (p.y < 0 ? delta : -delta), 0])
+        linear_extrude(socle)
+        circle(3);
     }
+
+    for (p = [[-socle_w / 2, -socle_h / 2], [-socle_w / 2, socle_h / 2], [socle_w / 2, -socle_h / 2], [socle_w / 2, socle_h / 2]])
+    translate([p.x + (p.x < 0 ? delta : -delta), p.y + (p.y < 0 ? delta : -delta), -1])
+    linear_extrude(socle+2)
+    circle(1.5);
+  }
 }
 
 module part2() {
@@ -348,7 +381,21 @@ module part2() {
                 translate([arduino_w-bord/2, -bord/2, -1])
                 cube([socle_w-2*arduino_w, socle_h, 12]);
             }
+
+            //
+            // Boucle d'attaches
+            //
+
+            for (p = [[bord, bord], [bord, socle_h], [socle_w, bord], [socle_w, socle_h]])
+            translate([p.x + (p.x < 0 ? delta : -delta), p.y + (p.y < 0 ? delta : -delta), 0])
+            linear_extrude(socle)
+            circle(3);
         }
+
+        for (p = [[bord, bord], [bord, socle_h], [socle_w, bord], [socle_w, socle_h]])
+        translate([p.x + (p.x < 0 ? delta : -delta), p.y + (p.y < 0 ? delta : -delta), -1])
+        linear_extrude(socle+20)
+        circle(1.5);
     }
 
     interior_inv();
