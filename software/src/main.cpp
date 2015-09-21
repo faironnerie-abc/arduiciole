@@ -38,14 +38,54 @@
 # define TIMEOUT 2000
 #endif
 
-XBee xbee;
+#define ERROR_NO_XBEE_RESPONSE 3
+#define ERROR_BAD_XBEE_RESPONSE 4
+
+typedef struct {
+  uint8_t  cmd;
+  uint32_t data;
+} cmd_t;
+
+#define CMD_SYNC  0x01
+#define CMD_RESET 0x02
+
+cmd_t message = {CMD_SYNC, 0};
+uint8_t *payload = (uint8_t*) &message;
+
+XBee xbee = XBee();
+
+#ifndef __XBEE_SERIE_1__
+XBeeAddress64 addr64 = XBeeAddress64(ZB_BROADCAST_ADDRESS);
+ZBTxRequest tx = ZBTxRequest(addr64, payload, sizeof(cmd_t));
+ZBRxResponse rx = ZBRxResponse();
+
+uint8_t assocCmd[] = {'A','I'};
+AtCommandRequest atRequest = AtCommandRequest(assocCmd);
+AtCommandResponse atResponse = AtCommandResponse();
+#else
+Tx16Request tx = Tx16Request(__xbee_coordinator__, payload, sizeof(uint32_t));
+Rx16Response rx = Rx16Response();
+#endif
+
+void error_mode(uint8_t error) {
+  while (1) {
+    BLINK(CLED, 300, error);
+    delay(1000);
+  }
+}
 
 void xbee_magic()
 {
+  digitalWrite(CLED, LOW);
+
+  //
+  // Here starts the magic ;)
+  // Well, actually it's just some AT commands to set up the network.
+  //
+
+#ifdef __XBEE_SERIE_1__
   char thisByte = 0;
 
-  Serial.begin(9600);
-  xbee.setSerial(Serial);
 	Serial.print("+++");
 
 	while (thisByte != '\r' && thisByte != '\n') {
@@ -53,10 +93,7 @@ void xbee_magic()
 			thisByte = Serial.read();
 	}
 
-  //
-  // Here starts the magic ;)
-  // Well, actually it's just some AT commands to set up the network.
-  //
+  BLINK(CLED, 150, 3);
 
   Serial.print("ATRE\r");
 	Serial.print("ATAP2\r");
@@ -70,7 +107,33 @@ void xbee_magic()
 	Serial.print(XBEE_NETWORK);
 	Serial.print("\r");
 	Serial.print("ATCH0C\r");
-	Serial.print("ATCN\r");
+  Serial.print("ATCN\r");
+
+  digitalWrite(CLED, HIGH);
+#else
+  xbee.send(atRequest);
+
+  BLINK(CLED, 150, 3);
+
+  if (xbee.readPacket(5000)) {
+    if (xbee.getResponse().getApiId() == AT_COMMAND_RESPONSE) {
+      xbee.getResponse().getAtCommandResponse(atResponse);
+
+      if (atResponse.isOk()) {
+        digitalWrite(CLED, HIGH);
+      }
+      else {
+        error_mode(ERROR_BAD_XBEE_RESPONSE);
+      }
+    }
+    else {
+      error_mode(ERROR_BAD_XBEE_RESPONSE);
+    }
+  }
+  else {
+    error_mode(ERROR_NO_XBEE_RESPONSE);
+  }
+#endif
 }
 
 void setup()
@@ -86,24 +149,15 @@ void setup()
   // XBee initialization
   //
 
-  digitalWrite(CLED, LOW);
+  Serial.begin(9600);
+  xbee.setSerial(Serial);
 
-  xbee = XBee();
   xbee_magic();
-
-  digitalWrite(CLED, HIGH);
 }
 
 void flash()
 {
-  Tx16Request tx;
-  //TxStatusResponse txStatus = TxStatusResponse();
-  uint8_t data = 1;
-
-  tx = Tx16Request(__xbee_coordinator__, &data, sizeof(uint8_t));
   xbee.send(tx);
-
-
 
   //
   // This is a part where we check that the packet has been received.
@@ -131,42 +185,49 @@ void sync()
   unsigned long clock = millis();
   unsigned long sum = 0;
   unsigned int count = 0;
-  uint8_t *data;
+  cmd_t *data;
 
-  while (millis() < clock + TIMEOUT)
-  {
+  while (millis() < clock + TIMEOUT) {
     xbee.readPacket(max(1, TIMEOUT - millis() + clock));
 
-    if (xbee.getResponse().isAvailable())
-    {
+    if (xbee.getResponse().isAvailable()) {
+#ifdef __XBEE_SERIE_1__
   		if (xbee.getResponse().getApiId() == RX_16_RESPONSE ||
-  		    xbee.getResponse().getApiId() == RX_64_RESPONSE)
-      {
-  			if (xbee.getResponse().getApiId() == RX_16_RESPONSE)
-        {
-  				Rx16Response rx = Rx16Response();
+  		    xbee.getResponse().getApiId() == RX_64_RESPONSE) {
+  			if (xbee.getResponse().getApiId() == RX_16_RESPONSE) {
   				xbee.getResponse().getRx16Response(rx);
-          data = rx.getData();
+          data = (cmd_t*) rx.getData();
   			}
-        else
-        {
+        else {
   				Rx64Response rx = Rx64Response();
   				xbee.getResponse().getRx64Response(rx);
-          data = rx.getData();
+          data = (cmd_t*) rx.getData();
   			}
-
+#else
+      if (xbee.getResponse().getApiId() == ZB_RX_RESPONSE) {
+        xbee.getResponse().getZBRxResponse(rx);
+        data = (cmd_t*) rx.getData();
+#endif
         //
         // We do not use "1" here, so we let the door open to some improvments
         // where one flash can be done for several devices.
         //
 
-        count += data[0];
-        sum += (millis() - clock) * data[0];
+        switch(data->cmd) {
+        case CMD_SYNC:
+          count += *((uint32_t*)data);
+          sum += (millis() - clock) * *((uint32_t*)data);
+          break;
+        case CMD_RESET:
+          break;
+        }
   		}
   	}
 
     sum /= count;
   }
+
+  message.data = sum;
 
   delay(max(0, clock + TIMEOUT + sum - millis()));
 }
@@ -203,5 +264,5 @@ void loop()
   //
 
   //sync();
-  delay(1000);
+  delay(2000);
 }
