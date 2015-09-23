@@ -1,21 +1,22 @@
 # -*- coding: utf-8 -*-
 
-import serial, sys, socket
+import serial, sys, socket, random
 from threading import Lock
 from time import sleep
 from xbee import ZigBee
 from struct import Struct
 
-DELAY = 500
+DELAY = 50
 FLASH_LENGTH = 20
 
 LUCIOLE_HUE        = 60
 LUCIOLE_SATURATION = 0.9
 LUCIOLE_COUNT      = 30
+LUCIOLE_VIEW       = 3
 
 MATRIX_IP     = "10.4.40.223"
 MATRIX_PORT   = 6038
-MATRIX_FOOTER = ''.join(chr(0x00) for x in range(0, 362))
+MATRIX_FOOTER = ''.join(chr(0x00) for x in range(0, 362+3*20))
 MATRIX_HEADER = ''.join(chr(x)    for x in [
 	0x04, 0x01, 0xdc, 0x4a,
 	0x01, 0x00,
@@ -40,6 +41,8 @@ STRUCT_MSG  = Struct("<BL")
 
 CMD_SYNC  = 0x01
 CMD_RESET = 0x02
+
+SIMULATION = True
 
 def hsv2rgb(h, s, v):
 	c = s * v
@@ -76,38 +79,52 @@ def hsv2rgb(h, s, v):
 
 	return (r, v, b)
 
-def write_check(ser, cmd):
-	ser.write(cmd)
-
-	b = 0
-	r = ''
-
-	while b != '\r' and b != '\n':
-		b = ser.read(1)
-		r = r + b
-
-	if r[:2] != "OK":
-		print "!!! XBEE NOT OK !!!"
-		return False
-
-	return True
-
 def get_color(step):
 	if not step:
-		return (0, 0, 0)
+		return (chr(0), chr(0), chr(0))
 	else:
 		return hsv2rgb(LUCIOLE_HUE, LUCIOLE_SATURATION, 1 - abs(step - FLASH_LENGTH / 2.0) / (FLASH_LENGTH / 2.0))
 
+counter = 1
+
 def update_lucioles(lucioles):
+	if SIMULATION:
+		update_lucioles_simulation(lucioles)
+	else:
+		for l in lucioles:
+			luciole_step(l)
+
+def update_lucioles_simulation(lucioles):
+	global counter
+
 	for l in lucioles:
-		if l['flash_step']:
-			l['flash_step'] = (l['flash_step'] + 1) % FLASH_LENGTH
-			l['rvb']        = get_color(l['flash_step'])
+		l['next_step'] = LUCIOLE_VIEW * l['step']
+		luciole_step(l)
+
+		if counter == 0:
+			for j in range(1, LUCIOLE_VIEW+1):
+				l['next_step'] += lucioles[(l['id']+j)%len(lucioles)]['step']
+			l['next_step'] /= 2 * LUCIOLE_VIEW
+			
+	if counter == 0:
+		for l in lucioles:
+			l['step'] = l['step'] - int((l['step'] - l['next_step']) * 0.4)
+
+	counter = (counter + 1) % 100
+
+def luciole_step(l):
+	l['step'] = (l['step'] + 1) % 100
+
+	if l['step'] == 0:
+		l['flash_step'] = 1
+	elif l['flash_step']:
+		l['flash_step'] = (l['flash_step'] + 1) % FLASH_LENGTH
+		l['rvb']        = get_color(l['flash_step'])
 
 if __name__ == "__main__":
 	ser      = serial.Serial(SERIAL_PORT, SERIAL_BAUDRATE)
 	sock     = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-	lucioles = [{'id': i, 'flash_step': 0, 'rvb': ('\x00', '\x00', '\x00')} for i in range(0, LUCIOLE_COUNT)]
+	lucioles = [{'id': i, 'step': int(random.random() * 100), 'flash_step': 0, 'rvb': ('\x00', '\x00', '\x00')} for i in range(0, LUCIOLE_COUNT)]
 	lucioles_addr = {}
 
 	def handle_frame(data):
