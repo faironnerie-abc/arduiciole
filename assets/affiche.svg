@@ -287,8 +287,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="1042.6495"
-     inkscape:cy="643.66564"
+     inkscape:cx="1113.5694"
+     inkscape:cy="716.60496"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -400,12 +400,12 @@
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/moon.png"
        xlink:href="moon.png"
-       width="424.09799"
-       height="412.07901"
-       preserveAspectRatio="none"
-       id="image4246"
+       y="-406.96878"
        x="22.410461"
-       y="-406.96878" />
+       id="image4246"
+       preserveAspectRatio="none"
+       height="412.07901"
+       width="424.09799" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-2);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-8"
@@ -548,12 +548,12 @@
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
        xlink:href="tree.png"
-       width="1399.1636"
-       height="1133.5087"
-       preserveAspectRatio="none"
-       id="image4416"
+       y="-111.57658"
        x="12.384201"
-       y="-111.57658" />
+       id="image4416"
+       preserveAspectRatio="none"
+       height="1133.5087"
+       width="1399.1636" />
     <circle
        style="opacity:0.625;fill:url(#radialGradient4162-4-65);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-6"
@@ -569,12 +569,22 @@
     <image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
        xlink:href="grass.png"
-       width="2244.5134"
-       height="493.793"
-       preserveAspectRatio="none"
+       y="564.31915"
+       x="-461.62988"
        id="image4292"
-       x="-639.62988"
-       y="562.31915" />
+       preserveAspectRatio="none"
+       height="493.793"
+       width="2244.5134" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/fds2015.png"
+       xlink:href="fds2015.png"
+       style="opacity:0.75"
+       width="348.29471"
+       height="126.58453"
+       preserveAspectRatio="none"
+       id="image4292-3"
+       x="684.13562"
+       y="247.83977" />
     <circle
        style="opacity:1;fill:url(#radialGradient4162-4-1);fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4146-5-1"
