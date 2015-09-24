@@ -23,6 +23,7 @@ cmd_t message = {CMD_SYNC, 0};
 
 uint16_t essaim[LUCIOLE_VIEW];
 uint8_t essaim_offset = 0;
+uint8_t essaim_size = 0;
 
 /**
  * Vérifie si l'adresse d'une luciole est dans le voisinage.
@@ -49,6 +50,7 @@ int is_in_essaim(uint16_t addr) {
 void add_to_essaim(uint16_t addr) {
   essaim[essaim_offset] = addr;
   essaim_offset = (essaim_offset + 1) % LUCIOLE_VIEW;
+  essaim_size = min(LUCIOLE_VIEW, essaim_size + 1);
 }
 
 /*
@@ -73,29 +75,41 @@ void flash() {
  */
 void sync() {
   unsigned long clock = millis();
-  unsigned long sum = 0;
   unsigned int count = 0;
   cmd_t *data;
+  uint16_t from;
+  uint8_t quit = 0;
 
-  while (millis() < clock + TIMEOUT) {
-    data = xbee_receive(max(1, TIMEOUT - millis() + clock));
+  while (!quit && millis() < clock + LUCIOLE_WAIT_PHASE_LENGTH) {
+    data = xbee_receive(&from, max(1, millis() - clock - LUCIOLE_WAIT_PHASE_LENGTH));
 
     if (data != NULL) {
         switch(data->cmd) {
         case CMD_SYNC:
-          count += data->data;
-          sum += (millis() - clock) * data->data;
+          if (is_in_essaim(from)) {
+            count += data->data;
+          }
+          else if (essaim_size < LUCIOLE_VIEW || random(1000) < LUCIOLE_ADD_IN_SWARM_PROB * 1000) {
+            add_to_essaim(from);
+            count += data->data;
+          }
+
+          if (count > LUCIOLE_JUMP_THRESHOLD) {
+            quit = 1;
+          }
+
           break;
         case CMD_RESET:
+          essaim_size = 0;
+          essaim_offset = 0;
+
+          delay(random(1, 1000));
+          quit = 1;
+
           break;
         }
   	}
   }
-
-  sum /= count;
-  message.data = sum;
-
-  delay(max(0, clock + TIMEOUT + sum - millis()));
 }
 
 /**
@@ -122,8 +136,7 @@ void setup() {
 /**
  * Boucle principale de l'Arduino.
  */
-void loop()
-{
+void loop() {
   //
   // Dawn
   //
@@ -144,7 +157,7 @@ void loop()
   // mais il faut prendre en compte l"allumage des LEDs (255ms) et l'extinction
   // (2 * 255ms).
   //
-  
+
   delay(LUCIOLE_FLASH_PHASE_LENGTH - 3 * 255);
 
   //

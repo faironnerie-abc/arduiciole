@@ -5,6 +5,6 @@
 
 void xbee_init(cmd_t*);
 void xbee_transmit();
-cmd_t* xbee_receive(unsigned long);
+cmd_t* xbee_receive(uint16_t*, unsigned long);
 
 #endif /* __ARDUCIOLE_XBEE_H__ */

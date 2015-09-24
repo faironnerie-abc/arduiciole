@@ -57,12 +57,14 @@ void xbee_transmit() {
   xbee.send(tx);
 }
 
-cmd_t* xbee_receive(unsigned long to) {
+cmd_t* xbee_receive(uint16_t *from, unsigned long to) {
   xbee.readPacket(to);
 
   if (xbee.getResponse().isAvailable()) {
     if (xbee.getResponse().getApiId() == ZB_RX_RESPONSE) {
       xbee.getResponse().getZBRxResponse(rx);
+
+      from[0] = rx.getRemoteAddress16();
       return (cmd_t*) rx.getData();
     }
   }
