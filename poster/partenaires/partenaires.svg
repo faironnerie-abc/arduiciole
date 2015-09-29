@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="partenaires.svg"
-   inkscape:export-filename="/Users/antoine/Desktop/leslogos/Logos.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/partenaires/partenaires.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45">
   <defs
      id="defs4">
     <linearGradient
@@ -169,7 +169,7 @@
        xlink:href="#linearGradient4156"
        id="radialGradient3100"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-3953.7596,-131.37289)"
        cx="274.50894"
        cy="504.1019"
        fx="274.50894"
@@ -202,7 +202,7 @@
        xlink:href="#linearGradient4156"
        id="radialGradient3112"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-1662.9111,579.16305)"
        cx="274.50894"
        cy="504.1019"
        fx="274.50894"
@@ -352,6 +352,86 @@
        r="457.69974"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.209693,0,0,1.209693,-7.2046547,1774.2488)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4563"
+       x="-0.034245"
+       width="1.06849"
+       y="-0.037944598"
+       height="1.0758892">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="14.26875"
+         id="feGaussianBlur4565" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient7598-0-9-1-6"
+       cx="486.11447"
+       cy="-1684.8367"
+       fx="486.11447"
+       fy="-1684.8367"
+       r="457.69974"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4587406,0,0,1.4587406,-323.31236,1281.6894)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4986"
+       x="-0.072892836"
+       width="1.1457857"
+       y="-0.33922484"
+       height="1.6784497">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="19.028394"
+         id="feGaussianBlur4988" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient7598-0-9-1-6-3"
+       cx="486.11447"
+       cy="-1684.8367"
+       fx="486.11447"
+       fy="-1684.8367"
+       r="457.69974"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4587406,0,0,1.4587406,-646.16406,1308.9299)" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5438">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(33,6,77)"
+         result="flood"
+         id="feFlood5440" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5442" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur5444" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset5446" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5448" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -360,9 +440,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.40114008"
-     inkscape:cx="667.38684"
-     inkscape:cy="2520.3463"
+     inkscape:zoom="0.73952369"
+     inkscape:cx="1116.609"
+     inkscape:cy="2121.4832"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -382,7 +462,8 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      units="mm"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     borderlayer="true">
     <inkscape:grid
        type="xygrid"
        id="grid2985"
@@ -404,7 +485,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -441,7 +522,23 @@
        cy="770.1134"
        cx="382.72894"
        id="circle3067"
-       style="display:inline;fill:url(#radialGradient3077);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.822;fill:url(#radialGradient3077);fill-opacity:1;stroke:none" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3112);fill-opacity:1;stroke:none"
+       id="circle3110"
+       cx="-582.33905"
+       cy="2563.5007"
+       r="106.36726"
+       transform="scale(-1,1)" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
+       y="1166.814"
+       x="249.55785"
+       id="image4291"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
+       preserveAspectRatio="none"
+       height="2828.9917"
+       width="3492.0088" />
     <circle
        transform="matrix(-2.8043391,0,0,2.8043391,2668.3269,1346.1974)"
        r="37.929527"
@@ -449,22 +546,22 @@
        cx="50.754143"
        id="circle3065"
        style="display:inline;fill:url(#radialGradient3075);fill-opacity:1;stroke:none" />
-    <circle
-       transform="matrix(-2.8043391,0,0,2.8043391,1439.0333,1521.1827)"
-       r="37.929527"
-       cy="613.45099"
-       cx="134.85536"
-       id="circle3098"
-       style="display:inline;fill:url(#radialGradient3100);fill-opacity:1;stroke:none" />
     <image
-       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/partenaires/../../assets/grass.png"
-       xlink:href="../../assets/grass.png"
-       width="2979.9211"
-       height="1377.2844"
-       id="image4080"
-       x="0"
-       y="2828.229"
-       style="display:inline" />
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
+       y="3063.3743"
+       x="-1031.5134"
+       id="image5105"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
+       preserveAspectRatio="none"
+       height="1169.2914"
+       width="5314.9604" />
+    <circle
+       transform="scale(-1,1)"
+       r="106.36726"
+       cy="1852.965"
+       cx="-2873.1875"
+       id="circle3098"
+       style="display:inline;opacity:0.70099996;fill:url(#radialGradient3100);fill-opacity:1;stroke:none" />
     <circle
        style="display:inline;fill:url(#radialGradient3097);fill-opacity:1;stroke:none"
        id="circle3095"
@@ -478,7 +575,7 @@
        cy="613.45099"
        cx="134.85536"
        id="circle3091"
-       style="display:inline;fill:url(#radialGradient3093);fill-opacity:1;stroke:none" />
+       style="display:inline;opacity:0.60399996;fill:url(#radialGradient3093);fill-opacity:1;stroke:none" />
     <circle
        style="display:inline;fill:url(#radialGradient3088);fill-opacity:1;stroke:none"
        id="circle3086"
@@ -514,16 +611,9 @@
        cx="-554.88733"
        id="circle3106"
        style="display:inline;fill:url(#radialGradient3108);fill-opacity:1;stroke:none" />
-    <circle
-       style="display:inline;fill:url(#radialGradient3112);fill-opacity:1;stroke:none"
-       id="circle3110"
-       cx="134.85536"
-       cy="613.45099"
-       r="37.929527"
-       transform="matrix(-2.8043391,0,0,2.8043391,1643.5724,-1123.7177)" />
   </g>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="Logos"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,3160.6304)">
@@ -545,46 +635,22 @@
          sodipodi:role="line"
          id="tspan7694">SMAI</tspan></text>
     <g
-       id="g4847">
+       id="g4847"
+       transform="translate(-1827.2919,-4.9857897)">
       <image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/partenaires/../../assets/moon.png"
          xlink:href="../../assets/moon.png"
-         width="1189.3146"
-         height="1155.6094"
-         preserveAspectRatio="none"
-         id="image4246"
-         x="1793.5359"
+         style="display:inline"
          y="-3160.0837"
-         style="display:inline" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4835"
-         y="-2977.2712"
-         x="2386.0022"
-         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Comfortaa;-inkscape-font-specification:Comfortaa"
-         xml:space="preserve"><tspan
-           style="font-size:90px;fill:#ffffff;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0'"
-           y="-2977.2712"
-           x="2386.0022"
-           id="tspan4837"
-           sodipodi:role="line">Faironnerie ABC</tspan></text>
+         x="1793.5359"
+         id="image4246"
+         preserveAspectRatio="none"
+         height="1155.6094"
+         width="1189.3146" />
     </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4839"
-       y="-2861.0505"
-       x="-2583.5352"
-       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Comfortaa;-inkscape-font-specification:Comfortaa"
-       xml:space="preserve"
-       transform="matrix(0,1,-1,0,0,0)"><tspan
-         style="font-size:72px;fill:#ffffff;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0'"
-         y="-2861.0505"
-         x="-2583.5352"
-         id="tspan4841"
-         sodipodi:role="line">Fablabde l'université du Havre</tspan></text>
     <g
        id="g7720"
-       transform="translate(79.772633,224.36053)">
+       transform="matrix(0.88283855,0,0,0.88283855,45.774874,293.00062)">
       <circle
          r="551.86163"
          cy="-263.88666"
@@ -617,7 +683,7 @@
     </g>
     <g
        id="g7714"
-       transform="translate(-119.65895,-214.38895)">
+       transform="matrix(0.88283855,0,0,0.88283855,-4.6018543,-488.25018)">
       <circle
          r="551.86163"
          cy="-974.36163"
@@ -650,7 +716,7 @@
     </g>
     <g
        id="g7726"
-       transform="translate(-289.17579,181.98132)">
+       transform="matrix(0.88283855,0,0,0.88283855,256.54738,195.24701)">
       <circle
          r="551.86163"
          cy="-76.919533"
@@ -683,7 +749,7 @@
     </g>
     <g
        id="g7702"
-       transform="translate(-12.464472,-157.05237)">
+       transform="matrix(0.88283855,0,0,0.88283855,-20.410515,-282.27353)">
       <circle
          r="551.86163"
          cy="-1769.5951"
@@ -716,7 +782,7 @@
     </g>
     <g
        id="g7696"
-       transform="translate(159.54526,-600.78764)">
+       transform="matrix(0.88283855,0,0,0.88283855,1957.8149,-476.04257)">
       <circle
          r="551.86163"
          cy="-1955.3158"
@@ -749,7 +815,7 @@
     </g>
     <g
        id="g7708"
-       transform="translate(306.62605,49.85789)">
+       transform="matrix(0.88283855,0,0,0.88283855,-274.14676,-454.71544)">
       <circle
          r="551.86163"
          cy="-879.63165"
@@ -779,6 +845,108 @@
            height="490.98215"
            width="1189.2856" />
       </g>
+    </g>
+    <g
+       id="g4567"
+       transform="matrix(0.73211344,0,0,0.73211344,355.26893,180.80247)">
+      <g
+         id="g4595"
+         transform="translate(1634.4318,520.97513)">
+        <circle
+           style="opacity:0.75;fill:url(#radialGradient7598-0-9-1-6);fill-opacity:1;stroke:none;stroke-width:3.6290791;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path7590-1-6-7-5"
+           cx="385.80255"
+           cy="-1176.0507"
+           r="665.47705" />
+        <image
+           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/logo-smai-mask.png"
+           y="-1627.3007"
+           x="-114.19746"
+           id="image4544"
+           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/logo-smai-mask.png"
+           preserveAspectRatio="none"
+           height="902.5"
+           width="1000"
+           style="filter:url(#filter4563)" />
+        <image
+           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/logo-smai.png"
+           y="-1627.3007"
+           x="-114.19745"
+           id="image4466"
+           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/logo-smai.png"
+           preserveAspectRatio="none"
+           height="902.5"
+           width="1000" />
+      </g>
+    </g>
+    <g
+       id="g5054"
+       transform="translate(570.8729,239.31789)">
+      <circle
+         r="665.47705"
+         cy="-1148.8102"
+         cx="62.950783"
+         id="path7590-1-6-7-5-8"
+         style="opacity:0.75;fill:url(#radialGradient7598-0-9-1-6-3);fill-opacity:1;stroke:none;stroke-width:3.6290791;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         transform="matrix(0.73211344,0,0,0.73211344,355.26893,180.8025)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4600-5"
+         y="-595.5694"
+         x="79.28817"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c4c20d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4986)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:187.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#c4c20d;fill-opacity:1"
+           y="-595.5694"
+           x="79.28817"
+           id="tspan4602-1"
+           sodipodi:role="line">UFR ST</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4600"
+         y="-595.5694"
+         x="79.28817"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:187.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#efefef;fill-opacity:1"
+           y="-595.5694"
+           x="79.28817"
+           id="tspan4602"
+           sodipodi:role="line">UFR ST</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Textes">
+    <g
+       id="g5061"
+       transform="translate(47.327761,-55.44109)"
+       style="filter:url(#filter5438)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4294"
+         y="2362.9875"
+         x="1828.1898"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:187.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#eaeaea;fill-opacity:1"
+           y="2362.9875"
+           x="1828.1898"
+           id="tspan4296"
+           sodipodi:role="line">arduicioles</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4294-9"
+         y="2480.1538"
+         x="2863.8455"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4364"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:112.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-align:end;text-anchor:end;fill:#eaeaea;fill-opacity:1"
+           y="2480.1538"
+           x="2863.8455"
+           sodipodi:role="line">un projet de la faironnerie ABC</tspan></text>
     </g>
   </g>
 </svg>
