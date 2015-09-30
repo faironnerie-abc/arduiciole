@@ -22,11 +22,11 @@
 //
 
 #ifndef LUCIOLE_VIEW
-# define LUCIOLE_VIEW 10
+# define LUCIOLE_VIEW 6
 #endif
 
 #ifndef LUCIOLE_JUMP_THRESHOLD
-# define LUCIOLE_JUMP_THRESHOLD LUCIOLE_VIEW / 2 + 1
+# define LUCIOLE_JUMP_THRESHOLD 5
 #endif
 
 #ifndef LUCIOLE_FLASH_PHASE_LENGTH
@@ -34,7 +34,7 @@
 #endif
 
 #ifndef LUCIOLE_WAIT_PHASE_LENGTH
-# define LUCIOLE_WAIT_PHASE_LENGTH 2000
+# define LUCIOLE_WAIT_PHASE_LENGTH 3000
 #endif
 
 #ifndef LUCIOLE_ADD_IN_SWARM_PROB
@@ -79,6 +79,23 @@ void flash();
  * Phase de synchronisation de la luciole.
  */
 void sync();
+
+/**
+ * Vérifie si l'adresse d'une luciole est dans le voisinage.
+ *
+ * @param addr adresse de la luciole voisine
+ */
+int is_in_essaim(uint16_t);
+
+/**
+ * Ajoute une luciole au voisinage.
+ *
+ * Si la taille du voisinage a été atteinte, la plus ancienne voisine est
+ * remplacée par la nouvelle.
+ *
+ * @param addr adresse de la nouvelle voisine
+ */
+void add_to_essaim(uint16_t);
 
 #include "arduiciole_xbee.h"
 

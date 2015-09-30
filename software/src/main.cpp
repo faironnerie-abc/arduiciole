@@ -25,10 +25,8 @@ uint16_t essaim[LUCIOLE_VIEW];
 uint8_t essaim_offset = 0;
 uint8_t essaim_size = 0;
 
-/**
- * Vérifie si l'adresse d'une luciole est dans le voisinage.
- *
- * @param addr adresse de la luciole voisine
+/*
+ * @see arduiciole.h#is_in_essaim
  */
 int is_in_essaim(uint16_t addr) {
   for (uint8_t i = 0; i < essaim_offset; i++) {
@@ -39,13 +37,8 @@ int is_in_essaim(uint16_t addr) {
   return 0;
 }
 
-/**
- * Ajoute une luciole au voisinage.
- *
- * Si la taille du voisinage a été atteinte, la plus ancienne voisine est
- * remplacée par la nouvelle.
- *
- * @param addr adresse de la nouvelle voisine
+/*
+ * @see arduiciole.h#add_to_essaim
  */
 void add_to_essaim(uint16_t addr) {
   essaim[essaim_offset] = addr;
@@ -147,7 +140,8 @@ void loop() {
   HELPER_DIGITAL_WRITE(HIGH, 0);
 
   //
-  // XBee-flash
+  // Émission de lumière.
+  // Bon ok, plus d'électrons que de photons...
   //
 
   flash();
@@ -170,9 +164,8 @@ void loop() {
   HELPER_DIGITAL_WRITE(LOW, 0);
 
   //
-  // Finaly, sync
+  // Phase de synchronisation.
   //
 
-  //sync();
-  delay(2000);
+  sync();
 }

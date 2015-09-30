@@ -1,4 +1,4 @@
-N° NI               SH     SL
+#  NI               SH     SL
 -----------------------------------
 00 SCULPTOR         13A200 40E3DBA8
 01 PISCES           13A200
