@@ -19,7 +19,7 @@
 
 #include "arduiciole.h"
 
-cmd_t message = {CMD_SYNC, 0};
+cmd_t message = {CMD_SYNC, 1};
 
 uint16_t essaim[LUCIOLE_VIEW];
 uint8_t essaim_offset = 0;
@@ -74,7 +74,7 @@ void sync() {
   uint8_t quit = 0;
 
   while (!quit && millis() < clock + LUCIOLE_WAIT_PHASE_LENGTH) {
-    data = xbee_receive(&from, max(1, millis() - clock - LUCIOLE_WAIT_PHASE_LENGTH));
+    data = xbee_receive(&from, max(1, LUCIOLE_WAIT_PHASE_LENGTH - (millis() - clock)));
 
     if (data != NULL) {
         switch(data->cmd) {
@@ -87,7 +87,7 @@ void sync() {
             count += data->data;
           }
 
-          if (count > LUCIOLE_JUMP_THRESHOLD) {
+          if (count >= LUCIOLE_JUMP_THRESHOLD && millis() < clock + LUCIOLE_MIN_WAIT_PHASE_LENGTH) {
             quit = 1;
           }
 
@@ -96,7 +96,7 @@ void sync() {
           essaim_size = 0;
           essaim_offset = 0;
 
-          delay(random(1, 1000));
+          delay(random(1000, 5000));
           quit = 1;
 
           break;

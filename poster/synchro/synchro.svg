@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2979.9211"
+   height="4212.9922"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="synchro.svg"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/partenaires/partenaires.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4138"
+       id="linearGradient3262"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.8515918,0,0,7.6106757,2.7664007e-5,-5519.179)"
+       x1="573.7514"
+       y1="852.35205"
+       x2="582.90869"
+       y2="441.46771" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4138">
+      <stop
+         style="stop-color:#482c8b;stop-opacity:1;"
+         offset="0"
+         id="stop4140" />
+      <stop
+         style="stop-color:#161620;stop-opacity:1"
+         offset="1"
+         id="stop4142" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3079"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,28.48888,195.26549)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4156">
+      <stop
+         style="stop-color:#c4c20d;stop-opacity:1;"
+         offset="0"
+         id="stop4158" />
+      <stop
+         style="stop-color:#c4c20d;stop-opacity:0;"
+         offset="1"
+         id="stop4160" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,79.70833,171.61865)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3077"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-2.5925,62.517897)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3075"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-334.56733,122.43003)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3097"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3093"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <linearGradient
+       y2="441.46771"
+       x2="582.90869"
+       y1="852.35205"
+       x1="573.7514"
+       gradientTransform="matrix(2.8515918,0,0,7.6106757,2.1269531e-5,-2358.5489)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3244"
+       xlink:href="#linearGradient4138"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3088"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3092"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3096"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3100"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-3953.7596,-131.37289)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3104"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4036754,0,0,1.4036754,-250.46608,-94.144538)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3108"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-1635.4593,-1209.6205)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3112"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-1662.9111,579.16305)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5438">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(33,6,77)"
+         result="flood"
+         id="feFlood5440" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5442" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur5444" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset5446" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5448" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0458444"
+     inkscape:cx="2104.2347"
+     inkscape:cy="3436.3627"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g6476"
+     showgrid="true"
+     width="1280px"
+     inkscape:window-width="3840"
+     inkscape:window-height="2031"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="false"
+     inkscape:snap-page="true"
+     inkscape:snap-center="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     units="mm"
+     inkscape:snap-global="false"
+     borderlayer="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="false"
+       snapvisiblegridlinesonly="true"
+       color="#000000"
+       opacity="0.0627451"
+       empcolor="#000000"
+       empopacity="0.1254902"
+       units="mm" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Fond"
+     transform="translate(0,3.828125e-4)"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;fill:url(#linearGradient3244);fill-opacity:1;stroke:none"
+       id="rect4136"
+       width="2979.9211"
+       height="4212.9922"
+       x="0"
+       y="0" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,2668.3269,1346.1974)"
+       r="37.929527"
+       cy="902.86096"
+       cx="413.8103"
+       id="circle3069"
+       style="display:inline;opacity:0.672;fill:url(#radialGradient3079);fill-opacity:1;stroke:none" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,2505.6995,1237.7791)"
+       r="37.929527"
+       cy="879.21405"
+       cx="465.02979"
+       id="circle3063"
+       style="display:inline;fill:url(#radialGradient3073);fill-opacity:1;stroke:none" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,2668.3269,1346.1974)"
+       r="37.929527"
+       cy="770.1134"
+       cx="382.72894"
+       id="circle3067"
+       style="display:inline;opacity:0.822;fill:url(#radialGradient3077);fill-opacity:1;stroke:none" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
+       y="12.020767"
+       x="704.99445"
+       id="image6800"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
+       preserveAspectRatio="none"
+       height="4206.8779"
+       width="5192.8237" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3112);fill-opacity:1;stroke:none"
+       id="circle3110"
+       cx="-582.33905"
+       cy="2563.5007"
+       r="106.36726"
+       transform="scale(-1,1)" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,2668.3269,1346.1974)"
+       r="37.929527"
+       cy="830.02551"
+       cx="50.754143"
+       id="circle3065"
+       style="display:inline;fill:url(#radialGradient3075);fill-opacity:1;stroke:none" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
+       y="3063.3743"
+       x="-1031.5134"
+       id="image5105"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
+       preserveAspectRatio="none"
+       height="1169.2914"
+       width="5314.9604" />
+    <circle
+       transform="scale(-1,1)"
+       r="106.36726"
+       cy="1852.965"
+       cx="-2873.1875"
+       id="circle3098"
+       style="display:inline;opacity:0.70099996;fill:url(#radialGradient3100);fill-opacity:1;stroke:none" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3097);fill-opacity:1;stroke:none"
+       id="circle3095"
+       cx="134.85536"
+       cy="613.45099"
+       r="37.929527"
+       transform="matrix(-2.8043391,0,0,2.8043391,1005.9137,1755.7774)" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,656.56595,1237.7791)"
+       r="37.929527"
+       cy="613.45099"
+       cx="134.85536"
+       id="circle3091"
+       style="display:inline;opacity:0.60399996;fill:url(#radialGradient3093);fill-opacity:1;stroke:none" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3088);fill-opacity:1;stroke:none"
+       id="circle3086"
+       cx="134.85536"
+       cy="613.45099"
+       r="37.929527"
+       transform="matrix(-2.8043391,0,0,2.8043391,2969.5491,-361.98639)" />
+    <circle
+       transform="matrix(-2.8043391,0,0,2.8043391,2412.3567,540.80629)"
+       r="37.929527"
+       cy="613.45099"
+       cx="134.85536"
+       id="circle3090"
+       style="display:inline;fill:url(#radialGradient3092);fill-opacity:1;stroke:none" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3096);fill-opacity:1;stroke:none"
+       id="circle3094"
+       cx="134.85536"
+       cy="613.45099"
+       r="37.929527"
+       transform="matrix(-2.8043391,0,0,2.8043391,1029.9554,131.72836)" />
+    <circle
+       style="display:inline;fill:url(#radialGradient3104);fill-opacity:1;stroke:none"
+       id="circle3102"
+       cx="134.85536"
+       cy="613.45099"
+       r="37.929527"
+       transform="matrix(-2.8043391,0,0,2.8043391,1982.1196,907.56582)" />
+    <circle
+       transform="scale(-1,1)"
+       r="106.36726"
+       cy="774.71729"
+       cx="-554.88733"
+       id="circle3106"
+       style="display:inline;fill:url(#radialGradient3108);fill-opacity:1;stroke:none" />
+    <image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/moon.png"
+       y="-47.569"
+       x="-11.482953"
+       id="image6877"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/moon.png"
+       preserveAspectRatio="none"
+       height="1067.6755"
+       width="1098.816" />
+  </g>
+  <g
+     inkscape:label="Logos"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,3160.6304)">
+    <g
+       id="g6880"
+       transform="translate(640.9531,10.817774)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5164"
+         y="-2877.1946"
+         x="229.8777"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#efefef;fill-opacity:1"
+           y="-2877.1946"
+           x="229.8777"
+           id="tspan5166"
+           sodipodi:role="line">Synchronisation</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5168"
+         y="-2817.6968"
+         x="436.76758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:40px"
+           id="tspan5172"
+           y="-2817.6968"
+           x="436.76758"
+           sodipodi:role="line">Action de coordonner ou de rendre simultanées plusieurs opérations entre elles en fonction du temps.</tspan><tspan
+           id="tspan5969"
+           style="font-size:40px"
+           y="-2767.6968"
+           x="436.76758"
+           sodipodi:role="line">Du grec 𝜎𝜐𝜈 (avec) et 𝜒𝜌𝜊𝜈𝜊𝜍 (temps)</tspan></text>
+    </g>
+    <g
+       id="g6068"
+       transform="matrix(0.99899804,0,0,0.99899804,-123.24137,-7.7340952)">
+      <rect
+         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1.00100291;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect6079"
+         width="1369.4688"
+         height="628.69794"
+         x="180.59509"
+         y="-2612.7561" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5971"
+         y="-2234.5256"
+         x="233.71933"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2234.5256"
+           x="233.71933"
+           id="tspan5973"
+           sodipodi:role="line">En 1665, Christiaan Huygens observe les pendules de deux horloges</tspan><tspan
+           id="tspan5977"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2184.5256"
+           x="233.71933"
+           sodipodi:role="line">fixées sur un même mur. Même si les positions de départ ne sont pas</tspan><tspan
+           id="tspan5979"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2134.5256"
+           x="233.71933"
+           sodipodi:role="line">les mêmes, les pendules finissent par synchroniser. Le mur sur lequel</tspan><tspan
+           id="tspan5981"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2084.5256"
+           x="233.71933"
+           sodipodi:role="line">telles étaient fixées leur permettait de communiquer.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan5975"
+           y="-2034.5256"
+           x="233.71933"
+           sodipodi:role="line" /></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5983"
+         y="-2343.6335"
+         x="231.12433"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';fill:#efefef;fill-opacity:1"
+           y="-2343.6335"
+           x="231.12433"
+           id="tspan5985"
+           sodipodi:role="line">Histoire : horloges de Huygens</tspan></text>
+      <image
+         width="394.50098"
+         height="241.27739"
+         preserveAspectRatio="none"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/horloge_huygens.png"
+         id="image6065"
+         x="1057.2588"
+         y="-2512.5388"
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/horloge_huygens.png" />
+    </g>
+    <g
+       id="g6476"
+       transform="translate(-23.968894,-17.725146)">
+      <rect
+         y="-2600.1152"
+         x="1556.3601"
+         height="2418.1646"
+         width="1390.3715"
+         id="rect6384"
+         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1.03450763;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text6152"
+         y="-2312.6091"
+         x="1601.5684"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2312.6091"
+           x="1601.5684"
+           id="tspan6154"
+           sodipodi:role="line"><tspan
+   id="tspan6253"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans la tête</tspan> :  Le bon (ou mauvais) fonctionnement du cerveau dépends</tspan><tspan
+           id="tspan6249"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2265.7341"
+           x="1601.5684"
+           sodipodi:role="line">de la synchronisation de neurones au sein de réseaux. C’est le cas de la</tspan><tspan
+           id="tspan6251"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2218.8591"
+           x="1601.5684"
+           sodipodi:role="line">perception visuelle ou de l'épilepsie:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6156"
+           y="-2171.9841"
+           x="1601.5684"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6158"
+           y="-2124.6794"
+           x="1601.5684"
+           sodipodi:role="line"><tspan
+   id="tspan6259"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">La perception visuelle</tspan> : Les objets représentés dans le cortex visuel le</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6160"
+           y="-2077.8044"
+           x="1601.5684"
+           sodipodi:role="line">sont grâce à des groupes de neurones ayant un comportement synchronisé.</tspan><tspan
+           id="tspan6267"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-2030.9294"
+           x="1601.5684"
+           sodipodi:role="line">Par exemple, si on regarde un bateau bleu à côté d’un phare rouge, il y aura </tspan><tspan
+           id="tspan6269"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1984.0544"
+           x="1601.5684"
+           sodipodi:role="line">un groupe de neurones coordonnés donnant l’image du bateau, tandis que </tspan><tspan
+           id="tspan6271"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1937.1794"
+           x="1601.5684"
+           sodipodi:role="line">d’autres donneront les informations concernant le phare. Le comportement</tspan><tspan
+           id="tspan6273"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1890.3044"
+           x="1601.5684"
+           sodipodi:role="line">des deux ensembles de neurones sera decalé afin de pouvoir percevoir deux</tspan><tspan
+           id="tspan6293"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1843.4294"
+           x="1601.5684"
+           sodipodi:role="line">objets distincts.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6162"
+           y="-1796.5544"
+           x="1601.5684"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6164"
+           y="-1749.6794"
+           x="1601.5684"
+           sodipodi:role="line">L'épilepsie est une maladie neurologique causée par un dysfonctionnement</tspan><tspan
+           id="tspan6295"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1702.8044"
+           x="1601.5684"
+           sodipodi:role="line">du cerveau ; on peut presque dire qu'il « court-circuite ». La synchronisation</tspan><tspan
+           id="tspan6297"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1655.9294"
+           x="1601.5684"
+           sodipodi:role="line">des neurones est une propriété intrinsèque des réseaux neuronaux, mais</tspan><tspan
+           id="tspan6299"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1609.0544"
+           x="1601.5684"
+           sodipodi:role="line">pendant une crise d'épilepsie il semblerait y avoir une hyper synchronisation,</tspan><tspan
+           id="tspan6301"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1562.1794"
+           x="1601.5684"
+           sodipodi:role="line">c’est-à-dire qu’il y a un groupe trop nombreux de neurones qui se</tspan><tspan
+           id="tspan6303"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1515.3044"
+           x="1601.5684"
+           sodipodi:role="line">synchronisent entre eux.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6170"
+           y="-1468.4294"
+           x="1601.5684"
+           sodipodi:role="line"></tspan><tspan
+           id="tspan6309"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1421.1248"
+           x="1601.5684"
+           sodipodi:role="line"><tspan
+   id="tspan6352"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans le coeur</tspan> : la synchronisation des cellules cardiaques assure une bonne</tspan><tspan
+           id="tspan6311"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1374.2498"
+           x="1601.5684"
+           sodipodi:role="line">activité du coeur. Afin d’assurer cette synchronisation, il existe un</tspan><tspan
+           id="tspan6313"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1327.3748"
+           x="1601.5684"
+           sodipodi:role="line">pacemaker naturel du coeur, le noeud sinusale, localisé dans l’oreillette</tspan><tspan
+           id="tspan6315"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1280.4998"
+           x="1601.5684"
+           sodipodi:role="line">droite, qui envoie au reste du coeur un signal électrique. Ce signal</tspan><tspan
+           id="tspan6317"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1233.6248"
+           x="1601.5684"
+           sodipodi:role="line">permettant à toutes les cellules cardiaques de communiquer et de se</tspan><tspan
+           id="tspan6319"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1186.7498"
+           x="1601.5684"
+           sodipodi:role="line">synchroniser. Des troubles du rythmes peuvent survenir et l’utilisation d’un</tspan><tspan
+           id="tspan6350"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1139.8748"
+           x="1601.5684"
+           sodipodi:role="line">pacemaker artificiel ou d’un défibrillateur peut permettre</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6172"
+           y="-1092.9998"
+           x="1601.5684"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6174"
+           y="-1045.6951"
+           x="1601.5684"
+           sodipodi:role="line"><tspan
+   id="tspan6354"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans le pancréas</tspan> : les îlots de langerhans sont des cellules qui produisent</tspan><tspan
+           id="tspan6360"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-998.82007"
+           x="1601.5684"
+           sodipodi:role="line">des hormones, dont l’insuline. Il est important que ces cellules se</tspan><tspan
+           id="tspan6362"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-951.94507"
+           x="1601.5684"
+           sodipodi:role="line">synchronisent pour sécréter l’insuline de façon coordonnée au moment des</tspan><tspan
+           id="tspan6364"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-905.07007"
+           x="1601.5684"
+           sodipodi:role="line">repas et pour arrêter cette sécrétion de façon coordonnée après les repas.</tspan><tspan
+           id="tspan6366"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-858.19507"
+           x="1601.5684"
+           sodipodi:role="line">Un dysfonctionnement de cette synchronisation peut entraîner une baisse</tspan><tspan
+           id="tspan6368"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-811.32007"
+           x="1601.5684"
+           sodipodi:role="line">trop importante du taux de sucre dans le sang, ce qui peut devenir mortelle.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6176"
+           y="-764.44507"
+           x="1601.5684"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6178"
+           y="-717.14038"
+           x="1601.5684"
+           sodipodi:role="line"><tspan
+   id="tspan6356"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans une journée : </tspan>le comportements des hommes et des animaux est</tspan><tspan
+           id="tspan6370"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-670.26538"
+           x="1601.5684"
+           sodipodi:role="line">characterisé par un cycle d’activité et de repos de 24h. Ce cycle (appelé</tspan><tspan
+           id="tspan6372"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-623.39038"
+           x="1601.5684"
+           sodipodi:role="line">rythme circadien) répresente l’adaptation des organismes à un stimulus</tspan><tspan
+           id="tspan6374"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-576.51538"
+           x="1601.5684"
+           sodipodi:role="line">environnemental, c’est-à-dire le cycle quotidien de lumière et noir.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6180"
+           y="-529.64038"
+           x="1601.5684"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6182"
+           y="-482.33569"
+           x="1601.5684"
+           sodipodi:role="line"><tspan
+   id="tspan6358"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans la nature</tspan> : L’espèce de grillon Oecanthus fultoni est une espèce très</tspan><tspan
+           id="tspan6376"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-435.46069"
+           x="1601.5684"
+           sodipodi:role="line">présente aux Etats-Unis. Ces insectes sont capables de synchroniser leurs</tspan><tspan
+           id="tspan6378"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-388.58569"
+           x="1601.5684"
+           sodipodi:role="line">chants avec ceux de  leurs voisins. Ils sont connus pour avoir de longues</tspan><tspan
+           id="tspan6380"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-341.71069"
+           x="1601.5684"
+           sodipodi:role="line">séquences continues de chants lorsque se mâle lève ses ailes antérieures</tspan><tspan
+           id="tspan6382"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-294.83569"
+           x="1601.5684"
+           sodipodi:role="line">(élytres) et les frotte 2 à 11 fois de façon très régulière. </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6184"
+           y="-247.96069"
+           x="1601.5684"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14.98497105px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1603.5957"
+         y="-2462.1267"
+         id="text5983-1"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5985-9"
+           x="1603.5957"
+           y="-2462.1267"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.44739532px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';fill:#efefef;fill-opacity:1">Exemples de synchronisation</tspan></text>
+    </g>
+    <g
+       id="g6672"
+       transform="translate(0,-74)">
+      <rect
+         y="-1792.6707"
+         x="62.019028"
+         height="1435.3051"
+         width="1367.5795"
+         id="rect6079-8"
+         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text6402"
+         y="-1549.1326"
+         x="110.33934"
+         style="font-style:normal;font-weight:normal;font-size:15.00000095px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1549.1326"
+           x="110.33934"
+           id="tspan6404"
+           sodipodi:role="line">On peut voir la synchronisation comme un ajustement des rythmes</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6406"
+           y="-1502.2576"
+           x="110.33934"
+           sodipodi:role="line">d’oscillateurs en raison de leur interaction. Un oscillateur en général est un </tspan><tspan
+           id="tspan6432"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1455.3826"
+           x="110.33934"
+           sodipodi:role="line">système qui a un comportement périodique dans le temps et l’exemple le</tspan><tspan
+           id="tspan6434"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1408.5076"
+           x="110.33934"
+           sodipodi:role="line">plus connu est le pendule.</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6408"
+           y="-1361.6326"
+           x="110.33934"
+           sodipodi:role="line" /><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6410"
+           y="-1314.7576"
+           x="110.33934"
+           sodipodi:role="line">L’evolution dans le temps d’un tel système peut être décrite par une</tspan><tspan
+           id="tspan6436"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1267.8826"
+           x="110.33934"
+           sodipodi:role="line">équation, dite différentielle :</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
+           id="tspan6412"
+           y="-1221.281"
+           x="110.33934"
+           sodipodi:role="line">dx/dt = f(x)</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6414"
+           y="-1174.406"
+           x="110.33934"
+           sodipodi:role="line" /><tspan
+           id="tspan6438"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-1127.2576"
+           x="110.33934"
+           sodipodi:role="line">On peut considèrer un deuxième système :</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
+           id="tspan6416"
+           y="-1080.656"
+           x="110.33934"
+           sodipodi:role="line">dy/dt = f(y)</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6418"
+           y="-1033.781"
+           x="110.33934"
+           sodipodi:role="line" /><tspan
+           id="tspan6440"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-986.63257"
+           x="110.33934"
+           sodipodi:role="line">et supposer que le premier système influence le comportement du second :</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
+           id="tspan6420"
+           y="-940.03101"
+           x="110.33934"
+           sodipodi:role="line">dx/dt = f(x)</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
+           id="tspan6422"
+           y="-893.15601"
+           x="110.33934"
+           sodipodi:role="line">dy/dt = f(y) + kg(x).</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           id="tspan6424"
+           y="-846.28101"
+           x="110.33934"
+           sodipodi:role="line" /><tspan
+           id="tspan6442"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-799.13257"
+           x="110.33934"
+           sodipodi:role="line">Le terme kg(x) représente la façon dont les deux systèmes intéragissent</tspan><tspan
+           id="tspan6444"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-752.25757"
+           x="110.33934"
+           sodipodi:role="line">entre eux (on parle de terme de couplage). En particulier, k correspond à la</tspan><tspan
+           id="tspan6446"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-705.38257"
+           x="110.33934"
+           sodipodi:role="line">force de couplage entre les deux systèmes. Si cette force est suffisamment</tspan><tspan
+           id="tspan6448"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-658.50757"
+           x="110.33934"
+           sodipodi:role="line">importante, les deux systèmes peuvent se synchroniser.</tspan><tspan
+           id="tspan6450"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-611.63257"
+           x="110.33934"
+           sodipodi:role="line" /><tspan
+           id="tspan6452"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-564.75757"
+           x="110.33934"
+           sodipodi:role="line">A plus grand échelle, si beaucoup de systèmes communiquent entre eux</tspan><tspan
+           id="tspan6456"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-517.88257"
+           x="110.33934"
+           sodipodi:role="line">(réseaux), il est également possible que tous les éléments du réseau</tspan><tspan
+           id="tspan6640"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
+           y="-471.00757"
+           x="110.33934"
+           sodipodi:role="line">synchronisent.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:14.98497105px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="107.04302"
+         y="-1670.2406"
+         id="text5983-9"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5985-7"
+           x="107.04302"
+           y="-1670.2406"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.44739532px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';fill:#efefef;fill-opacity:1">Pour aller plus loin...</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Textes" />
+</svg>
