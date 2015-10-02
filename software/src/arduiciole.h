@@ -16,6 +16,7 @@
 
 #define CMD_SYNC  0x01
 #define CMD_RESET 0x02
+#define CMD_DEBUG 0x03
 
 //
 // Paramètres des lucioles
@@ -34,7 +35,7 @@
 #endif
 
 #ifndef LUCIOLE_WAIT_PHASE_LENGTH
-# define LUCIOLE_WAIT_PHASE_LENGTH 3000
+# define LUCIOLE_WAIT_PHASE_LENGTH 4000
 #endif
 
 #ifndef LUCIOLE_MIN_WAIT_PHASE_LENGTH
@@ -45,8 +46,16 @@
 # define LUCIOLE_ADD_IN_SWARM_PROB 0.1
 #endif
 
+#ifndef LUCIOLE_DELAY_BETWEEN_FLASH
+# define LUCIOLE_DELAY_BETWEEN_FLASH 250
+#endif
+
 #ifndef TIMEOUT
 # define TIMEOUT 2000
+#endif
+
+#ifndef ZB_TX_STATUS_TIMEOUT
+# define ZB_TX_STATUS_TIMEOUT 2000
 #endif
 
 //

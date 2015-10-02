@@ -60,7 +60,37 @@ void error_mode(uint8_t error) {
  * @see arduiciole.h#flash
  */
 void flash() {
+  unsigned long clock = millis();
+
+  //
+  // Dawn
+  //
+
   xbee_transmit();
+
+  for (int i=0; i<=255; i++)
+    HELPER_ANALOG_WRITE(i, 1);
+  HELPER_DIGITAL_WRITE(HIGH, 0);
+
+  xbee_wait_tx_status();
+
+  clock = millis();
+
+  xbee_transmit();
+  xbee_wait_tx_status();
+
+  //
+  // Twilight
+  //
+
+  xbee_transmit();
+
+  for (int i=255; i>=0; i--)
+    HELPER_ANALOG_WRITE(i, 1);
+  HELPER_DIGITAL_WRITE(LOW, 0);
+
+  xbee_wait_tx_status();
+  delay(LUCIOLE_FLASH_PHASE_LENGTH - min(LUCIOLE_FLASH_PHASE_LENGTH, millis() - clock));
 }
 
 /*
@@ -68,10 +98,12 @@ void flash() {
  */
 void sync() {
   unsigned long clock = millis();
-  unsigned int count = 0;
+  uint32_t count = 0;
   cmd_t *data;
   uint16_t from;
   uint8_t quit = 0;
+
+  //xbee_flush();
 
   while (!quit && millis() < clock + LUCIOLE_WAIT_PHASE_LENGTH) {
     data = xbee_receive(&from, max(1, LUCIOLE_WAIT_PHASE_LENGTH - (millis() - clock)));
@@ -79,15 +111,16 @@ void sync() {
     if (data != NULL) {
         switch(data->cmd) {
         case CMD_SYNC:
-          if (is_in_essaim(from)) {
+          /*if (is_in_essaim(from)) {
             count += data->data;
           }
           else if (essaim_size < LUCIOLE_VIEW || random(1000) < LUCIOLE_ADD_IN_SWARM_PROB * 1000) {
             add_to_essaim(from);
             count += data->data;
-          }
+          }*/
+          count++;
 
-          if (count >= LUCIOLE_JUMP_THRESHOLD && millis() < clock + LUCIOLE_MIN_WAIT_PHASE_LENGTH) {
+          if (count >= LUCIOLE_JUMP_THRESHOLD) { //  && millis() > clock + LUCIOLE_MIN_WAIT_PHASE_LENGTH
             quit = 1;
           }
 
@@ -103,6 +136,14 @@ void sync() {
         }
   	}
   }
+
+  message.cmd = CMD_DEBUG;
+  message.data = count;
+
+  xbee_transmit();
+
+  message.cmd = CMD_SYNC;
+  message.data = 1;
 }
 
 /**
@@ -118,6 +159,9 @@ void setup() {
 
   pinMode(HLED, OUTPUT);
   pinMode(LLED, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(11, OUTPUT);
 
   //
   // XBee initialization
@@ -130,14 +174,6 @@ void setup() {
  * Boucle principale de l'Arduino.
  */
 void loop() {
-  //
-  // Dawn
-  //
-
-  for (int i=0; i<=255; i++)
-    HELPER_ANALOG_WRITE(i, 1);
-
-  HELPER_DIGITAL_WRITE(HIGH, 0);
 
   //
   // Émission de lumière.
@@ -145,23 +181,6 @@ void loop() {
   //
 
   flash();
-
-  //
-  // La durée totale de la phase "allumée" est définie par LUCIOLE_FLASH_PHASE_LENGTH
-  // mais il faut prendre en compte l"allumage des LEDs (255ms) et l'extinction
-  // (2 * 255ms).
-  //
-
-  delay(LUCIOLE_FLASH_PHASE_LENGTH - 3 * 255);
-
-  //
-  // Twilight
-  //
-
-  for (int i=255; i>=0; i--)
-    HELPER_ANALOG_WRITE(i, 2);
-
-  HELPER_DIGITAL_WRITE(LOW, 0);
 
   //
   // Phase de synchronisation.
