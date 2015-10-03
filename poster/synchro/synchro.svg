@@ -1886,6 +1886,39 @@
          stdDeviation="1.8610747"
          inkscape:collect="always" />
     </svg:filter>
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient3092-1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-2444.5376,-2751.559)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient5475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-2908.6158,-4479.5277)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
+    <svg:radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4156"
+       id="radialGradient5469"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-3619.7286,-4309.5005)"
+       cx="274.50894"
+       cy="504.1019"
+       fx="274.50894"
+       fy="504.1019"
+       r="27.02158" />
   </svg:defs>
   <sodipodi:namedview
      id="base"
@@ -1894,9 +1927,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67129461"
-     inkscape:cx="1380.7844"
-     inkscape:cy="1541.608"
+     inkscape:zoom="0.54115914"
+     inkscape:cx="1456.6164"
+     inkscape:cy="2255.4084"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1939,7 +1972,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </svg:metadata>
@@ -2115,7 +2148,7 @@
     </svg:g>
     <svg:g
        id="g6068"
-       transform="matrix(0.99899804,0,0,0.99899804,-123.24137,60.265905)">
+       transform="matrix(0.99899804,0,0,0.99899804,-123.24137,302.04208)">
       <svg:rect
          style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1.00100291;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect6079"
@@ -2179,7 +2212,7 @@
     </svg:g>
     <svg:g
        id="g6476"
-       transform="translate(-1497.7252,544.18599)">
+       transform="translate(-1497.7252,796.20472)">
       <svg:rect
          y="-2410.6646"
          x="1556.4998"
@@ -2332,7 +2365,7 @@
     </svg:g>
     <svg:g
        id="g6672"
-       transform="translate(0,782)">
+       transform="translate(0,1115.1327)">
       <svg:rect
          y="-1792.6707"
          x="62.019028"
@@ -2482,7 +2515,7 @@
     </svg:g>
     <svg:g
        id="g6476-1"
-       transform="translate(-25.880962,51.810221)">
+       transform="translate(-25.880962,388.7878)">
       <svg:rect
          y="-2600.2627"
          x="1556.2125"
@@ -2578,14 +2611,14 @@
     </svg:g>
     <svg:g
        id="g6476-1-7"
-       transform="translate(-26.37437,1515.2195)">
+       transform="translate(-26.37437,1805.4498)">
       <svg:rect
          y="-2600.7412"
          x="1555.734"
          height="495.88141"
          width="1391.6238"
          id="rect6384-8-9"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330709;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/pancreas.png"
          y="-2734.5564"
@@ -2657,17 +2690,17 @@
       <svg:flowRoot
          xml:space="preserve"
          id="flowRoot24032"
-         style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:15px;line-height:125%;letter-spacing:0px;word-spacing:0px"><svg:flowRegion
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><svg:flowRegion
            id="flowRegion24034"><svg:rect
              id="rect24036"
              width="209.59436"
              height="74.372192"
              x="2294.0442"
              y="2162.3479" /></svg:flowRegion><svg:flowPara
-           id="flowPara24038"></svg:flowPara></svg:flowRoot>    </svg:g>
+           id="flowPara24038" /></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7-0"
-       transform="translate(-26.527324,2117.6265)">
+       transform="translate(-26.527324,2390.5337)">
       <svg:rect
          y="-2600.738"
          x="1555.7373"
@@ -2740,7 +2773,7 @@
              height="122.38914"
              x="2454.4758"
              y="3138.2625" /></svg:flowRegion><svg:flowPara
-           id="flowPara7030"></svg:flowPara></svg:flowRoot>      <svg:g
+           id="flowPara7030" /></svg:flowRoot>      <svg:g
          transform="matrix(0.55927425,0,0,0.55927425,2232.225,-2541.8192)"
          id="layer1-2"
          inkscape:label="Calque 1">
@@ -3042,7 +3075,7 @@
                  style="fill:#616161"
                  id="path228" />
               <svg:polygon
-                 points="170.81152,199.66504 168.66016,200.91504 174.8916,211.69434 177.04883,210.4541 177.04883,210.4541 "
+                 points="168.66016,200.91504 174.8916,211.69434 177.04883,210.4541 177.04883,210.4541 170.81152,199.66504 "
                  style="fill:#616161"
                  id="polygon230" />
               <svg:path
@@ -3064,7 +3097,7 @@
                  style="fill:#616161"
                  id="path236" />
               <svg:polygon
-                 points="87.341797,200.91504 85.185547,199.66504 78.956055,210.4541 81.115234,211.69434 81.115234,211.69434 "
+                 points="85.185547,199.66504 78.956055,210.4541 81.115234,211.69434 81.115234,211.69434 87.341797,200.91504 "
                  style="fill:#616161"
                  id="polygon238" />
               <svg:path
@@ -3073,7 +3106,7 @@
                  style="fill:#616161"
                  id="path240" />
               <svg:polygon
-                 points="177.04883,45.541992 174.8916,44.297852 168.66016,55.088379 170.81152,56.329102 170.81152,56.329102 "
+                 points="174.8916,44.297852 168.66016,55.088379 170.81152,56.329102 170.81152,56.329102 177.04883,45.541992 "
                  style="fill:#616161"
                  id="polygon242" />
               <svg:path
@@ -3108,7 +3141,7 @@
                  style="fill:#616161"
                  id="path252" />
               <svg:polygon
-                 points="200.92188,168.65625 199.66797,170.80957 210.45703,177.04395 211.70801,174.88477 211.70801,174.88477 "
+                 points="199.66797,170.80957 210.45703,177.04395 211.70801,174.88477 211.70801,174.88477 200.92188,168.65625 "
                  style="fill:#616161"
                  id="polygon254" />
               <svg:rect
@@ -3149,7 +3182,7 @@
                    id="midPointStop268" />
               </svg:linearGradient>
               <svg:polygon
-                 points="66.588867,201.96094 145.91699,109.00537 142.98828,106.50586 63.660156,199.46094 63.660156,199.46094 "
+                 points="145.91699,109.00537 142.98828,106.50586 63.660156,199.46094 63.660156,199.46094 66.588867,201.96094 "
                  style="fill:url(#XMLID_15_)"
                  id="polygon271" />
               <svg:path
@@ -3261,7 +3294,7 @@
                    id="midPointStop319" />
               </svg:linearGradient>
               <svg:polygon
-                 points="188.97852,114.94482 126.68945,131.63477 124.83887,124.72852 187.12891,108.03857 187.12891,108.03857 "
+                 points="126.68945,131.63477 124.83887,124.72852 187.12891,108.03857 187.12891,108.03857 188.97852,114.94482 "
                  style="fill:url(#XMLID_16_)"
                  id="polygon322" />
               <svg:path
@@ -3340,7 +3373,7 @@
                    id="midPointStop356" />
               </svg:linearGradient>
               <svg:polygon
-                 points="139.39844,137.66309 46.628906,84.102539 50.204102,77.911133 142.97461,131.47168 142.97461,131.47168 "
+                 points="46.628906,84.102539 50.204102,77.911133 142.97461,131.47168 142.97461,131.47168 139.39844,137.66309 "
                  style="fill:url(#XMLID_17_)"
                  id="polygon359" />
               <svg:path
@@ -7731,14 +7764,14 @@
     </svg:g>
     <svg:g
        id="g6476-1-7-0-2"
-       transform="translate(-25.7794,2670.5517)">
+       transform="translate(-25.7794,2902.4012)">
       <svg:rect
          y="-2600.8503"
          x="1555.625"
          height="454.80435"
          width="1391.8418"
          id="rect6384-8-9-7-8"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330709;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/cricket.jpg"
          y="-2598.325"
@@ -7810,6 +7843,27 @@
            y="-2129.5525"
            style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light'">Photo de Joseph Berger, Bugwood.org</svg:tspan></svg:text>
     </svg:g>
+    <svg:circle
+       transform="scale(-1,1)"
+       r="106.36726"
+       cy="-767.22125"
+       cx="-1363.9657"
+       id="circle3090-1"
+       style="display:inline;fill:url(#radialGradient3092-1);fill-opacity:1;stroke:none" />
+    <svg:circle
+       style="display:inline;fill:url(#radialGradient5469);fill-opacity:1;stroke:none"
+       id="circle5467"
+       cx="-2539.1567"
+       cy="-2325.1626"
+       r="106.36726"
+       transform="scale(-1,1)" />
+    <svg:circle
+       transform="scale(-1,1)"
+       r="106.36726"
+       cy="-2495.1899"
+       cx="-1828.0439"
+       id="circle5473"
+       style="display:inline;fill:url(#radialGradient5475);fill-opacity:1;stroke:none" />
   </svg:g>
   <svg:g
      inkscape:groupmode="layer"
