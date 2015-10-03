@@ -2,3 +2,5 @@
 *.bfb
 .pioenvs
 .sconsign.dblite
+*.mp4
+poster/figures/*.xcf
