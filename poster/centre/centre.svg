@@ -1667,58 +1667,6 @@
          style="stop-color:#585868"
          offset="1" />
     </svg:linearGradient>
-    <svg:filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter35836-5"
-       x="-0.0082723433"
-       width="1.0165447"
-       y="-0.021842679"
-       height="1.0436854">
-      <svg:feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.7209348"
-         id="feGaussianBlur35838-3" />
-    </svg:filter>
-    <svg:filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter35836-5-9"
-       x="-0.0082723433"
-       width="1.0165447"
-       y="-0.021842679"
-       height="1.0436854">
-      <svg:feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.7209348"
-         id="feGaussianBlur35838-3-4" />
-    </svg:filter>
-    <svg:filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter35836-9"
-       x="-0.0082723433"
-       width="1.0165447"
-       y="-0.021842679"
-       height="1.0436854">
-      <svg:feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.7209348"
-         id="feGaussianBlur35838-2" />
-    </svg:filter>
-    <svg:filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter35836-9-6"
-       x="-0.0082723433"
-       width="1.0165447"
-       y="-0.021842679"
-       height="1.0436854">
-      <svg:feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.7209348"
-         id="feGaussianBlur35838-2-9" />
-    </svg:filter>
     <svg:clipPath
        id="presentation_clip_path"
        clipPathUnits="userSpaceOnUse">
@@ -1775,6 +1723,71 @@
          stdDeviation="11.58085"
          id="feGaussianBlur10990" />
     </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4888"
+       x="-0.009375"
+       width="1.01875"
+       y="-0.016666667"
+       height="1.0333333">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4291339"
+         id="feGaussianBlur4890" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4898"
+       x="-0.0106875"
+       width="1.021375"
+       y="-0.01368"
+       height="1.02736">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.0492126"
+         id="feGaussianBlur4900" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4904"
+       x="-0.011869565"
+       width="1.0237391"
+       y="-0.012133333"
+       height="1.0242667">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.0610236"
+         id="feGaussianBlur4906" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4914"
+       x="-0.0072830188"
+       width="1.014566"
+       y="-0.034058825"
+       height="1.0681177">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.5482285"
+         id="feGaussianBlur4916" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5224"
+       x="-0.013047212"
+       width="1.0260944"
+       y="-0.14950794"
+       height="1.2990159">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="9.9531797"
+         id="feGaussianBlur5226" />
+    </svg:filter>
   </svg:defs>
   <sodipodi:namedview
      id="base"
@@ -1783,11 +1796,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.3826573"
-     inkscape:cx="1264.8016"
-     inkscape:cy="2262.3839"
+     inkscape:zoom="0.54115914"
+     inkscape:cx="646.67728"
+     inkscape:cy="2874.0596"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -1805,7 +1818,7 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      units="mm"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      borderlayer="true">
     <inkscape:grid
        type="xygrid"
@@ -1836,8 +1849,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Fond"
-     transform="translate(0,4.4432825e-4)"
-     sodipodi:insensitive="true">
+     transform="translate(0,4.4432825e-4)">
     <svg:rect
        style="display:inline;fill:url(#linearGradient3244);fill-opacity:1;stroke:none"
        id="rect4136"
@@ -1868,8 +1880,8 @@
        style="display:inline;opacity:0.822;fill:url(#radialGradient3077);fill-opacity:1;stroke:none" />
     <svg:image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
-       y="12.020767"
-       x="-2191.0056"
+       y="6.1137519"
+       x="-1673.0056"
        id="image6800"
        xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/tree.png"
        preserveAspectRatio="none"
@@ -1891,8 +1903,8 @@
        style="display:inline;fill:url(#radialGradient3075);fill-opacity:1;stroke:none" />
     <svg:image
        sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
-       y="3063.3743"
-       x="-1031.5134"
+       y="3061.4167"
+       x="-1167.5197"
        id="image5105"
        xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/assets/grass.png"
        preserveAspectRatio="none"
@@ -1977,27 +1989,73 @@
        style="display:inline;fill:url(#radialGradient5475);fill-opacity:1;stroke:none"
        inkscape:export-xdpi="45"
        inkscape:export-ydpi="45" />
-  </svg:g>
+    <svg:flowRoot
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:200px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
+       id="flowRoot4345"
+       transform="translate(2054.3081,2716.2621)"><svg:flowRegion
+         id="flowRegion4347"><svg:rect
+           style="text-align:justify;text-anchor:start"
+           id="rect4349"
+           y="1390.3456"
+           x="-1250.4628"
+           height="81.006317"
+           width="1767.7483" /></svg:flowRegion><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#d1d1d1;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4373">Faironnerie ABC, fablab de l'université du Havre : contact@faironnerie-abc.xyz</svg:flowPara><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4376" /><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4378" /><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4380" /><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4382" /><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4384" /><svg:flowPara
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
+         id="flowPara4386" /></svg:flowRoot>  </svg:g>
   <svg:g
-     inkscape:label="Logos"
+     inkscape:label="Textes"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,3160.6305)">
     <svg:g
-       id="g6880"
-       transform="translate(1686.4223,-62.489178)">
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text5164"
-         y="-2866.1072"
-         x="1198.7339"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:end;text-anchor:end;fill:#efefef;fill-opacity:1"
-           y="-2866.1072"
+       id="g5228"
+       transform="translate(-7.391541,81.306951)">
+      <svg:g
+         style="fill:#c4c20d;fill-opacity:1;stroke:none;filter:url(#filter5224)"
+         transform="translate(1686.4223,-62.489196)"
+         id="g6880-1">
+        <svg:text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#c4c20d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="1198.7339"
-           id="tspan5166"
-           sodipodi:role="line">Partagez notre rêve</svg:tspan></svg:text>
+           y="-2866.1072"
+           id="text5164-7"
+           sodipodi:linespacing="125%"><svg:tspan
+             sodipodi:role="line"
+             id="tspan5166-7"
+             x="1198.7339"
+             y="-2866.1072"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:end;text-anchor:end;fill:#c4c20d;fill-opacity:1;stroke:none">Partagez notre rêve...</svg:tspan></svg:text>
+      </svg:g>
+      <svg:g
+         transform="translate(1686.4223,-62.489178)"
+         id="g6880">
+        <svg:text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1198.7339"
+           y="-2866.1072"
+           id="text5164"
+           sodipodi:linespacing="125%"><svg:tspan
+             sodipodi:role="line"
+             id="tspan5166"
+             x="1198.7339"
+             y="-2866.1072"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:end;text-anchor:end;fill:#efefef;fill-opacity:1">Partagez notre rêve...</svg:tspan></svg:text>
+      </svg:g>
     </svg:g>
     <svg:flowRoot
        style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2016,14 +2074,14 @@
        xml:space="preserve"
        transform="translate(-153.79699,4.4734253e-5)"><svg:flowRegion
          id="flowRegion38302-8"><svg:rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#070707;fill-opacity:1;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#070707;fill-opacity:1"
            y="-2556.5422"
            x="723.47253"
            height="630.12878"
            width="1840.4937"
            id="rect38304-7" /></svg:flowRegion><svg:flowPara
          id="flowPara38320-2"
-         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:50px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Semi-Bold Italic';fill:#070707;fill-opacity:1;">Nous vous proposons un voyage immobile dans l'atrium de la bibliothèque peuplé de ballons auxquels nos arduicioles sont accrochées. Avec un peu de rêve vous voilà transporté en pleine mangrove où des êtres bizarres rythment le temps avec leurs flashs. Imaginez des arbres de 10 à 12 mètres de hauteur, aux feuillages denses formés de petites feuilles ovales, portant chacune une luciole, toutes les lucioles émettant leur lumière au rythme de trois éclairs toutes les deux secondes, dans un synchronisme parfait, l'obscurité étant totale entre les éclairs. Nous vous invitons de l’autre côté du miroir.</svg:flowPara></svg:flowRoot>    <svg:flowRoot
+         style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:50px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Semi-Bold Italic';fill:#070707;fill-opacity:1">Nous vous proposons un voyage immobile dans l'atrium de la bibliothèque peuplé de ballons auxquels nos arduicioles sont accrochées. Avec un peu de rêve vous voilà transporté en pleine mangrove où des êtres bizarres rythment le temps avec leurs flashs. Imaginez des arbres de 10 à 12 mètres de hauteur, aux feuillages denses formés de petites feuilles ovales, portant chacune une luciole, toutes les lucioles émettant leur lumière au rythme de trois éclairs toutes les deux secondes, dans un synchronisme parfait, l'obscurité étant totale entre les éclairs. Nous vous invitons de l’autre côté du miroir.</svg:flowPara></svg:flowRoot>    <svg:flowRoot
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot38300"
        xml:space="preserve"
@@ -2038,15 +2096,14 @@
          id="flowPara38320"
          style="font-style:italic;font-variant:normal;font-weight:600;font-stretch:normal;font-size:50px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Semi-Bold Italic'">Nous vous proposons un voyage immobile dans l'atrium de la bibliothèque peuplé de ballons auxquels nos arduicioles sont accrochées. Avec un peu de rêve vous voilà transporté en pleine mangrove où des êtres bizarres rythment le temps avec leurs flashs. Imaginez des arbres de 10 à 12 mètres de hauteur, aux feuillages denses formés de petites feuilles ovales, portant chacune une luciole, toutes les lucioles émettant leur lumière au rythme de trois éclairs toutes les deux secondes, dans un synchronisme parfait, l'obscurité étant totale entre les éclairs. Nous vous invitons de l’autre côté du miroir.</svg:flowPara></svg:flowRoot>    <svg:g
        id="g11037"
-       transform="translate(0,48)">
+       transform="translate(5.5764357,56.740009)">
       <svg:rect
-         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54686093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter35836-5)"
-         id="rect6079-8"
-         width="1659.7769"
-         height="628.59705"
-         x="180.64555"
-         y="-2612.7056"
-         transform="matrix(0.68430379,0,0,1.0044893,-43.392705,861.43629)" />
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4888)"
+         id="rect4871"
+         width="1133.8583"
+         height="637.79529"
+         x="71.366142"
+         y="-1759.918" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text5983-3"
@@ -2084,27 +2141,26 @@
          sodipodi:role="line" /></svg:text>
     <svg:g
        id="g11046"
-       transform="translate(0,48)">
+       transform="translate(15.8508,48)">
       <svg:rect
-         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54686093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter35836-5-9)"
-         id="rect6079-8-7"
-         width="1659.7769"
-         height="628.59705"
-         x="180.64555"
-         y="-2612.7056"
-         transform="matrix(0.98775961,0,0,2.4895421,1080.2443,4761.0956)" />
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4904)"
+         id="rect4902"
+         width="1629.9213"
+         height="1594.4882"
+         x="1250.4662"
+         y="-1742.4614" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text5983-3-7"
          y="-1643.2725"
-         x="1296.4213"
+         x="1293.4734"
          style="font-style:normal;font-weight:normal;font-size:14.98497105px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><svg:tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.44739532px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';fill:#efefef;fill-opacity:1"
            y="-1643.2725"
-           x="1296.4213"
+           x="1293.4734"
            id="tspan5985-6-8"
-           sodipodi:role="line">Comment se comporte-elle ?</svg:tspan></svg:text>
+           sodipodi:role="line">Comment se comporte-t-elle ?</svg:tspan></svg:text>
       <svg:flowRoot
          xml:space="preserve"
          id="flowRoot36012"
@@ -2151,7 +2207,7 @@
            id="flowPara36060">  si horloge = durée_flash</svg:flowPara><svg:flowPara
            id="flowPara36062">    arrêter_flash()}</svg:flowPara><svg:flowPara
            id="flowPara36064">}</svg:flowPara></svg:flowRoot>      <svg:flowRoot
-         transform="translate(0,49.839844)"
+         transform="translate(-2.948103,49.839844)"
          xml:space="preserve"
          id="flowRoot38340"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.00000095px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><svg:flowRegion
@@ -2163,18 +2219,21 @@
              y="-1614.1938"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, '" /></svg:flowRegion><svg:flowPara
            id="flowPara38356"
-           style="font-size:40px;text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Chaque luciole va avoir une horloge cyclique et émettre un flash pendant une certaine durée (durée_flash). Après chaque flash il y a un temps de latence pendant lesquelles les lucioles reconstituent les molécules (durée_charge). Chaque luciole perçoit un voisinage, lorsque le nombre de lucioles allumées est supérieur à un seuil et que la période de latence est finie, la luciole tente de se synchroniser en émettant également un flash (horloge:= 0).</svg:flowPara></svg:flowRoot>    </svg:g>
+           style="font-size:40px;text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Chaque luciole va avoir une horloge cyclique et émettre un flash pendant une certaine durée (<svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+   id="flowSpan4857">durée_flash</svg:flowSpan>). Après chaque flash il y a un temps de latence pendant lequel les lucioles reconstituent les molécules (durée_charge). Chaque luciole perçoit un voisinage, lorsque le nombre de lucioles allumées est supérieur à un seuil et que la période de latence est finie, la luciole tente de se synchroniser aux autres en émettant également un flash (<svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+   id="flowSpan4855">horloge:= 0</svg:flowSpan>).</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6068-9"
-       transform="matrix(0.99899804,0,0,0.99899804,-53.106434,2719.5766)">
+       transform="matrix(0.99899804,0,0,0.99899804,-53.106267,2719.5766)">
       <svg:rect
-         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54686093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter35836-9)"
-         id="rect6079-7"
-         width="1659.7769"
-         height="628.59705"
-         x="180.64555"
-         y="-2612.7056"
-         transform="matrix(1.6872004,0,0,0.95976093,-160.35865,-111.36008)" />
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4914)"
+         id="rect4908"
+         width="2816.9292"
+         height="708.66144"
+         x="136.15007"
+         y="-2618.9329" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text5983-7"
@@ -2187,86 +2246,293 @@
            x="237.21407"
            id="tspan5985-0"
            sodipodi:role="line">L'histoire d'une larve qui devint arduiciole...</svg:tspan></svg:text>
-      <svg:g
-         id="g10878">
-        <svg:image
-           transform="matrix(0,1,-1,0,0,0)"
-           width="266.01456"
-           height="199.51094"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_01.jpg"
-           id="image36230"
-           x="-2414.3315"
-           y="-440.29501"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_01.jpg" />
-        <svg:image
-           transform="matrix(0,1,-1,0,0,0)"
-           width="266.01456"
-           height="199.51094"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_02.jpg"
-           id="image36241"
-           x="-2414.3315"
-           y="-1125.3007"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_02.jpg" />
-        <svg:image
-           width="354.68607"
-           height="266.01456"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_03.jpg"
-           id="image36252"
-           x="505.69931"
-           y="-2414.3315"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_03.jpg" />
-        <svg:image
-           width="354.68607"
-           height="266.01456"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_04.jpg"
-           id="image36263"
-           x="1190.705"
-           y="-2414.3315"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_04.jpg" />
-        <svg:image
-           width="354.68607"
-           height="266.01456"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_06.jpg"
-           id="image36285"
-           x="2073.6687"
-           y="-2414.3315"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_06.jpg" />
-        <svg:image
-           width="354.68607"
-           height="266.01456"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_07.jpg"
-           id="image36296"
-           x="2493.7593"
-           y="-2414.3315"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_07.jpg" />
-        <svg:image
-           width="397.46918"
-           height="266.01456"
-           preserveAspectRatio="none"
-           xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_05.jpg"
-           id="image36358"
-           x="1610.7954"
-           y="-2414.3315"
-           sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_05.jpg" />
-      </svg:g>
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4927"
+         width="199.51093"
+         height="266.01456"
+         x="240.78409"
+         y="-2354.2715" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_01.jpg"
+         y="-440.29501"
+         x="-2354.2715"
+         id="image36230"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_01.jpg"
+         preserveAspectRatio="none"
+         height="199.51094"
+         width="266.01456"
+         transform="matrix(0,1,-1,0,0,0)"
+         style="stroke:none;stroke-opacity:1" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4985"
+         width="199.31102"
+         height="265.74802"
+         x="925.88971"
+         y="-2354.1382" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_02.jpg"
+         y="-1125.3007"
+         x="-2354.2715"
+         id="image36241"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_02.jpg"
+         preserveAspectRatio="none"
+         height="199.51094"
+         width="266.01456"
+         transform="matrix(0,1,-1,0,0,0)" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4947"
+         width="354.33072"
+         height="265.74802"
+         x="505.87698"
+         y="-2354.1382" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_03.jpg"
+         y="-2354.2715"
+         x="505.69931"
+         id="image36252"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_03.jpg"
+         preserveAspectRatio="none"
+         height="266.01456"
+         width="354.68607" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5041"
+         width="354.33072"
+         height="265.74802"
+         x="1190.705"
+         y="-2354.2715" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_04.jpg"
+         y="-2354.2715"
+         x="1190.705"
+         id="image36263"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_04.jpg"
+         preserveAspectRatio="none"
+         height="266.01456"
+         width="354.68607" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5073"
+         width="354.33072"
+         height="265.74802"
+         x="2073.6687"
+         y="-2354.2715" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_06.jpg"
+         y="-2354.2715"
+         x="2073.6687"
+         id="image36285"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_06.jpg"
+         preserveAspectRatio="none"
+         height="266.01456"
+         width="354.68607" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5099"
+         width="354.33072"
+         height="265.74802"
+         x="2493.7593"
+         y="-2354.2715" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_07.jpg"
+         y="-2354.2715"
+         x="2493.7593"
+         id="image36296"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_07.jpg"
+         preserveAspectRatio="none"
+         height="266.01456"
+         width="354.68607" />
+      <svg:rect
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#cfcfcf;stroke-width:7.09372187;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect5047"
+         width="397.07007"
+         height="265.74802"
+         x="1610.7954"
+         y="-2354.2715" />
+      <svg:image
+         sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_05.jpg"
+         y="-2354.2715"
+         x="1610.7954"
+         id="image36358"
+         xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/TL_05.jpg"
+         preserveAspectRatio="none"
+         height="266.01456"
+         width="397.46918" />
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918"
+         cx="340.53955"
+         cy="-2354.2715"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 340.53955,-2354.2715 50.35093,-50.3508 35.45382,0"
+         id="path4929"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="432.58157"
+         y="-2393.9084"
+         id="text4943"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945"
+           x="432.58157"
+           y="-2393.9084"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Premiers essais</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-0"
+         cx="683.04236"
+         cy="-2088.3901"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 683.04232,-2088.3901 50.35093,50.3508 35.45382,0"
+         id="path4929-5"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="771.20953"
+         y="-2026.9652"
+         id="text4943-2"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-9"
+           x="771.20953"
+           y="-2026.9652"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Fabrication d'un prototype</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-5"
+         cx="1025.5452"
+         cy="-2354.1384"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1025.5452,-2354.1382 50.3509,-50.3508 35.4538,0"
+         id="path4929-4"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1117.5873"
+         y="-2393.7751"
+         id="text4943-9"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-7"
+           x="1117.5873"
+           y="-2393.7751"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Utilisation d'un ballon météo</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-0-2"
+         cx="1359.0032"
+         cy="-2088.5234"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1359.0031,-2088.5231 50.351,50.3508 35.4538,0"
+         id="path4929-5-5"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1447.1704"
+         y="-2027.098"
+         id="text4943-2-5"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-9-0"
+           x="1447.1704"
+           y="-2027.098"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Premier boitier</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-5-0"
+         cx="1809.3304"
+         cy="-2354.2717"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1809.3304,-2354.2715 50.351,-50.3508 35.4538,0"
+         id="path4929-4-8"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="1901.3726"
+         y="-2393.9084"
+         id="text4943-9-1"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-7-5"
+           x="1901.3726"
+           y="-2393.9084"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Premier essai dans la BU</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-0-2-7"
+         cx="2241.967"
+         cy="-2088.5234"
+         r="8.8671522" />
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2241.9669,-2088.5229 50.351,50.3508 35.4538,0"
+         id="path4929-5-5-6"
+         inkscape:connector-curvature="0" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="2330.1343"
+         y="-2027.0977"
+         id="text4943-2-5-8"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-9-0-2"
+           x="2330.1343"
+           y="-2027.0977"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1">Fabrication des lucioles</svg:tspan></svg:text>
+      <svg:circle
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path4918-5-0-4"
+         cx="2679.7917"
+         cy="-2354.2715"
+         r="8.8671522" />
+      <svg:text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="2679.0964"
+         y="-2428.7002"
+         id="text4943-9-1-1"
+         sodipodi:linespacing="125%"><svg:tspan
+           sodipodi:role="line"
+           id="tspan4945-7-5-4"
+           x="2679.0964"
+           y="-2428.7002"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.53761292px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-align:center;text-anchor:middle;fill:#efefef;fill-opacity:1">Finitions</svg:tspan></svg:text>
+      <svg:path
+         style="fill:none;fill-rule:evenodd;stroke:#efefef;stroke-width:1.00100303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 2679.7918,-2354.2713 0,-59.8275"
+         id="path5134"
+         inkscape:connector-curvature="0" />
     </svg:g>
     <svg:g
        id="g6068-9-1"
-       transform="matrix(0.99899804,0,0,0.99899804,-102.59054,1624.4764)">
+       transform="matrix(0.99899804,0,0,0.99899804,-97.014104,1630.9569)">
       <svg:rect
-         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54686093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter35836-9-6)"
-         id="rect6079-7-2"
-         width="1659.7769"
-         height="628.59705"
-         x="180.64555"
-         y="-2612.7056"
-         transform="matrix(0.68465366,0,0,1.4009506,56.702473,1037.9564)" />
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter4898)"
+         id="rect4892"
+         width="1133.8583"
+         height="885.82678"
+         x="173.63065"
+         y="-2611.2451" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text5983-7-5"
@@ -4317,9 +4583,4 @@
       </svg:g>
     </svg:g>
   </svg:g>
-  <svg:g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Textes"
-     transform="translate(0,6.1515747e-5)" />
 </svg:svg>
