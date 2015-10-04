@@ -1797,10 +1797,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.54115914"
-     inkscape:cx="2742.9035"
-     inkscape:cy="2907.2641"
+     inkscape:cx="-350.75685"
+     inkscape:cy="1775.7968"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g6068-9-1"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -1849,7 +1849,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Fond"
-     transform="translate(0,4.4432825e-4)">
+     transform="translate(0,4.4432825e-4)"
+     sodipodi:insensitive="true">
     <svg:rect
        style="display:inline;fill:url(#linearGradient3244);fill-opacity:1;stroke:none"
        id="rect4136"
@@ -2115,7 +2116,7 @@
            y="-1643.22"
            x="109.56425"
            id="tspan5985-6"
-           sodipodi:role="line">Qu'est ce qu'une arduicioles ?</svg:tspan></svg:text>
+           sodipodi:role="line">Qu'est ce qu'une arduiciole ?</svg:tspan></svg:text>
       <svg:flowRoot
          xml:space="preserve"
          id="flowRoot38368"
@@ -2546,10 +2547,9 @@
            id="tspan5985-0-4"
            sodipodi:role="line">Exemple du cycle de deux lucioles :</svg:tspan></svg:text>
       <svg:g
-         id="g129"
-         class="Page"
-         transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)">
+         id="g5317">
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g171"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2562,6 +2562,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g176"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2574,6 +2575,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g186"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2586,6 +2588,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g196"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2598,6 +2601,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g233"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2610,6 +2614,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g243"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2622,6 +2627,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g253"
            class="com.sun.star.drawing.LineShape">
           <svg:g
@@ -2634,6 +2640,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g320"
            class="com.sun.star.drawing.LineShape"
            style="stroke:#efefef;stroke-width:28.22222328;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
@@ -3033,6 +3040,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            id="g508"
            class="com.sun.star.drawing.LineShape"
            style="stroke:#efefef;stroke-width:28.22222328;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
@@ -3477,6 +3485,7 @@
           </svg:g>
         </svg:g>
         <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2439.4273)"
            style="fill:#efefef;fill-opacity:1;stroke:#efefef;stroke-opacity:1"
            id="g6060">
           <svg:g
@@ -4564,6 +4573,381 @@
                 </svg:tspan>
               </svg:text>
             </svg:g>
+          </svg:g>
+        </svg:g>
+        <svg:g
+           transform="matrix(0.03546861,0,0,0.03546861,365.07184,-2437.5475)"
+           class="com.sun.star.drawing.LineShape"
+           id="g6447"
+           style="stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none">
+          <svg:g
+             id="id33-4"
+             style="stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none">
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7000 0,53"
+               id="path6450" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7106 0,53"
+               id="path6452" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7212 0,53"
+               id="path6454" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7319 0,53"
+               id="path6456" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7425 0,53"
+               id="path6458" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7531 0,53"
+               id="path6460" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7637 0,53"
+               id="path6462" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7743 0,53"
+               id="path6464" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7849 0,54"
+               id="path6466" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,7956 0,53"
+               id="path6468" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8062 0,53"
+               id="path6470" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8168 0,53"
+               id="path6472" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8274 0,53"
+               id="path6474" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8380 0,53"
+               id="path6476" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8487 0,53"
+               id="path6478" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8593 0,53"
+               id="path6480" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8699 0,53"
+               id="path6482" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8805 0,53"
+               id="path6484" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,8911 0,53"
+               id="path6486" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9017 0,54"
+               id="path6488" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9124 0,53"
+               id="path6490" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9230 0,53"
+               id="path6492" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9336 0,53"
+               id="path6494" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9442 0,53"
+               id="path6496" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9548 0,53"
+               id="path6498" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9655 0,53"
+               id="path6500" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9761 0,53"
+               id="path6502" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9867 0,53"
+               id="path6504" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,9973 0,53"
+               id="path6506" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10079 0,53"
+               id="path6508" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10185 0,54"
+               id="path6510" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10292 0,53"
+               id="path6512" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10398 0,53"
+               id="path6514" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10504 0,53"
+               id="path6516" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10610 0,53"
+               id="path6518" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10716 0,53"
+               id="path6520" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10823 0,53"
+               id="path6522" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,10929 0,53"
+               id="path6524" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11035 0,53"
+               id="path6526" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11141 0,53"
+               id="path6528" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11247 0,53"
+               id="path6530" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11354 0,53"
+               id="path6532" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11460 0,53"
+               id="path6534" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11566 0,53"
+               id="path6536" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11672 0,53"
+               id="path6538" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11778 0,53"
+               id="path6540" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11884 0,54"
+               id="path6542" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,11991 0,53"
+               id="path6544" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12097 0,53"
+               id="path6546" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12203 0,53"
+               id="path6548" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12309 0,53"
+               id="path6550" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12415 0,53"
+               id="path6552" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12522 0,53"
+               id="path6554" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12628 0,53"
+               id="path6556" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12734 0,53"
+               id="path6558" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12840 0,53"
+               id="path6560" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,12946 0,53"
+               id="path6562" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13052 0,54"
+               id="path6564" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13159 0,53"
+               id="path6566" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13265 0,53"
+               id="path6568" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13371 0,53"
+               id="path6570" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13477 0,53"
+               id="path6572" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13583 0,53"
+               id="path6574" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13690 0,53"
+               id="path6576" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13796 0,53"
+               id="path6578" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,13902 0,53"
+               id="path6580" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14008 0,53"
+               id="path6582" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14114 0,53"
+               id="path6584" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14220 0,54"
+               id="path6586" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14327 0,53"
+               id="path6588" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14433 0,53"
+               id="path6590" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14539 0,53"
+               id="path6592" />
+            <svg:path
+               style="fill:none;stroke:#efefef;stroke-opacity:1;stroke-width:28.22222142;stroke-miterlimit:4;stroke-dasharray:none"
+               inkscape:connector-curvature="0"
+               d="m 10000,14645 0,53"
+               id="path6594" />
           </svg:g>
         </svg:g>
       </svg:g>
