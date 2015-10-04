@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="synchro.svg"
-   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/synchro/synchro.png"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/synchro/synchro-v2.png"
    inkscape:export-xdpi="45"
    inkscape:export-ydpi="45">
   <svg:defs
@@ -1919,6 +1919,97 @@
        fx="274.50894"
        fy="504.1019"
        r="27.02158" />
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38260"
+       x="-0.0087544897"
+       width="1.017509"
+       y="-0.019069571"
+       height="1.0381391">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.9954167"
+         id="feGaussianBlur38262" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38264"
+       x="-0.0082500919"
+       width="1.0165002"
+       y="-0.021999346"
+       height="1.0439987">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7804694"
+         id="feGaussianBlur38266" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38268"
+       x="-0.0073749582"
+       width="1.0147499"
+       y="-0.032182615"
+       height="1.0643652">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.7957802"
+         id="feGaussianBlur38270" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38272"
+       x="-0.012297133"
+       width="1.0245943"
+       y="-0.011716887"
+       height="1.0234338">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="7.0072113"
+         id="feGaussianBlur38274" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38280"
+       x="-0.0081379977"
+       width="1.016276"
+       y="-0.022838185"
+       height="1.0456764">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.718763"
+         id="feGaussianBlur38282" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38284"
+       x="-0.0078902955"
+       width="1.0157806"
+       y="-0.025044642"
+       height="1.0500893">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.5751132"
+         id="feGaussianBlur38286" />
+    </svg:filter>
+    <svg:filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter38288"
+       x="-0.0079605864"
+       width="1.0159212"
+       y="-0.024361853"
+       height="1.0487237">
+      <svg:feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.6166154"
+         id="feGaussianBlur38290" />
+    </svg:filter>
   </svg:defs>
   <sodipodi:namedview
      id="base"
@@ -1928,10 +2019,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.54115914"
-     inkscape:cx="1456.6164"
-     inkscape:cy="2255.4084"
+     inkscape:cx="715.61441"
+     inkscape:cy="2403.2392"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g6068"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -2150,7 +2241,7 @@
        id="g6068"
        transform="matrix(0.99899804,0,0,0.99899804,-123.24137,302.04208)">
       <svg:rect
-         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1.00100291;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1.00100291;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38260)"
          id="rect6079"
          width="1369.4688"
          height="628.69794"
@@ -2219,7 +2310,7 @@
          height="655.94025"
          width="2862.3718"
          id="rect6384"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38268)" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text6152"
@@ -2372,7 +2463,7 @@
          height="1435.3051"
          width="1367.5795"
          id="rect6079-8"
-         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38272)" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text6402"
@@ -2522,7 +2613,7 @@
          height="521.52124"
          width="1390.6665"
          id="rect6384-8"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.59708452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.59708452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38264)" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/heart.png"
          y="-2702.2561"
@@ -2618,7 +2709,7 @@
          height="495.88141"
          width="1391.6238"
          id="rect6384-8-9"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38280)" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/pancreas.png"
          y="-2734.5564"
@@ -2707,7 +2798,7 @@
          height="438.42798"
          width="1391.6173"
          id="rect6384-8-9-7"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:4.18154097;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:4.18154097;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38284)" />
       <svg:text
          sodipodi:linespacing="125%"
          id="text6152-1-2-3"
@@ -7771,7 +7862,7 @@
          height="454.80435"
          width="1391.8418"
          id="rect6384-8-9-7-8"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:#c4c20d;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38288)" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/cricket.jpg"
          y="-2598.325"
