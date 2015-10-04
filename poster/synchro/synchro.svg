@@ -1902,7 +1902,7 @@
        xlink:href="#linearGradient4156"
        id="radialGradient5475"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.9363818,0,0,3.9363818,-3262.5407,-4664.9169)"
+       gradientTransform="matrix(3.9363818,0,0,3.9363818,-3285.7144,-4641.7432)"
        cx="274.50894"
        cy="504.1019"
        fx="274.50894"
@@ -2035,7 +2035,7 @@
      inkscape:cx="1018.4824"
      inkscape:cy="2622.4052"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6880"
+     inkscape:current-layer="layer1"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -2212,45 +2212,49 @@
     <svg:g
        id="g6880"
        transform="translate(160.9531,10.817774)">
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text5164-4"
-         y="-2877.1946"
-         x="229.8777"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#c4c20d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter8522)"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#c4c20d;fill-opacity:1;"
-           y="-2877.1946"
+      <svg:g
+         id="g8536"
+         transform="translate(0,19.595389)">
+        <svg:text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#c4c20d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter8522)"
            x="229.8777"
-           id="tspan5166-3"
-           sodipodi:role="line">Synchronisation</svg:tspan></svg:text>
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text5164"
-         y="-2877.1946"
-         x="229.8777"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#efefef;fill-opacity:1"
            y="-2877.1946"
+           id="text5164-4"
+           sodipodi:linespacing="125%"><svg:tspan
+             sodipodi:role="line"
+             id="tspan5166-3"
+             x="229.8777"
+             y="-2877.1946"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#c4c20d;fill-opacity:1">Synchronisation</svg:tspan></svg:text>
+        <svg:text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="229.8777"
-           id="tspan5166"
-           sodipodi:role="line">Synchronisation</svg:tspan></svg:text>
+           y="-2877.1946"
+           id="text5164"
+           sodipodi:linespacing="125%"><svg:tspan
+             sodipodi:role="line"
+             id="tspan5166"
+             x="229.8777"
+             y="-2877.1946"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';fill:#efefef;fill-opacity:1">Synchronisation</svg:tspan></svg:text>
+      </svg:g>
       <svg:text
          sodipodi:linespacing="125%"
          id="text5168"
-         y="-2805.6968"
+         y="-2769.6968"
          x="436.76758"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';letter-spacing:0px;word-spacing:0px;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><svg:tspan
            style="font-size:55px"
            id="tspan5172"
-           y="-2805.6968"
+           y="-2769.6968"
            x="436.76758"
            sodipodi:role="line">Action de coordonner ou de rendre simultanées plusieurs opérations entre elles</svg:tspan><svg:tspan
            id="tspan5969"
            style="font-size:55px"
-           y="-2736.9468"
+           y="-2700.9468"
            x="436.76758"
            sodipodi:role="line">en fonction du temps. Du grec 𝜎𝜐𝜈 (avec) et 𝜒𝜌𝜊𝜈𝜊𝜍 (temps)</svg:tspan></svg:text>
     </svg:g>
@@ -7664,8 +7668,8 @@
     <svg:circle
        transform="scale(-1,1)"
        r="106.36726"
-       cy="-2680.5791"
-       cx="-2181.9688"
+       cy="-2657.4055"
+       cx="-2205.1423"
        id="circle5473"
        style="display:inline;fill:url(#radialGradient5475);fill-opacity:1;stroke:none" />
     <svg:flowRoot

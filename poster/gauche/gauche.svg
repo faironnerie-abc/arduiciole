@@ -16,7 +16,10 @@
    viewBox="0 0 2979.9212 4212.9923"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="gauche.svg">
+   sodipodi:docname="gauche.svg"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/gauche/gauche.png"
+   inkscape:export-xdpi="45"
+   inkscape:export-ydpi="45">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,9 +33,9 @@
      inkscape:window-height="2031"
      id="namedview8806"
      showgrid="false"
-     inkscape:zoom="0.6337622"
-     inkscape:cx="1708.2649"
-     inkscape:cy="3383.3499"
+     inkscape:zoom="0.8962751"
+     inkscape:cx="1552.2654"
+     inkscape:cy="3499.0295"
      inkscape:window-x="0"
      inkscape:window-y="55"
      inkscape:window-maximized="1"
@@ -1340,32 +1343,32 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.5px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d1d1d1;fill-opacity:1;stroke:none">Mécanisme de la bioluminescence</tspan></text>
     </g>
     <g
-       transform="translate(3.3836004e-6,-4.1662408e-5)"
+       transform="translate(3.3836004e-6,-50.50949)"
        id="g5556">
       <flowRoot
          transform="matrix(4.2773678,0,0,4.2773678,-5683.7504,439.12445)"
          id="flowRoot8194"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:'1492_Quadrata_lim';-inkscape-font-specification:'1492_Quadrata_lim Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#c4c20d;fill-opacity:1;stroke:none;filter:url(#filter5826);"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:125%;font-family:'1492_Quadrata_lim';-inkscape-font-specification:'1492_Quadrata_lim Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#c4c20d;fill-opacity:1;stroke:none;filter:url(#filter5826)"><flowRegion
            id="flowRegion8196"><rect
              width="3235.7773"
              height="673.0816"
              x="-69.801056"
              y="-59.829475"
              id="rect8198"
-             style="fill:#c4c20d;fill-opacity:1;" /></flowRegion><flowPara
+             style="fill:#c4c20d;fill-opacity:1" /></flowRegion><flowPara
            id="flowPara8200"
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:40.91301346px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#c4c20d;fill-opacity:1;">Lampyridae</flowPara></flowRoot>      <flowRoot
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:40.91301346px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#c4c20d;fill-opacity:1">Lampyridae</flowPara></flowRoot>      <flowRoot
          id="flowRoot9186"
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:171.0947113px;line-height:125%;font-family:'1492_Quadrata_lim';-inkscape-font-specification:'1492_Quadrata_lim Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:0.9;fill:#c52128;fill-opacity:1;stroke:none"><flowRegion
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:171.0947113px;line-height:125%;font-family:'1492_Quadrata_lim';-inkscape-font-specification:'1492_Quadrata_lim Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;opacity:1;fill:#efefef;fill-opacity:1;stroke:none"><flowRegion
            id="flowRegion9188"><rect
              width="13840.609"
              height="2879.0176"
              x="-5985.832"
              y="180.57433"
              id="rect9190"
-             style="fill:#c52128;fill-opacity:1" /></flowRegion><flowPara
+             style="fill:#efefef;fill-opacity:1" /></flowRegion><flowPara
            id="flowPara9192"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:175px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Heavy';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#efefef;fill-opacity:1;stroke:none">Lampyridae</flowPara></flowRoot>    </g>
     <text
@@ -1373,11 +1376,11 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#fafafa;fill-opacity:1;stroke:#000000;stroke-width:1"
        xml:space="preserve"
        id="text4399"
-       y="480.46283"
+       y="430.46283"
        x="350.93686"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#d1d1d1;fill-opacity:1;stroke:none"
          id="tspan4401"
-         y="480.46283"
+         y="430.46283"
          x="350.93686">Des êtres vivants capables de bioluminescence</tspan></text>
   </g>
   <g
