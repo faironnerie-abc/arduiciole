@@ -2018,11 +2018,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.54115914"
-     inkscape:cx="715.61441"
-     inkscape:cy="2403.2392"
+     inkscape:zoom="0.94935394"
+     inkscape:cx="1595.2527"
+     inkscape:cy="1575.5092"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6068"
+     inkscape:current-layer="g6476-1-7"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -2245,40 +2245,8 @@
          id="rect6079"
          width="1369.4688"
          height="628.69794"
-         x="180.59509"
+         x="179.37744"
          y="-2612.7561" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text5971"
-         y="-2234.5256"
-         x="233.71933"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2234.5256"
-           x="233.71933"
-           id="tspan5973"
-           sodipodi:role="line">En 1665, Christiaan Huygens observe les pendules de deux horloges</svg:tspan><svg:tspan
-           id="tspan5977"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2184.5256"
-           x="233.71933"
-           sodipodi:role="line">fixées sur un même mur. Même si les positions de départ ne sont pas</svg:tspan><svg:tspan
-           id="tspan5979"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2134.5256"
-           x="233.71933"
-           sodipodi:role="line">les mêmes, les pendules finissent par synchroniser. Le mur sur lequel</svg:tspan><svg:tspan
-           id="tspan5981"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2084.5256"
-           x="233.71933"
-           sodipodi:role="line">telles étaient fixées leur permettait de communiquer.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan5975"
-           y="-2034.5256"
-           x="233.71933"
-           sodipodi:role="line" /></svg:text>
       <svg:text
          sodipodi:linespacing="125%"
          id="text5983"
@@ -2300,7 +2268,19 @@
          x="1057.2588"
          y="-2512.5388"
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/horloge_huygens.png" />
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38396"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="matrix(1.001003,0,0,1.001003,123.36498,-3438.1175)"><svg:flowRegion
+           id="flowRegion38398"><svg:rect
+             id="rect38400"
+             width="1265.8014"
+             height="214.35469"
+             x="106.2534"
+             y="1180.6124"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRegion><svg:flowPara
+           id="flowPara38408">En 1665, Christiaan Huygens observe les pendules de deux horloges fixées sur un même mur. Même si les positions de départ ne sont pas les mêmes, les pendules finissent par synchroniser. Le mur sur lequel telles étaient fixées leur permettait de communiquer.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476"
        transform="translate(-1497.7252,796.20472)">
@@ -2311,78 +2291,6 @@
          width="2862.3718"
          id="rect6384"
          style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38268)" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6152"
-         y="-2312.6091"
-         x="1601.5684"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2312.6091"
-           x="1601.5684"
-           id="tspan6154"
-           sodipodi:role="line"><svg:tspan
-   id="tspan6253"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans la tête</svg:tspan> :  Le bon (ou mauvais) fonctionnement du cerveau dépend</svg:tspan><svg:tspan
-           id="tspan6249"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2265.7341"
-           x="1601.5684"
-           sodipodi:role="line">de la synchronisation de neurones au sein de réseaux. C’est le cas de la</svg:tspan><svg:tspan
-           id="tspan6251"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2218.8591"
-           x="1601.5684"
-           sodipodi:role="line">perception visuelle ou de l'épilepsie:</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6156"
-           y="-2171.9841"
-           x="1601.5684"
-           sodipodi:role="line" /><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6158"
-           y="-2125.031"
-           x="1601.5684"
-           sodipodi:role="line"><svg:tspan
-             id="tspan6259"
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Medium'">- La perception visuelle</svg:tspan><svg:tspan
-             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Medium'"
-             id="tspan5527"> :</svg:tspan><svg:tspan
-             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light'"
-             id="tspan5523"> Les objets représentés dans le cortex visuel le</svg:tspan></svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           id="tspan6160"
-           y="-2078.156"
-           x="1601.5684"
-           sodipodi:role="line">sont grâce à des groupes de neurones ayant un comportement synchronisé.</svg:tspan><svg:tspan
-           id="tspan6267"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           y="-2031.281"
-           x="1601.5684"
-           sodipodi:role="line">Par exemple, si on regarde un bateau bleu à côté d’un phare rouge, il y aura </svg:tspan><svg:tspan
-           id="tspan6269"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           y="-1984.406"
-           x="1601.5684"
-           sodipodi:role="line">un groupe de neurones coordonnés donnant l’image du bateau, tandis que </svg:tspan><svg:tspan
-           id="tspan6271"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           y="-1937.531"
-           x="1601.5684"
-           sodipodi:role="line">d’autres donneront les informations concernant le phare. Le comportement</svg:tspan><svg:tspan
-           id="tspan6273"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           y="-1890.656"
-           x="1601.5684"
-           sodipodi:role="line">des deux ensembles de neurones sera decalé afin de pouvoir percevoir deux</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6184"
-           y="-1843.5076"
-           x="1601.5684"
-           sodipodi:role="line"><svg:tspan
-   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light'"
-   id="tspan5525">objets distincts</svg:tspan>.</svg:tspan></svg:text>
       <svg:text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';letter-spacing:0px;word-spacing:0px;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2453,7 +2361,31 @@
          height="947.42194"
          width="816.74304"
          transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,0,0)" />
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38470"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(1497.7252,-3956.8352)"><svg:flowRegion
+           id="flowRegion38472"><svg:rect
+             id="rect38474"
+             width="1296.7482"
+             height="598.09796"
+             x="100.55198"
+             y="1605.3442" /></svg:flowRegion><svg:flowPara
+           id="flowPara38480"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';text-align:justify;text-anchor:start"
+   id="flowSpan38522">Dans la tête :</svg:flowSpan>  Le bon (ou mauvais) fonctionnement du cerveau dépend de la synchronisation de neurones au sein de réseaux. C’est le cas de la perception visuelle ou de l'épilepsie:</svg:flowPara><svg:flowPara
+           id="flowPara38482"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38496"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Medium';text-align:justify;text-anchor:start"
+   id="flowSpan38526">- La perception visuelle </svg:flowSpan>: <svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-align:justify;text-anchor:start"
+   id="flowSpan38524">Les objets représentés dans le cortex visuel le sont grâce à des groupes de neurones ayant un comportement synchronisé. Par exemple, si on regarde un bateau bleu à côté d’un phare rouge, il y aura  un groupe de neurones coordonnés donnant l’image du bateau, tandis que  d’autres donneront les informations concernant le phare. Le comportement des deux ensembles de neurones sera decalé afin de pouvoir percevoir deux objets distincts.</svg:flowSpan></svg:flowPara><svg:flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"
+           id="flowPara38541" /></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6672"
        transform="translate(0,1115.1327)">
@@ -2463,147 +2395,60 @@
          height="1435.3051"
          width="1367.5795"
          id="rect6079-8"
-         style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38272)" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6402"
-         y="-1549.1326"
-         x="110.33934"
-         style="font-style:normal;font-weight:normal;font-size:15.00000095px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-1549.1326"
-           x="110.33934"
-           id="tspan6404"
-           sodipodi:role="line">On peut voir la synchronisation comme un ajustement des rythmes</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6406"
-           y="-1502.2576"
-           x="110.33934"
-           sodipodi:role="line">d’oscillateurs en raison de leur interaction. Un oscillateur en général est un </svg:tspan><svg:tspan
-           id="tspan6432"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-1455.3826"
-           x="110.33934"
-           sodipodi:role="line">système qui a un comportement périodique dans le temps et l’exemple le</svg:tspan><svg:tspan
-           id="tspan6434"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-1408.5076"
-           x="110.33934"
-           sodipodi:role="line">plus connu est le pendule.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6408"
-           y="-1361.6326"
-           x="110.33934"
-           sodipodi:role="line" /><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6410"
-           y="-1314.7576"
-           x="110.33934"
-           sodipodi:role="line">L’evolution dans le temps d’un tel système peut être décrite par une</svg:tspan><svg:tspan
-           id="tspan6436"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-1267.8826"
-           x="110.33934"
-           sodipodi:role="line">équation, dite différentielle :</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           id="tspan6412"
-           y="-1221.281"
-           x="110.33934"
-           sodipodi:role="line">dx/dt = f(x)</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6414"
-           y="-1174.406"
-           x="110.33934"
-           sodipodi:role="line" /><svg:tspan
-           id="tspan6438"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-1127.2576"
-           x="110.33934"
-           sodipodi:role="line">On peut considèrer un deuxième système :</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           id="tspan6416"
-           y="-1080.656"
-           x="110.33934"
-           sodipodi:role="line">dy/dt = f(y)</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6418"
-           y="-1033.781"
-           x="110.33934"
-           sodipodi:role="line" /><svg:tspan
-           id="tspan6440"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-986.63257"
-           x="110.33934"
-           sodipodi:role="line">et supposer que le premier système influence le comportement du second :</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           id="tspan6420"
-           y="-940.03101"
-           x="110.33934"
-           sodipodi:role="line">dx/dt = f(x)</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';fill:#efefef;fill-opacity:1"
-           id="tspan6422"
-           y="-893.15601"
-           x="110.33934"
-           sodipodi:role="line">dy/dt = f(y) + kg(x).</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6424"
-           y="-846.28101"
-           x="110.33934"
-           sodipodi:role="line" /><svg:tspan
-           id="tspan6442"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-799.13257"
-           x="110.33934"
-           sodipodi:role="line">Le terme kg(x) représente la façon dont les deux systèmes intéragissent</svg:tspan><svg:tspan
-           id="tspan6444"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-752.25757"
-           x="110.33934"
-           sodipodi:role="line">entre eux (on parle de terme de couplage). En particulier, k correspond à la</svg:tspan><svg:tspan
-           id="tspan6446"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-705.38257"
-           x="110.33934"
-           sodipodi:role="line">force de couplage entre les deux systèmes. Si cette force est suffisamment</svg:tspan><svg:tspan
-           id="tspan6448"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-658.50757"
-           x="110.33934"
-           sodipodi:role="line">importante, les deux systèmes peuvent se synchroniser.</svg:tspan><svg:tspan
-           id="tspan6450"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-611.63257"
-           x="110.33934"
-           sodipodi:role="line" /><svg:tspan
-           id="tspan6452"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-564.75757"
-           x="110.33934"
-           sodipodi:role="line">A plus grand échelle, si beaucoup de systèmes communiquent entre eux</svg:tspan><svg:tspan
-           id="tspan6456"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-517.88257"
-           x="110.33934"
-           sodipodi:role="line">(réseaux), il est également possible que tous les éléments du réseau</svg:tspan><svg:tspan
-           id="tspan6640"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-471.00757"
-           x="110.33934"
-           sodipodi:role="line">synchronisent.</svg:tspan></svg:text>
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38272)" />
       <svg:text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:14.98497105px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="107.04302"
+         x="90.82888"
          y="-1670.2406"
          id="text5983-9"
          sodipodi:linespacing="125%"><svg:tspan
            sodipodi:role="line"
            id="tspan5985-7"
-           x="107.04302"
+           x="90.82888"
            y="-1670.2406"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.44739532px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';fill:#efefef;fill-opacity:1">Pour aller plus loin...</svg:tspan></svg:text>
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38547"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(-14.368945,-4275.7632)"><svg:flowRegion
+           id="flowRegion38549"><svg:rect
+             id="rect38551"
+             width="1302.9915"
+             height="1373.5657"
+             x="108.49483"
+             y="2690.9043" /></svg:flowRegion><svg:flowPara
+           id="flowPara38559"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">On peut voir la synchronisation comme un ajustement des rythmes d’oscillateurs en raison de leur interaction. Un oscillateur en général est un système qui a un comportement périodique dans le temps et l’exemple le plus connu est le pendule.</svg:flowPara><svg:flowPara
+           id="flowPara38561"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38565"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">L’evolution dans le temps d’un tel système peut être décrite par une équation, dite différentielle :</svg:flowPara><svg:flowPara
+           id="flowPara38567"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#efefef;fill-opacity:1">dx/dt = f(x)</svg:flowPara><svg:flowPara
+           id="flowPara38569"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38571"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">On peut considèrer un deuxième système :</svg:flowPara><svg:flowPara
+           id="flowPara38573"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#efefef;fill-opacity:1">dy/dt = f(y)</svg:flowPara><svg:flowPara
+           id="flowPara38575"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38577"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">et supposer que le premier système influence le comportement du second :</svg:flowPara><svg:flowPara
+           id="flowPara38579"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#efefef;fill-opacity:1">dx/dt = f(x)</svg:flowPara><svg:flowPara
+           id="flowPara38581"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#efefef;fill-opacity:1">dy/dt = f(y) + kg(x)</svg:flowPara><svg:flowPara
+           id="flowPara38583"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38591"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Le terme kg(x) représente la façon dont les deux systèmes intéragissent entre eux (on parle de terme de couplage). En particulier, k correspond à la force de couplage entre les deux systèmes. Si cette force est suffisamment importante, les deux systèmes peuvent se synchroniser.</svg:flowPara><svg:flowPara
+           id="flowPara38593"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
+           id="flowPara38599"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">A plus grand échelle, si beaucoup de systèmes communiquent entre eux (réseaux), il est également possible que tous les éléments du réseau synchronisent.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1"
        transform="translate(-25.880962,388.7878)">
@@ -2613,7 +2458,7 @@
          height="521.52124"
          width="1390.6665"
          id="rect6384-8"
-         style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.59708452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38264)" />
+         style="opacity:0.6;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.59708452;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38264)" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/heart.png"
          y="-2702.2561"
@@ -2623,70 +2468,6 @@
          preserveAspectRatio="none"
          height="655.20001"
          width="516" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6152-1"
-         y="-2527.8201"
-         x="1940.2969"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           id="tspan6309-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2527.8201"
-           x="1940.2969"
-           sodipodi:role="line"><svg:tspan
-   id="tspan6352-0"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';text-align:start;text-anchor:start">Dans le coeur</svg:tspan> : la synchronisation des cellules cardiaques</svg:tspan><svg:tspan
-           id="tspan6311-1"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2480.9451"
-           x="1940.2969"
-           sodipodi:role="line">assure une bonne activité du coeur. Afin d’assurer cette</svg:tspan><svg:tspan
-           id="tspan6313-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2434.0701"
-           x="1940.2969"
-           sodipodi:role="line">synchronisation, il existe un pacemaker naturel du coeur,</svg:tspan><svg:tspan
-           id="tspan6315-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2387.1951"
-           x="1940.2969"
-           sodipodi:role="line">le noeud sinusale, localisé dans l’oreillette droite, qui</svg:tspan><svg:tspan
-           id="tspan6317-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2340.3201"
-           x="1940.2969"
-           sodipodi:role="line">envoie au reste du coeur un signal électrique. Ce signal</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2293.4451"
-           x="1940.2969"
-           sodipodi:role="line"
-           id="tspan7575">permettant à toutes les cellules cardiaques de</svg:tspan><svg:tspan
-           id="tspan6319-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2246.5701"
-           x="1940.2969"
-           sodipodi:role="line">communiquer et de se synchroniser. Des troubles du</svg:tspan><svg:tspan
-           id="tspan6382-2"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2199.6951"
-           x="1940.2969"
-           sodipodi:role="line">rythmes peuvent survenir et l’utilisation d’un pacemaker</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2152.8201"
-           x="1940.2969"
-           sodipodi:role="line"
-           id="tspan7585">artificiel ou d’un défibrillateur peut permettre un retour à</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           y="-2105.9451"
-           x="1940.2969"
-           sodipodi:role="line"
-           id="tspan24257">la normale de l’activité cardiaque.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:start;text-anchor:start;fill:#efefef;fill-opacity:1"
-           id="tspan6184-0"
-           y="-2059.0701"
-           x="1940.2969"
-           sodipodi:role="line" /></svg:text>
       <svg:text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dbdbdb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2699,7 +2480,22 @@
            x="1856.0317"
            y="-2064.1758"
            style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light'">Image d'origine de Patrick J. Lynch, http://patricklynch.net</svg:tspan></svg:text>
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38418"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';letter-spacing:0px;word-spacing:0px;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(15.880962,-3549.4183)"><svg:flowRegion
+           id="flowRegion38420"><svg:rect
+             id="rect38422"
+             width="995.47461"
+             height="535.72363"
+             x="1907.0176"
+             y="986.58447"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1" /></svg:flowRegion><svg:flowPara
+           id="flowPara38442"
+           style="font-size:37.5px;text-align:justify;text-anchor:start"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';text-align:justify;text-anchor:start"
+   id="flowSpan38444">Dans le coeur :</svg:flowSpan> la synchronisation des cellules cardiaques assure une bonne activité du coeur. Afin d’assurer cette synchronisation, il existe un pacemaker naturel du coeur, le noeud sinusale, localisé dans l’oreillette droite, qui envoie au reste du coeur un signal électrique. Ce signal permettant à toutes les cellules cardiaques de communiquer et de se synchroniser. Des troubles du rythmes peuvent survenir et l’utilisation d’un pacemaker artificiel ou d’un défibrillateur peut permettre un retour à la normale de l’activité cardiaque.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7"
        transform="translate(-26.37437,1805.4498)">
@@ -2713,71 +2509,12 @@
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/pancreas.png"
          y="-2734.5564"
-         x="1379.6821"
+         x="1365.6821"
          id="image23996"
          xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/pancreas.png"
          preserveAspectRatio="none"
          height="471.47266"
          width="814.96063" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6152-1-2"
-         y="-2528.3582"
-         x="1855.3082"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2528.3582"
-           x="1855.3082"
-           sodipodi:role="line"
-           id="tspan24014"><svg:tspan
-   id="tspan6354-3-8"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">                                            Dans le pancréas</svg:tspan> : les îlots de langerhans</svg:tspan><svg:tspan
-           id="tspan6360-4-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2481.4832"
-           x="1855.3082"
-           sodipodi:role="line">                                           sont des cellules qui produisent des</svg:tspan><svg:tspan
-           id="tspan6362-8-0"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2434.6082"
-           x="1855.3082"
-           sodipodi:role="line">                                           hormones, dont l’insuline. Il est important</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2387.7332"
-           x="1855.3082"
-           sodipodi:role="line"
-           id="tspan24024">que ces cellules se synchronisent pour sécréter l’insuline de</svg:tspan><svg:tspan
-           id="tspan6364-9-1"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2340.8582"
-           x="1855.3082"
-           sodipodi:role="line">façon coordonnée au moment des repas et pour arrêter cette</svg:tspan><svg:tspan
-           id="tspan6366-8-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2293.9832"
-           x="1855.3082"
-           sodipodi:role="line">sécrétion de façon coordonnée après les repas.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2247.1082"
-           x="1855.3082"
-           sodipodi:role="line"
-           id="tspan24058">Un dysfonctionnement de cette synchronisation peut entraîner</svg:tspan><svg:tspan
-           id="tspan6382-2-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2200.2332"
-           x="1855.3082"
-           sodipodi:role="line">une baisse trop importante du taux de sucre dans le sang,</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2153.3582"
-           x="1855.3082"
-           sodipodi:role="line"
-           id="tspan24064">ce qui peut devenir mortelle.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6184-0-3"
-           y="-2106.4832"
-           x="1855.3082"
-           sodipodi:role="line" /></svg:text>
       <svg:flowRoot
          xml:space="preserve"
          id="flowRoot24032"
@@ -2788,7 +2525,37 @@
              height="74.372192"
              x="2294.0442"
              y="2162.3479" /></svg:flowRegion><svg:flowPara
-           id="flowPara24038" /></svg:flowRoot>    </svg:g>
+           id="flowPara24038" /></svg:flowRoot>      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38703"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(20.37437,-4814.0803)"><svg:flowRegion
+           id="flowRegion38705"><svg:rect
+             id="rect38707"
+             width="1094.4285"
+             height="449.77957"
+             x="1825.4519"
+             y="2393.8604" /></svg:flowRegion><svg:flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"
+           id="flowPara38744">que ces cellules se synchronisent pour sécréter l’insuline de façon coordonnée au moment des repas et pour arrêter cette sécrétion de façon coordonnée après les repas.</svg:flowPara><svg:flowPara
+           id="flowPara38725"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Un dysfonctionnement de cette synchronisation peut entraîner une baisse trop importante du taux de sucre dans le sang, ce qui peut devenir mortelle.</svg:flowPara><svg:flowPara
+           id="flowPara38727"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRoot>      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38748"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(-4.1727196,-4949.2267)"><svg:flowRegion
+           id="flowRegion38750"><svg:rect
+             id="rect38752"
+             width="776.31744"
+             height="185.3894"
+             x="2174.1101"
+             y="2382.2734" /></svg:flowRegion><svg:flowPara
+           id="flowPara38758"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'"
+   id="flowSpan38764">Dans le pancréas :</svg:flowSpan> les îlots de langerhans sont des cellules qui produisent deshormones, dont l’insuline. Il est important</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7-0"
        transform="translate(-26.527324,2390.5337)">
@@ -2799,60 +2566,6 @@
          width="1391.6173"
          id="rect6384-8-9-7"
          style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:4.18154097;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38284)" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6152-1-2-3"
-         y="-2524.1597"
-         x="1600.8922"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6178-0-5-0"
-           y="-2524.1597"
-           x="1600.8922"
-           sodipodi:role="line"><svg:tspan
-   id="tspan6356-9-4-2"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans une journée : </svg:tspan>le comportements</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2477.2847"
-           x="1600.8922"
-           sodipodi:role="line"
-           id="tspan23909">des hommes et des animaux est</svg:tspan><svg:tspan
-           id="tspan6370-5-1-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2430.4097"
-           x="1600.8922"
-           sodipodi:role="line">characterisé par un cycle d’activité</svg:tspan><svg:tspan
-           id="tspan6372-1-5-1"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2383.5347"
-           x="1600.8922"
-           sodipodi:role="line">et de repos de 24h. Ce cycle (appelé</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2336.6597"
-           x="1600.8922"
-           sodipodi:role="line"
-           id="tspan23925">rythme circadien) répresente l’adaptation</svg:tspan><svg:tspan
-           id="tspan6382-2-5-9"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2289.7847"
-           x="1600.8922"
-           sodipodi:role="line">des organismes à un stimulus</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2242.9097"
-           x="1600.8922"
-           sodipodi:role="line"
-           id="tspan23917">environnemental, c’est-à-dire le cycle</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2196.0347"
-           x="1600.8922"
-           sodipodi:role="line"
-           id="tspan23935">quotidien de lumière et noir. </svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6184-0-3-8"
-           y="-2149.1597"
-           x="1600.8922"
-           sodipodi:role="line" /></svg:text>
       <svg:flowRoot
          xml:space="preserve"
          id="flowRoot7024"
@@ -2865,7 +2578,7 @@
              x="2454.4758"
              y="3138.2625" /></svg:flowRegion><svg:flowPara
            id="flowPara7030" /></svg:flowRoot>      <svg:g
-         transform="matrix(0.55927425,0,0,0.55927425,2232.225,-2541.8192)"
+         transform="matrix(0.48834607,0,0,0.48834607,2321.303,-2530.5578)"
          id="layer1-2"
          inkscape:label="Calque 1">
         <svg:g
@@ -3166,7 +2879,7 @@
                  style="fill:#616161"
                  id="path228" />
               <svg:polygon
-                 points="168.66016,200.91504 174.8916,211.69434 177.04883,210.4541 177.04883,210.4541 170.81152,199.66504 "
+                 points="170.81152,199.66504 168.66016,200.91504 174.8916,211.69434 177.04883,210.4541 177.04883,210.4541 "
                  style="fill:#616161"
                  id="polygon230" />
               <svg:path
@@ -3188,7 +2901,7 @@
                  style="fill:#616161"
                  id="path236" />
               <svg:polygon
-                 points="85.185547,199.66504 78.956055,210.4541 81.115234,211.69434 81.115234,211.69434 87.341797,200.91504 "
+                 points="87.341797,200.91504 85.185547,199.66504 78.956055,210.4541 81.115234,211.69434 81.115234,211.69434 "
                  style="fill:#616161"
                  id="polygon238" />
               <svg:path
@@ -3197,7 +2910,7 @@
                  style="fill:#616161"
                  id="path240" />
               <svg:polygon
-                 points="174.8916,44.297852 168.66016,55.088379 170.81152,56.329102 170.81152,56.329102 177.04883,45.541992 "
+                 points="177.04883,45.541992 174.8916,44.297852 168.66016,55.088379 170.81152,56.329102 170.81152,56.329102 "
                  style="fill:#616161"
                  id="polygon242" />
               <svg:path
@@ -3232,7 +2945,7 @@
                  style="fill:#616161"
                  id="path252" />
               <svg:polygon
-                 points="199.66797,170.80957 210.45703,177.04395 211.70801,174.88477 211.70801,174.88477 200.92188,168.65625 "
+                 points="200.92188,168.65625 199.66797,170.80957 210.45703,177.04395 211.70801,174.88477 211.70801,174.88477 "
                  style="fill:#616161"
                  id="polygon254" />
               <svg:rect
@@ -3273,7 +2986,7 @@
                    id="midPointStop268" />
               </svg:linearGradient>
               <svg:polygon
-                 points="145.91699,109.00537 142.98828,106.50586 63.660156,199.46094 63.660156,199.46094 66.588867,201.96094 "
+                 points="66.588867,201.96094 145.91699,109.00537 142.98828,106.50586 63.660156,199.46094 63.660156,199.46094 "
                  style="fill:url(#XMLID_15_)"
                  id="polygon271" />
               <svg:path
@@ -3385,7 +3098,7 @@
                    id="midPointStop319" />
               </svg:linearGradient>
               <svg:polygon
-                 points="126.68945,131.63477 124.83887,124.72852 187.12891,108.03857 187.12891,108.03857 188.97852,114.94482 "
+                 points="188.97852,114.94482 126.68945,131.63477 124.83887,124.72852 187.12891,108.03857 187.12891,108.03857 "
                  style="fill:url(#XMLID_16_)"
                  id="polygon322" />
               <svg:path
@@ -3464,7 +3177,7 @@
                    id="midPointStop356" />
               </svg:linearGradient>
               <svg:polygon
-                 points="46.628906,84.102539 50.204102,77.911133 142.97461,131.47168 142.97461,131.47168 139.39844,137.66309 "
+                 points="139.39844,137.66309 46.628906,84.102539 50.204102,77.911133 142.97461,131.47168 142.97461,131.47168 "
                  style="fill:url(#XMLID_17_)"
                  id="polygon359" />
               <svg:path
@@ -7852,7 +7565,23 @@
           </svg:g>
         </svg:g>
       </svg:g>
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38657"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(37.201321,-5524.5658)"><svg:flowRegion
+           id="flowRegion38659"><svg:rect
+             id="rect38661"
+             width="715.22308"
+             height="449.77966"
+             x="1564.2217"
+             y="2973.2017" /></svg:flowRegion><svg:flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"
+           id="flowPara38697"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'"
+   id="flowSpan38695">Dans une journée :</svg:flowSpan> le comportements des hommes et des animaux est characterisé par un cycle d’activité et de repos de 24h. Ce cycle, le rythme circadien, répresente l’adaptation des organismes à un stimulus environnemental, c’est-à-dire le cycle quotidien de lumière et noir. </svg:flowPara><svg:flowPara
+           id="flowPara38679"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7-0-2"
        transform="translate(-25.7794,2902.4012)">
@@ -7865,62 +7594,13 @@
          style="opacity:0.5;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54330707;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter38288)" />
       <svg:image
          sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/cricket.jpg"
-         y="-2598.325"
+         y="-2598.2957"
          x="2384.5613"
          id="image24201"
          xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/cricket.jpg"
          preserveAspectRatio="none"
          height="449.6951"
          width="561.75269" />
-      <svg:text
-         sodipodi:linespacing="125%"
-         id="text6152-1-2-3-7"
-         y="-2494.6091"
-         x="1601.5684"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><svg:tspan
-           id="tspan6382-2-5-9-1"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2494.6091"
-           x="1601.5684"
-           sodipodi:role="line"><svg:tspan
-   id="tspan6358-9-8-7-5"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'">Dans la nature</svg:tspan> :  L’espèce de grillon Oecanthus fultoni</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2447.7341"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24134">est une espèce très présente aux Etats-Unis.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2400.8591"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24223">Ces insectes stridulent (chantent) en frottant</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2353.9841"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24136">leurs ailes antérieures (élytres) l’une contre</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2307.1091"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24138">l’autre de façon très régulière.</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2260.2341"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24233">En groupe, ils sont capables de synchroniser</svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           y="-2213.3591"
-           x="1601.5684"
-           sodipodi:role="line"
-           id="tspan24140">leurs chants avec ceux de  leurs voisins. </svg:tspan><svg:tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';fill:#efefef;fill-opacity:1"
-           id="tspan6184-0-3-8-8"
-           y="-2166.4841"
-           x="1601.5684"
-           sodipodi:role="line" /></svg:text>
       <svg:text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#dbdbdb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -7933,7 +7613,23 @@
            x="2693.0552"
            y="-2129.5525"
            style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light'">Photo de Joseph Berger, Bugwood.org</svg:tspan></svg:text>
-    </svg:g>
+      <svg:flowRoot
+         xml:space="preserve"
+         id="flowRoot38619"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(35.172929,-6067.5349)"><svg:flowRegion
+           id="flowRegion38621"><svg:rect
+             id="rect38623"
+             width="731.02338"
+             height="404.4855"
+             x="1566.3284"
+             y="3504.0889" /></svg:flowRegion><svg:flowPara
+           id="flowPara38637"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"><svg:flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'"
+   id="flowSpan38641">Dans la nature :</svg:flowSpan>  L’espèce de grillon Oecanthus fultoni est une espèce très présente aux Etats-Unis. Ces insectes stridulent (chantent) en frottant leurs ailes antérieures (élytres) l’une contre l’autre de façon très régulière. En groupe, ils sont capables de synchroniser leurs chants avec ceux de  leurs voisins. </svg:flowPara><svg:flowPara
+           id="flowPara38639"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRoot>    </svg:g>
     <svg:circle
        transform="scale(-1,1)"
        r="106.36726"
