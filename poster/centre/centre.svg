@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="centre.svg"
-   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/synchro/synchro.png"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/centre/centre.png"
    inkscape:export-xdpi="45"
    inkscape:export-ydpi="45">
   <svg:defs
@@ -1774,10 +1774,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.54115914"
-     inkscape:cx="2180.7093"
-     inkscape:cy="2009.8956"
+     inkscape:cx="2663.2823"
+     inkscape:cy="1251.5679"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6068-2"
+     inkscape:current-layer="layer1"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -2109,28 +2109,36 @@
            id="flowPara36018"><svg:flowSpan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold'"
    id="flowSpan36066">Paramètres globaux </svg:flowSpan>:</svg:flowPara><svg:flowPara
-           id="flowPara36020">// Même période pour tous</svg:flowPara><svg:flowPara
+           id="flowPara36020"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// Même période pour tous</svg:flowPara><svg:flowPara
            id="flowPara36022">période</svg:flowPara><svg:flowPara
-           id="flowPara36024">// La luciole émet un flash quand son horloge individuelle</svg:flowPara><svg:flowPara
-           id="flowPara36026">// est entre 0 et durée_flash - 1</svg:flowPara><svg:flowPara
+           id="flowPara36024"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// La luciole émet un flash quand son horloge individuelle</svg:flowPara><svg:flowPara
+           id="flowPara36026"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// est entre 0 et durée_flash - 1</svg:flowPara><svg:flowPara
            id="flowPara36028">durée_flash</svg:flowPara><svg:flowPara
-           id="flowPara36030">// Le temps minimum entre 2 flashs</svg:flowPara><svg:flowPara
+           id="flowPara36030"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// Le temps minimum entre 2 flashs</svg:flowPara><svg:flowPara
            id="flowPara36032">durée_charge</svg:flowPara><svg:flowPara
-           id="flowPara36034">// Nombre de voisins devant être allumés pour déclencher un flash</svg:flowPara><svg:flowPara
+           id="flowPara36034"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// Nombre de voisins devant être allumés pour déclencher un flash</svg:flowPara><svg:flowPara
            id="flowPara36036">seuil</svg:flowPara><svg:flowPara
-           id="flowPara36038">//Programme de chaque luciole :</svg:flowPara><svg:flowPara
-           id="flowPara36040">// initialisation aléatoire de l’horloge individuelle</svg:flowPara><svg:flowPara
-           id="flowPara36042">horloge := random(période)</svg:flowPara><svg:flowPara
+           id="flowPara38392" /><svg:flowPara
+           id="flowPara36038"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold'">Programme de chaque luciole :</svg:flowPara><svg:flowPara
+           id="flowPara36040"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';fill:#cfcfcf;fill-opacity:1">// initialisation aléatoire de l’horloge individuelle</svg:flowPara><svg:flowPara
+           id="flowPara36042">horloge := aléatoire(période)</svg:flowPara><svg:flowPara
            id="flowPara36044">répéter à l'infini {</svg:flowPara><svg:flowPara
-           id="flowPara36046">horloge := horloge + 1</svg:flowPara><svg:flowPara
-           id="flowPara36048">si horloge = période</svg:flowPara><svg:flowPara
-           id="flowPara36050">horloge := 0</svg:flowPara><svg:flowPara
-           id="flowPara36052">si (horloge &gt; durée_flash + durée_charge) et (nombre_voisins_allumés() &gt; seuil)</svg:flowPara><svg:flowPara
-           id="flowPara36054">horloge := 0</svg:flowPara><svg:flowPara
-           id="flowPara36056">si horloge = 0</svg:flowPara><svg:flowPara
-           id="flowPara36058">flash()</svg:flowPara><svg:flowPara
-           id="flowPara36060">si horloge = durée_flash</svg:flowPara><svg:flowPara
-           id="flowPara36062">arrêter_flash()}</svg:flowPara><svg:flowPara
+           id="flowPara36046">  horloge := horloge + 1</svg:flowPara><svg:flowPara
+           id="flowPara36048">  si horloge = période</svg:flowPara><svg:flowPara
+           id="flowPara36050">    horloge := 0</svg:flowPara><svg:flowPara
+           id="flowPara36052">  si (horloge &gt; durée_flash + durée_charge) et (nombre_voisins_allumés() &gt; seuil)</svg:flowPara><svg:flowPara
+           id="flowPara36054">    horloge := 0</svg:flowPara><svg:flowPara
+           id="flowPara36056">  si horloge = 0</svg:flowPara><svg:flowPara
+           id="flowPara36058">    flash()</svg:flowPara><svg:flowPara
+           id="flowPara36060">  si horloge = durée_flash</svg:flowPara><svg:flowPara
+           id="flowPara36062">    arrêter_flash()}</svg:flowPara><svg:flowPara
            id="flowPara36064">}</svg:flowPara></svg:flowRoot>      <svg:text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:15.01504517px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2247,7 +2255,7 @@
     </svg:g>
     <svg:g
        id="g6068-9-1"
-       transform="matrix(0.99899804,0,0,0.99899804,1565.89,3290.9729)">
+       transform="matrix(0.99899804,0,0,0.99899804,159.6493,2479.7513)">
       <svg:rect
          style="opacity:0.75;fill:#161620;fill-opacity:1;stroke:none;stroke-width:3.54686093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter35836-9-6)"
          id="rect6079-7-2"
