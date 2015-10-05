@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="synchro.svg"
-   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/synchro/synchro.png"
+   inkscape:export-filename="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/fds2015-posters-rendu-final/poster-a0-droite-preview.png"
    inkscape:export-xdpi="45"
    inkscape:export-ydpi="45">
   <svg:defs
@@ -2031,11 +2031,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.47467697"
-     inkscape:cx="1018.4824"
-     inkscape:cy="2622.4052"
+     inkscape:zoom="0.6712946"
+     inkscape:cx="1693.6051"
+     inkscape:cy="1032.1833"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g6672"
      showgrid="true"
      width="1280px"
      inkscape:window-width="3840"
@@ -2076,7 +2076,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </svg:metadata>
@@ -2084,8 +2084,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Fond"
-     transform="translate(0,4.4432825e-4)"
-     sodipodi:insensitive="true">
+     transform="translate(0,4.4432825e-4)">
     <svg:rect
        style="display:inline;fill:url(#linearGradient3244);fill-opacity:1;stroke:none"
        id="rect4136"
@@ -2202,6 +2201,60 @@
        cx="-554.88733"
        id="circle3106"
        style="display:inline;fill:url(#radialGradient3108);fill-opacity:1;stroke:none" />
+    <svg:g
+       id="g8439"
+       transform="translate(49.817415,-5.0656126e-4)">
+      <svg:flowRoot
+         transform="translate(2041.8741,2713.7561)"
+         id="flowRoot4345"
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:200px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"><svg:flowRegion
+           id="flowRegion4347"><svg:rect
+             width="1767.7483"
+             height="81.006317"
+             x="-1250.4628"
+             y="1390.3456"
+             id="rect4349"
+             style="text-align:justify;text-anchor:start" /></svg:flowRegion><svg:flowPara
+           id="flowPara4373"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#d1d1d1;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate">Faironnerie ABC, fablab de l'université du Havre &lt;contact@faironnerie-abc.xyz&gt;</svg:flowPara><svg:flowPara
+           id="flowPara4376"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /><svg:flowPara
+           id="flowPara4378"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /><svg:flowPara
+           id="flowPara4380"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /><svg:flowPara
+           id="flowPara4382"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /><svg:flowPara
+           id="flowPara4384"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /><svg:flowPara
+           id="flowPara4386"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate" /></svg:flowRoot>      <svg:g
+         style="opacity:0.75;fill:#efefef;fill-opacity:1"
+         inkscape:export-ydpi="75"
+         inkscape:export-xdpi="75"
+         id="g5002"
+         transform="matrix(0.04852208,0,0,0.04852208,647.26634,4118.3199)">
+        <svg:path
+           id="path4211-7"
+           transform="translate(-2254.5402,-367.18986)"
+           d="m 3342.3477,452.58203 c -4.5158,-0.0856 -36.7673,73.61862 -51.6817,118.10742 -27.1737,81.0577 -39.6889,158.3461 -39.6719,245 0.018,90.8893 14.0069,173.53277 43.6621,257.94725 60.3933,171.9113 182.6319,319.3076 341.7012,412.0235 35.7393,20.8311 65.9325,35.3989 106.25,51.2656 75.8072,29.8333 149.6657,46.056 238.125,52.3027 3.4375,0.2425 8.7812,0.3902 11.875,0.3262 l 5.625,-0.1152 0,-37.9629 0,-37.9649 -8.125,-4.625 c -7.101,-4.0427 -22.0276,-12.6444 -71.25,-41.0586 -6.5313,-3.7703 -26.5,-15.2866 -44.375,-25.5918 -17.875,-10.3051 -33.2065,-19.2995 -34.0703,-19.9883 -1.24,-0.9888 -1.5031,-20.4613 -1.25,-92.6074 l 0.023,-6.5019 c 77.1069,1.1831 126.5757,-52.373 126.6954,-143.1289 3e-4,-137.2417 -111.2563,-312.73051 -248.4981,-391.96683 -137.2418,-79.23692 -248.4983,-32.21465 -248.498,105.02734 0.087,93.13119 52.007,207.05889 132.4004,295.92189 -1.2685,-0.9914 -2.5356,-1.984 -3.7891,-2.9981 0.028,6.9466 0.06,13.5181 0.066,22.3555 0.038,59.4735 -0.2095,69.1208 -1.8125,70.4512 -1.5351,1.274 -6.1433,-0.9504 -26.5625,-12.8184 -13.5879,-7.8975 -34.2676,-19.8545 -45.9551,-26.5722 -11.6875,-6.7177 -38.9688,-22.4357 -60.625,-34.9297 -21.6563,-12.4939 -42.6094,-24.547 -46.5625,-26.7832 -3.9531,-2.2363 -7.3253,-4.1658 -7.4941,-4.2871 -0.1687,-0.1215 -0.5906,-154.0074 -0.9375,-341.96879 l -0.6309,-341.74805 -31.875,-18.54688 c -17.5313,-10.20109 -32.2731,-18.55446 -32.7597,-18.56445 z m 237.7851,326.7168 105,60.62109 1,70.07813 c 0.5,20.28868 -2,39.84534 -7.5,55.66992 20.5,-7.16432 49.5,-7.92052 81.5,10.55469 70,40.41454 94.5,92.05864 94.5,183.55854 0,67.5 -20.5,122.1656 -134.5,56.3477 -36.5,-21.0733 -111,-70.0869 -140,-101.8301 l 0,-334.99997 z m 105,238.62107 0,105.5 c 11.5,8.1396 25,16.934 33,21.0528 21.5,10.913 28.5,4.455 28.5,-46.545 0,-42.5 -6.5,-54.7529 -30.5,-68.6093 -13,-7.5056 -22,-9.7023 -31,-11.3985 z"
+           style="fill:#efefef;fill-opacity:1"
+           inkscape:connector-curvature="0" />
+        <svg:path
+           id="path4205-8"
+           transform="translate(-2254.5402,-367.18986)"
+           d="m 4028.9492,33.667969 c -46.2547,-0.04248 -96.8004,4.045112 -136.9668,11.455078 -3.4375,0.6342 -9.9063,1.786557 -14.375,2.560547 -7.9634,1.3793 -46.9805,10.364184 -54.375,12.521484 -27.5517,8.0378 -65.113,20.343219 -70.625,23.136719 -1.7188,0.8711 -5.375,2.289644 -8.125,3.152344 -2.75,0.8627 -8.375,3.114659 -12.5,5.005859 -4.125,1.8911 -11.7188,5.217225 -16.875,7.390625 -5.1563,2.173495 -10.2188,4.392545 -11.25,4.931645 -1.0313,0.539 -3.5625,1.86621 -5.625,2.94921 -2.0625,1.083 -10.3594,5.20757 -18.4375,9.16407 -8.0781,3.9565 -14.6875,7.6682 -14.6875,8.25 0,0.5817 -0.7967,1.05859 -1.7715,1.05859 -0.9748,0 -4.4904,1.43195 -7.8125,3.18164 -11.4449,6.0279 -25.0998,13.6972 -26.8183,15.0625 -0.9473,0.75261 -2.5907,1.67423 -3.6524,2.04883 -1.0617,0.3746 -5.7705,3.41436 -10.4629,6.75586 -4.6924,3.3415 -11.4163,7.69005 -14.9433,9.66406 -3.527,1.974 -7.9222,4.7865 -9.7656,6.25 -1.8434,1.4635 -5.2183,3.94537 -7.5,5.51367 -12.9466,8.8987 -14.9282,10.56642 -14.3497,12.07422 0.4143,1.0794 -0.4342,1.63672 -2.4902,1.63672 -1.7376,0 -4.8748,1.64861 -7.0879,3.72461 -2.1839,2.0486 -8.1895,6.82238 -13.3457,10.60937 -5.1563,3.78691 -10.7813,8.43874 -12.5,10.33594 -1.7188,1.8972 -5.9429,5.54818 -9.3867,8.11328 -3.4439,2.5651 -8.78,7.01327 -11.8594,9.88477 -3.0793,2.8714 -8.8397,8.11786 -12.8008,11.66016 -3.9612,3.5423 -7.2031,7.08755 -7.2031,7.87695 0,0.7894 -1.4359,2.20308 -3.1914,3.14258 -3.2892,1.7604 -30.2893,29.30332 -38.0586,38.82422 -2.4063,2.9487 -6.3438,7.46094 -8.75,10.02734 -2.4063,2.5664 -5.9042,6.53972 -7.7734,8.82812 -1.8693,2.2883 -6.088,7.36074 -9.375,11.27344 -5.3537,6.3727 -12.217,15.32479 -26.0371,33.95899 -2.4768,3.3396 -7.0688,10.0896 -10.2051,15 -3.1363,4.9104 -6.069,9.20893 -6.5156,9.55273 -1.6915,1.302 -8.8438,12.99579 -8.8438,14.45898 0,1.85771 11.2881,9.29102 14.1094,9.29102 1.1088,0 2.4658,0.75027 3.0156,1.66797 1.0262,1.713 11.2937,7.82516 33.8242,20.13477 l 12.8243,7.00585 5.3007,-3.14257 c 2.9153,-1.7291 6.707,-3.8513 8.4258,-4.7168 1.7187,-0.8655 5.9239,-3.40232 9.3457,-5.63672 3.4218,-2.2344 6.7445,-4.0625 7.3828,-4.0625 0.6383,0 2.9112,-1.3348 5.0508,-2.9668 2.1396,-1.632 8.5883,-5.4289 14.3301,-8.4375 5.7417,-3.0087 13.0431,-6.96983 16.2266,-8.80273 3.1836,-1.833 8.4609,-4.79599 11.7265,-6.58399 3.2656,-1.788 5.9375,-4.13208 5.9375,-5.20898 0,-1.077 0.7031,-1.69354 1.5625,-1.36914 1.5021,0.567 18.3237,-7.77987 22.1875,-11.00977 1.0312,-0.8621 6.375,-3.95429 11.875,-6.87109 5.5,-2.9168 14.5,-7.94749 20,-11.17969 5.5,-3.2321 15.3437,-8.90552 21.875,-12.60742 6.5312,-3.7019 13.7811,-8.02136 16.1114,-9.59765 2.3303,-1.57621 4.9554,-2.86524 5.8339,-2.86524 0.8785,0 5.9482,2.57029 11.2637,5.71289 7.3144,4.3244 10.4533,5.53189 12.9141,4.96289 2.0215,-0.4674 2.6408,-0.34242 1.6367,0.33008 -1.1837,0.7928 -0.3493,1.9197 3.125,4.2207 8.3216,5.5115 17.4345,11.02344 18.2246,11.02344 0.4209,0 3.1843,1.6157 6.1406,3.5918 2.9564,1.9761 6.7812,4.01193 8.5,4.52344 1.7187,0.5115 3.9885,1.68567 5.0449,2.60937 2.2709,1.9856 14.9503,9.55175 23.3184,14.07617 -34.3076,69.35095 -1.6988,145.22947 89.3809,197.625 137.3996,78.83421 360.1697,78.83562 497.5703,0.002 65.9822,-37.85759 103.0508,-89.20532 103.0508,-142.74415 -1e-4,-53.53882 -37.0685,-104.88461 -103.0508,-142.74218 -107.0172,-61.28733 -270.3158,-76.49012 -405.6172,-37.76172 0.6793,0.54594 -0.9211,1.45195 -4.2481,2.7832 -1.1924,-0.68936 -2.2233,-1.30007 -2.8066,-1.68359 -5.8386,-3.8387 -8.1339,-5.189 -16.3926,-9.6543 -4.4688,-2.4161 -10.9375,-6.06397 -14.375,-8.10547 -3.4375,-2.0415 -8.5,-4.90804 -11.25,-6.36914 -20.5291,-10.9077 -22.0854,-12.03392 -21.6445,-15.66992 0.3179,-2.62191 2.5875,-4.55426 11.6445,-9.91406 6.1875,-3.6616 12.9969,-7.47486 15.1309,-8.47266 2.134,-0.9978 6.2965,-3.56362 9.25,-5.70312 2.9535,-2.1395 5.8516,-3.89063 6.4414,-3.89063 0.9821,0 7.6192,-3.74266 32.6543,-18.41406 4.9634,-2.9087 11.5546,-6.70927 14.6484,-8.44727 6.1861,-3.4754 8.8404,-5.09079 14.1641,-8.61328 3.438,-2.27481 9.8884,-5.8125 20.1758,-11.06641 2.7302,-1.39439 9.8463,-5.5543 15.8144,-9.24609 5.9682,-3.6917 11.381,-6.71289 12.0293,-6.71289 0.6482,0 2.197,-1.125 3.4414,-2.5 1.2444,-1.375 2.9725,-2.5 3.8399,-2.5 0.8674,0 1.765,-0.4219 1.9941,-0.9375 0.2292,-0.5157 3.2285,-2.30762 6.666,-3.98242 3.4375,-1.6748 7.3864,-4.04312 8.7754,-5.26172 1.389,-1.2186 6.2083,-3.88498 10.709,-5.92578 4.5008,-2.0407 8.917,-4.594283 9.8144,-5.675782 2.4485,-2.950101 14.2942,-2.687088 17.2149,0.382812 1.2301,1.2927 5.33,4.00594 9.1113,6.02734 10.936,5.8462 21.5299,11.93774 26.0723,14.99414 2.3082,1.5531 7.0894,4.2516 10.625,5.9961 3.5355,1.7445 11.4902,6.31154 17.6777,10.14844 6.1875,3.837 15.75,9.48779 21.25,12.55859 5.5,3.0708 14.7231,8.35991 20.4961,11.75391 5.7729,3.394 10.948,6.17187 11.5,6.17187 0.552,0 3.4226,1.58618 6.3789,3.52539 13.8527,9.0867 17.7601,11.47461 18.7754,11.47461 0.6027,0 4.0214,1.8419 7.5977,4.0918 3.5764,2.25 7.9081,4.77623 9.6269,5.61523 1.7187,0.839 6.7729,3.82707 11.2324,6.63867 7.3881,4.6582 17.6185,9.9043 19.3125,9.9043 0.3755,0 3.106,1.84968 6.0665,4.10938 4.4063,3.3635 20.6728,12.95085 41.8398,24.66015 4.1497,2.2956 33.9173,19.62515 36.5488,21.27735 1.0312,0.6475 4.125,2.38558 6.875,3.86328 2.75,1.4776 13.1562,7.55782 23.125,13.51172 9.9687,5.9539 20.6044,11.90756 23.6348,13.23046 3.0305,1.3228 7.6672,3.96786 10.3027,5.87696 2.6355,1.9092 5.2892,3.4707 5.8985,3.4707 0.6093,0 1.7626,0.78815 2.5625,1.75195 0.7999,0.9638 2.9396,2.12624 4.7558,2.58203 1.8162,0.45581 4.9304,2.19895 6.9199,3.87305 1.9896,1.6741 4.6992,3.04297 6.0215,3.04297 1.3223,0 2.4043,0.50856 2.4043,1.13086 0,1.2822 23.1405,15.11914 25.2852,15.11914 0.7665,0 2.4726,0.9843 3.791,2.1875 1.318,1.2031 5.9081,4.1562 10.2012,6.5625 4.2932,2.4062 9.1646,5.27585 10.8261,6.37695 1.6615,1.1012 10.334,6.06591 19.2715,11.03321 8.9375,4.9674 23.8207,13.47043 33.0742,18.89453 12.4539,7.3 17.5735,9.67317 19.7032,9.13867 2.2812,-0.5726 2.7163,-0.30393 2.1035,1.29297 -0.425,1.1077 -0.1521,2.01367 0.6074,2.01367 0.7595,0 4.055,1.8979 7.3223,4.2168 3.2672,2.3188 9.5957,6.14224 14.0644,8.49804 4.4688,2.3558 9.5313,5.13945 11.25,6.18555 1.7188,1.0462 6.2188,3.78459 10,6.08399 3.7813,2.2993 8.8438,5.21913 11.25,6.49023 2.4063,1.2711 7.1875,3.97597 10.625,6.00977 3.4375,2.0338 8.1842,4.608 10.5469,5.7207 2.3625,1.1128 6.2039,3.4782 8.5371,5.25781 l 4.2422,3.23633 8.9609,-4.59375 c 10.5872,-5.4256 30.0733,-17.04659 34.7852,-20.74609 1.8274,-1.4348 4.1752,-2.60938 5.2168,-2.60938 1.0416,0 3.5647,-1.4063 5.6074,-3.125 2.0426,-1.7188 4.2286,-3.125 4.8574,-3.125 0.6287,0 2.1789,-0.75694 3.4434,-1.68164 2.2296,-1.6305 2.2259,-1.8092 -0.062,-5.9375 -1.2974,-2.341 -3.1589,-5.24337 -4.1367,-6.45117 -0.9778,-1.2079 -2.3902,-3.27781 -3.1387,-4.59961 -0.7485,-1.3219 -4.1738,-6.4553 -7.6113,-11.4082 -3.4375,-4.953 -6.8125,-9.91625 -7.5,-11.02735 -3.1516,-5.0937 -12.2852,-16.39453 -13.25,-16.39453 -0.591,0 -2.2817,-2.3907 -3.7578,-5.3125 -2.7095,-5.3629 -14.0341,-19.40747 -19.4395,-24.10937 -1.6105,-1.4008 -2.9277,-3.13919 -2.9277,-3.86329 0,-0.7242 -2.3906,-3.88473 -5.3125,-7.02343 -2.9219,-3.1386 -9.5313,-10.35882 -14.6875,-16.04493 -15.6941,-17.30699 -34.4726,-36.14648 -36.0293,-36.14648 -0.8092,0 -1.4707,-0.59401 -1.4707,-1.32031 0,-1.4899 -7.5099,-8.67969 -9.0664,-8.67969 -0.5556,0 -4.2284,-3.33486 -8.1602,-7.41016 -8.9819,-9.3099 -32.2029,-29.39675 -36.4512,-31.53125 -1.7581,-0.8833 -5.7441,-3.91994 -8.8574,-6.74804 -6.1881,-5.6215 -22.6019,-16.81055 -24.6601,-16.81055 -0.7083,0 -1.5951,-0.8005 -1.9707,-1.7793 -0.8824,-2.2994 -12.865,-11.13934 -23.2911,-17.18164 -4.4925,-2.6035 -9.2929,-5.61194 -10.6679,-6.68554 -5.5097,-4.302 -13.8525,-9.30908 -15.545,-9.33008 -0.987,-0.0125 -2.9557,-1.0685 -4.375,-2.3457 -1.4194,-1.2773 -5.6738,-3.92622 -9.455,-5.88672 -3.7813,-1.9605 -8.3187,-4.53797 -10.084,-5.72657 -2.8679,-1.931 -28.3788,-14.7781 -38.041,-19.1582 -2.0625,-0.935 -7.7706,-3.71503 -12.6836,-6.17773 -4.913,-2.462804 -9.5897,-4.478519 -10.3926,-4.478519 -0.8029,0 -4.6573,-1.474644 -8.5664,-3.277344 -9.0565,-4.1765 -35.7501,-14.792647 -41.4824,-16.498047 -2.4063,-0.7159 -11.8696,-3.872572 -21.0293,-7.013672 -9.1598,-3.1411 -17.7168,-5.710937 -19.0157,-5.710937 -1.2988,0 -5.3356,-1.073619 -8.9707,-2.386719 -11.5999,-4.1904 -41.7201,-11.644175 -53.4843,-13.234375 -3.0938,-0.4182 -8.3027,-1.400594 -11.5743,-2.183594 -4.5433,-1.08779 -6.3001,-1.072887 -7.4374,0.06445 -1.9936,1.9934 -3.4883,1.882935 -3.4883,-0.259765 0,-3.76529 -33.6879,-8.536953 -85.625,-12.126953 -13.921,-0.96223 -28.8615,-1.434961 -44.2793,-1.449219 l 0,0 z m 31.8946,68.333981 c 0.9279,0.0655 1.7636,0.97852 1.7636,2.19922 0,0.5729 -0.5289,1.04297 -1.1758,1.04297 -1.6966,0 -2.8123,-2.20695 -1.5195,-3.00586 0.3021,-0.18677 0.6223,-0.25818 0.9317,-0.23633 z m -125.1836,33.66211 c 0.1996,-0.0198 0.4394,0.0457 0.6972,0.20508 0.6875,0.4249 1.25,1.02102 1.25,1.32422 0,0.3031 -0.5625,0.55078 -1.25,0.55078 -0.6875,0 -1.25,-0.59612 -1.25,-1.32422 0,-0.455 0.2202,-0.72293 0.5528,-0.75586 z m 112.4746,160.8711 c 45.0521,17.80704 117.1357,52.8478 155.1797,74.67578 70.5816,40.49665 85.5999,76.68543 7.5097,121.49023 l -155.1797,89.03516 -83.5976,-47.96485 25.5312,-25.5625 c -38.5446,2.58489 -86.1013,-1.14767 -128.6504,-25.56054 -46.5538,-26.71056 -62.07,-63.18584 -15.0156,-90.1836 l 25.0274,-14.36132 c 40.0463,-22.97682 96.1109,-18.9556 147.1699,10.33984 l 78.0918,44.80469 2.0019,-1.14844 c 17.0197,-10.33957 17.5197,-18.66938 -4.5058,-31.30664 -26.0301,-14.93493 -66.0755,-37.33753 -110.627,-60.60156 l 57.0645,-43.65625 z m -542.9532,88.70898 c 0.728,0 0.9757,0.5625 0.5508,1.25 -0.4249,0.6875 -1.021,1.25 -1.3242,1.25 -0.3031,0 -0.5508,-0.5625 -0.5508,-1.25 0,-0.6875 0.5961,-1.25 1.3242,-1.25 z m 1075.5508,17.5 c 1.1124,0 1.6749,0.5625 1.25,1.25 -0.4249,0.6875 -0.9874,1.25 -1.25,1.25 -0.2626,0 -0.8251,-0.5625 -1.25,-1.25 -0.4249,-0.6875 0.1376,-1.25 1.25,-1.25 z m 46.7285,16.25 c 0.6875,0 1.5966,0.5625 2.0215,1.25 0.4249,0.6875 0.211,1.25 -0.4765,1.25 -0.6875,0 -1.5986,-0.5625 -2.0235,-1.25 -0.4249,-0.6875 -0.209,-1.25 0.4785,-1.25 z m -634.1562,14.91406 c -5.0978,0.11437 -9.806,1.38666 -13.7481,3.64844 l -8.0097,4.5957 c -9.0104,5.16978 -8.5104,12.92297 5.5058,20.96485 11.5134,6.60584 30.0355,11.48923 50.0586,14.36133 l 26.5313,-15.22266 -39.5469,-22.68945 c -7.0394,-4.0389 -14.2367,-5.80525 -20.791,-5.65821 z"
+           style="fill:#efefef;fill-opacity:1"
+           inkscape:connector-curvature="0" />
+        <svg:path
+           id="path4203-5"
+           transform="translate(-2254.5402,-367.18986)"
+           d="m 4706.6484,441.13672 c -1.1909,0 -62.2147,35.15142 -64.7109,37.27539 -2.0519,1.74588 -2.1875,8.50735 -2.1875,109.01562 0,84.22088 -0.3344,107.42125 -1.5625,108.40625 -1.2798,1.0264 -15.0811,8.97043 -32.9023,19.07422 -39.8971,-64.85176 -127.8257,-71.7601 -225.9063,-15.26172 -137.2411,79.23697 -248.4964,254.72789 -248.4961,391.96872 8e-4,137.2398 111.2558,184.2603 248.4961,105.0254 89.441,-51.7222 170.4523,-146.4362 214.3125,-246.83396 24.5465,-14.04611 44.1306,-24.71564 44.7734,-24.31836 0.8671,0.5359 1.2852,39.06408 1.2852,118.20512 l 0,117.4082 -4.6875,3.0273 c -2.5781,1.6652 -22.6875,13.4103 -44.6875,26.0996 -110.9844,64.0144 -404.8721,233.7001 -477.5,275.7012 -26.8125,15.5058 -51.7031,29.8124 -55.3125,31.793 l -6.5625,3.6015 0,38.7735 0,38.7714 12.1875,-0.7988 c 96.002,-6.2978 175.9798,-24.501 258.4375,-58.8223 96.902,-40.3335 181.6057,-98.0784 256.875,-175.1191 56.744,-58.0794 101.7612,-121.5829 138.1387,-194.8672 42.973,-86.5711 66.8005,-169.35838 77.7109,-269.99998 2.7822,-25.6633 3.1807,-116.9913 0.625,-143.125 -7.8241,-80.0084 -24.7915,-149.96755 -53.9726,-222.52734 -7.9289,-19.71551 -32.937,-72.47266 -34.3536,-72.47266 z m -209.7695,326.16992 -10.5,71.0625 -76,43.87891 c -32,18.47521 -42,33.74804 -42,72.24804 0,39 10,42.72717 42,24.25196 17,-9.81496 49,-28.29198 80.5,-49.97852 l 9.5,60.01563 c -29.5,32.53184 -70.5,61.70364 -109,83.93164 -98,56.5803 -133,41.7871 -133,-54.7129 0,-96.49999 35.5,-151.99623 134,-208.86523 30.5,-17.60919 74.5,-39.01152 104.5,-41.83203 z"
+           style="fill:#efefef;fill-opacity:1"
+           inkscape:connector-curvature="0" />
+      </svg:g>
+    </svg:g>
   </svg:g>
   <svg:g
      inkscape:label="Textes"
@@ -2301,7 +2354,7 @@
              x="106.2534"
              y="1180.6124"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRegion><svg:flowPara
-           id="flowPara38408">En 1665, Christiaan Huygens observe les pendules de deux horloges fixées sur un même mur. Même si les positions de départ ne sont pas les mêmes, les pendules finissent par synchroniser. Le mur sur lequel telles étaient fixées leur permettait de communiquer.</svg:flowPara></svg:flowRoot>    </svg:g>
+           id="flowPara38408">En 1665, Christiaan Huygens observe les pendules de deux horloges fixées sur un même mur. Même si les positions de départ ne sont pas les mêmes, les pendules finissent par synchroniser. Le mur sur lequel elles étaient fixées leur permettait de communiquer.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476"
        transform="translate(-1497.7252,796.20472)">
@@ -2469,7 +2522,7 @@
            id="flowPara38593"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /><svg:flowPara
            id="flowPara38599"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">A plus grand échelle, si beaucoup de systèmes communiquent entre eux (réseaux), il est également possible que tous les éléments du réseau synchronisent.</svg:flowPara></svg:flowRoot>    </svg:g>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">A plus grande échelle, si beaucoup de systèmes communiquent entre eux (réseaux), il est également possible que tous les éléments du réseau synchronisent.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1"
        transform="translate(-25.880962,388.7878)">
@@ -2516,7 +2569,7 @@
            id="flowPara38442"
            style="font-size:37.5px;text-align:justify;text-anchor:start"><svg:flowSpan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold';text-align:justify;text-anchor:start"
-   id="flowSpan38444">Dans le coeur :</svg:flowSpan> la synchronisation des cellules cardiaques assure une bonne activité du coeur. Afin d’assurer cette synchronisation, il existe un pacemaker naturel du coeur, le noeud sinusale, localisé dans l’oreillette droite, qui envoie au reste du coeur un signal électrique. Ce signal permettant à toutes les cellules cardiaques de communiquer et de se synchroniser. Des troubles du rythmes peuvent survenir et l’utilisation d’un pacemaker artificiel ou d’un défibrillateur peut permettre un retour à la normale de l’activité cardiaque.</svg:flowPara></svg:flowRoot>    </svg:g>
+   id="flowSpan38444">Dans le coeur :</svg:flowSpan> la synchronisation des cellules cardiaques assure une bonne activité du coeur. Afin d’assurer cette synchronisation, il existe un pacemaker naturel du coeur, le noeud sinusale, localisé dans l’oreillette droite, qui envoie au reste du coeur un signal électrique. Ce signal permet à toutes les cellules cardiaques de communiquer et de se synchroniser. Des troubles du rythme peuvent survenir et l’utilisation d’un pacemaker artificiel ou d’un défibrillateur peut permettre un retour à la normale de l’activité cardiaque.</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7"
        transform="translate(-26.37437,1805.4498)">
@@ -2558,15 +2611,15 @@
              x="1825.4519"
              y="2393.8604" /></svg:flowRegion><svg:flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"
-           id="flowPara38744">que ces cellules se synchronisent pour sécréter l’insuline de façon coordonnée au moment des repas et pour arrêter cette sécrétion de façon coordonnée après les repas.</svg:flowPara><svg:flowPara
+           id="flowPara38744">ces cellules se synchronisent pour sécréter l’insuline de façon coordonnée au moment des repas et pour arrêter cette sécrétion de façon coordonnée après les repas.</svg:flowPara><svg:flowPara
            id="flowPara38725"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Un dysfonctionnement de cette synchronisation peut entraîner une baisse trop importante du taux de sucre dans le sang, ce qui peut devenir mortelle.</svg:flowPara><svg:flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1">Un dysfonctionnement de cette synchronisation peut entraîner une baisse trop importante du taux de sucre dans le sang, ce qui peut devenir mortel.</svg:flowPara><svg:flowPara
            id="flowPara38727"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRoot>      <svg:flowRoot
          xml:space="preserve"
          id="flowRoot38748"
          style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         transform="translate(-4.1727196,-4949.2267)"><svg:flowRegion
+         transform="translate(-4.1727196,-4947.2267)"><svg:flowRegion
            id="flowRegion38750"><svg:rect
              id="rect38752"
              width="776.31744"
@@ -2576,7 +2629,7 @@
            id="flowPara38758"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"><svg:flowSpan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'"
-   id="flowSpan38764">Dans le pancréas :</svg:flowSpan> les îlots de langerhans sont des cellules qui produisent deshormones, dont l’insuline. Il est important</svg:flowPara></svg:flowRoot>    </svg:g>
+   id="flowSpan38764">Dans le pancréas :</svg:flowSpan> les îlots de langerhans sont des cellules qui produisent des hormones dont l’insuline. Il est important que</svg:flowPara></svg:flowRoot>    </svg:g>
     <svg:g
        id="g6476-1-7-0"
        transform="translate(-26.527324,2390.5337)">
@@ -7600,7 +7653,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1"
            id="flowPara38697"><svg:flowSpan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Bold'"
-   id="flowSpan38695">Dans une journée :</svg:flowSpan> le comportements des hommes et des animaux est characterisé par un cycle d’activité et de repos de 24h. Ce cycle, le rythme circadien, répresente l’adaptation des organismes à un stimulus environnemental, c’est-à-dire le cycle quotidien de lumière et noir. </svg:flowPara><svg:flowPara
+   id="flowSpan38695">Dans une journée :</svg:flowSpan> le comportement des hommes et des animaux est caracterisé par un cycle d’activité et de repos de 24h. Ce cycle, le rythme circadien, répresente l’adaptation des organismes à un stimulus environnemental, c’est-à-dire le cycle quotidien de lumière et de noir. </svg:flowPara><svg:flowPara
            id="flowPara38679"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0, ';text-align:justify;text-anchor:start;fill:#efefef;fill-opacity:1" /></svg:flowRoot>    </svg:g>
     <svg:g
@@ -7672,30 +7725,14 @@
        cx="-2205.1423"
        id="circle5473"
        style="display:inline;fill:url(#radialGradient5475);fill-opacity:1;stroke:none" />
-    <svg:flowRoot
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:200px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L Bold Italic';text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"
-       id="flowRoot4345"
-       transform="translate(2054.3081,-444.36796)"><svg:flowRegion
-         id="flowRegion4347"><svg:rect
-           style="text-align:justify;text-anchor:start"
-           id="rect4349"
-           y="1390.3456"
-           x="-1250.4628"
-           height="81.006317"
-           width="1767.7483" /></svg:flowRegion><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:'Exo 2.0';-inkscape-font-specification:'Exo 2.0 Light';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#d1d1d1;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4373">Faironnerie ABC, fablab de l'université du Havre : contact@faironnerie-abc.xyz</svg:flowPara><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4376" /><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4378" /><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4380" /><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4382" /><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4384" /><svg:flowPara
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:138.99999857%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-indent:0;text-align:justify;text-decoration:none;text-decoration-line:none;letter-spacing:0;word-spacing:0;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#0000c5;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;enable-background:accumulate"
-         id="flowPara4386" /></svg:flowRoot>  </svg:g>
+    <svg:image
+       sodipodi:absref="/home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/neuron.png"
+       y="-1458.2419"
+       x="967.91125"
+       id="image5576"
+       xlink:href="file:///home/n3mo/recherche/fablab/workspace/arduiciole/poster/figures/neuron.png"
+       preserveAspectRatio="none"
+       height="110.42137"
+       width="526.67859" />
+  </svg:g>
 </svg:svg>
