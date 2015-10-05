@@ -17,6 +17,7 @@
 #define CMD_SYNC  0x01
 #define CMD_RESET 0x02
 #define CMD_DEBUG 0x03
+#define CMD_SWARM 0x04
 
 //
 // Paramètres des lucioles
@@ -58,6 +59,8 @@
 # define ZB_TX_STATUS_TIMEOUT 2000
 #endif
 
+#define XBEE_SPREAD_DELAY 10000
+
 //
 // Code d'erreur
 //
@@ -92,23 +95,6 @@ void flash();
  * Phase de synchronisation de la luciole.
  */
 void sync();
-
-/**
- * Vérifie si l'adresse d'une luciole est dans le voisinage.
- *
- * @param addr adresse de la luciole voisine
- */
-int is_in_essaim(uint16_t);
-
-/**
- * Ajoute une luciole au voisinage.
- *
- * Si la taille du voisinage a été atteinte, la plus ancienne voisine est
- * remplacée par la nouvelle.
- *
- * @param addr adresse de la nouvelle voisine
- */
-void add_to_essaim(uint16_t);
 
 #include "arduiciole_xbee.h"
 
