@@ -10,10 +10,16 @@
 #include "arduiciole_config.h"
 #include "arduiciole_helpers.h"
 
+#ifdef DEBUG
+#include <AltSoftSerial.h>
+extern AltSoftSerial altSoftSerial;
+#endif
+
 //
 // Définition des commandes contenues dans les paquets.
 //
 
+#define CMD_NONE  0x00
 #define CMD_SYNC  0x01
 #define CMD_RESET 0x02
 #define CMD_DEBUG 0x03
@@ -28,7 +34,11 @@
 #endif
 
 #ifndef LUCIOLE_JUMP_THRESHOLD
-# define LUCIOLE_JUMP_THRESHOLD 2
+# define LUCIOLE_JUMP_THRESHOLD 5
+#endif
+
+#ifndef LUCIOLE_FLASH_LENGTH
+# define LUCIOLE_FLASH_LENGTH 500
 #endif
 
 #ifndef LUCIOLE_FLASH_PHASE_LENGTH
@@ -51,6 +61,10 @@
 # define LUCIOLE_DELAY_BETWEEN_FLASH 250
 #endif
 
+#define LUCIOLE_ADJUST_EPSILON 1
+#define LUCIOLE_ADJUST_BASE_DELAY 500
+#define LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY 500
+
 #ifndef TIMEOUT
 # define TIMEOUT 2000
 #endif
@@ -71,10 +85,13 @@
 /**
  * Définition de la structure des paquets émits et reçus.
  */
+typedef uint8_t cmd_t;
+
 typedef struct {
-  uint8_t  cmd;
-  uint32_t data;
-} cmd_t;
+  unsigned long start_at;
+  unsigned long swarm_cumul;
+  uint8_t swarm_size;
+} luciole_t;
 
 /**
  * La luciole rentre en mode d'erreur.

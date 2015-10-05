@@ -19,7 +19,13 @@
 
 #include "arduiciole.h"
 
-cmd_t message = {CMD_SYNC, 1};
+#ifdef DEBUG
+#include <AltSoftSerial.h>
+AltSoftSerial altSoftSerial;
+#endif
+
+cmd_t message = CMD_SYNC;
+luciole_t state;
 
 /*
  * @see arduiciole.h#error_mode
@@ -31,12 +37,33 @@ void error_mode(uint8_t error) {
   }
 }
 
+void listen(unsigned long time_out) {
+  unsigned long clock = millis(), clock2;
+  uint8_t cmd;
+
+  while (millis() < clock + time_out) {
+    cmd = xbee_receive(max(1, time_out - (millis() - clock)));
+
+    if (cmd != CMD_NONE) {
+        switch(cmd) {
+        case CMD_SYNC:
+          clock2 = millis();
+
+          state.swarm_cumul += (clock2 - min(clock2, state.start_at + LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY));
+          state.swarm_size  += 1;
+          break;
+        case CMD_RESET:
+          delay(random(1000, 5000));
+          break;
+        }
+  	}
+  }
+}
+
 /*
  * @see arduiciole.h#flash
  */
 void flash() {
-  unsigned long clock = millis();
-
   //
   // Dawn
   //
@@ -47,58 +74,67 @@ void flash() {
     HELPER_ANALOG_WRITE(i, 1);
   HELPER_DIGITAL_WRITE(HIGH, 0);
 
-  xbee_wait_tx_status();
-
-  clock = millis();
-
-  xbee_transmit();
-  xbee_wait_tx_status();
+  listen(LUCIOLE_FLASH_LENGTH);
 
   //
   // Twilight
   //
 
-  xbee_transmit();
-
   for (int i=255; i>=0; i--)
     HELPER_ANALOG_WRITE(i, 1);
   HELPER_DIGITAL_WRITE(LOW, 0);
-
-  xbee_wait_tx_status();
-  delay(LUCIOLE_FLASH_PHASE_LENGTH - min(LUCIOLE_FLASH_PHASE_LENGTH, millis() - clock));
 }
 
 /*
  * @see arduiciole.h#sync
  */
 void sync() {
-  unsigned long clock = millis();
-  uint32_t count = 0;
-  cmd_t *data;
-  uint8_t quit = 0;
+  listen (LUCIOLE_WAIT_PHASE_LENGTH);
+}
 
-  //xbee_flush();
+/**
+ * Ajustement de l'état de la luciole.
+ */
+void adjust() {
+  if (state.swarm_size) {
+    unsigned long mean = state.swarm_cumul / state.swarm_size;
+    long d = mean - (LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH) / 2;
 
-  while (!quit && millis() < clock + LUCIOLE_WAIT_PHASE_LENGTH) {
-    data = xbee_receive(max(1, LUCIOLE_WAIT_PHASE_LENGTH - (millis() - clock)));
+#ifdef DEBUG
+    altSoftSerial.print("ADJUST : ");
+    altSoftSerial.print(mean);
+    altSoftSerial.print(" > ");
+    altSoftSerial.print((LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH) / 2);
+    altSoftSerial.print(" > ");
+    altSoftSerial.println(d);
+#endif
+    //
+    // Atténuation pour augmenter la durée nécessaire à la synchro.
+    //
 
-    if (data != NULL) {
-        switch(data->cmd) {
-        case CMD_SYNC:
-          count++;
+    d = round(LUCIOLE_ADJUST_EPSILON * d);
 
-          if (count >= LUCIOLE_JUMP_THRESHOLD) { //  && millis() > clock + LUCIOLE_MIN_WAIT_PHASE_LENGTH
-            quit = 1;
-          }
+    //
+    // Le délai d'ajustement doit être compris dans
+    //        [-LUCIOLE_ADJUST_BASE_DELAY; LUCIOLE_ADJUST_BASE_DELAY].
+    // On obtiendra ainsi un délai final entre 0 et 2 * LUCIOLE_ADJUST_BASE_DELAY.
+    //
 
-          break;
-        case CMD_RESET:
-          delay(random(1000, 5000));
-          quit = 1;
+    d = max(-LUCIOLE_ADJUST_BASE_DELAY, d);
+    d = min( LUCIOLE_ADJUST_BASE_DELAY, d);
 
-          break;
-        }
-  	}
+#ifdef DEBUG
+    altSoftSerial.print("Délai d'ajustement ");
+    altSoftSerial.println(d);
+#endif
+
+    delay(LUCIOLE_ADJUST_BASE_DELAY+d);
+
+    state.swarm_cumul = 0;
+    state.swarm_size  = 0;
+  }
+  else {
+    delay(LUCIOLE_ADJUST_BASE_DELAY);
   }
 }
 
@@ -109,6 +145,10 @@ void sync() {
  * puis ce dernier est configuré.
  */
 void setup() {
+#ifdef DEBUG
+  altSoftSerial.begin(9600);
+#endif
+
   pinMode(CLED, OUTPUT);
 
   HELPER_BLINK(CLED, 150, 5);
@@ -130,8 +170,10 @@ void setup() {
  * Boucle principale de l'Arduino.
  */
 void loop() {
+  state.start_at = millis();
+
   xbee_spread();
-  
+
   //
   // Émission de lumière.
   // Bon ok, plus d'électrons que de photons...
@@ -144,4 +186,10 @@ void loop() {
   //
 
   sync();
+
+  //
+  // Phase d'ajustement.
+  //
+
+  adjust();
 }

@@ -2,12 +2,13 @@
 #define __ARDUCIOLE_XBEE_H__
 
 #include "arduiciole.h"
+#include <XBee.h>
 
 void xbee_init(cmd_t*);
 void xbee_transmit();
 void xbee_flush();
 void xbee_wait_tx_status();
-cmd_t* xbee_receive(unsigned long);
+cmd_t xbee_receive(unsigned long);
 
 void xbee_spread();
 
@@ -16,7 +17,7 @@ void xbee_spread();
  *
  * @param addr adresse de la luciole voisine
  */
-int xbee_is_in_swarm(uint64_t);
+int xbee_is_in_swarm(XBeeAddress64&);
 
 /**
  * Ajoute une luciole au voisinage.
@@ -26,6 +27,6 @@ int xbee_is_in_swarm(uint64_t);
  *
  * @param addr adresse de la nouvelle voisine
  */
-void xbee_add_to_swarm(uint64_t);
+void xbee_add_to_swarm(XBeeAddress64&);
 
 #endif /* __ARDUCIOLE_XBEE_H__ */
