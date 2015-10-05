@@ -23,40 +23,29 @@
 //
 
 #ifndef LUCIOLE_VIEW
-# define LUCIOLE_VIEW 4
+#define LUCIOLE_VIEW 4
 #endif
 
 #ifndef LUCIOLE_JUMP_THRESHOLD
-# define LUCIOLE_JUMP_THRESHOLD 2
+#define LUCIOLE_JUMP_THRESHOLD 2
 #endif
 
-#ifndef LUCIOLE_FLASH_PHASE_LENGTH
-# define LUCIOLE_FLASH_PHASE_LENGTH 1000
+#ifndef LUCIOLE_FLASH_LENGTH
+#define LUCIOLE_FLASH_LENGTH 1000
 #endif
 
-#ifndef LUCIOLE_WAIT_PHASE_LENGTH
-# define LUCIOLE_WAIT_PHASE_LENGTH 4000
+#ifndef LUCIOLE_CHARGE_LENGTH
+#define LUCIOLE_CHARGE_LENGTH 1000
 #endif
 
-#ifndef LUCIOLE_MIN_WAIT_PHASE_LENGTH
-# define LUCIOLE_MIN_WAIT_PHASE_LENGTH 500
+#ifndef LUCIOLE_CYCLE_LENGTH
+#define LUCIOLE_CYCLE_LENGTH 5000
 #endif
 
 #ifndef LUCIOLE_ADD_IN_SWARM_PROB
-# define LUCIOLE_ADD_IN_SWARM_PROB 0.1
+#define LUCIOLE_ADD_IN_SWARM_PROB 0.1
 #endif
 
-#ifndef LUCIOLE_DELAY_BETWEEN_FLASH
-# define LUCIOLE_DELAY_BETWEEN_FLASH 250
-#endif
-
-#ifndef TIMEOUT
-# define TIMEOUT 2000
-#endif
-
-#ifndef ZB_TX_STATUS_TIMEOUT
-# define ZB_TX_STATUS_TIMEOUT 2000
-#endif
 
 //
 // Code d'erreur
@@ -83,22 +72,13 @@ typedef struct {
  */
 void error_mode(uint8_t);
 
-/**
- * Émission d'un flash sous la forme d'un paquet diffusé sur le réseau ZigBee.
- */
-void flash();
 
 /**
- * Phase de synchronisation de la luciole.
- */
-void sync();
-
-/**
- * Vérifie si l'adresse d'une luciole est dans le voisinage.
+ * Donne l'indice d'une luciole dans le voisinage, -1 si elle n'y est pas
  *
  * @param addr adresse de la luciole voisine
  */
-int is_in_essaim(uint16_t);
+int essaim_index(uint16_t);
 
 /**
  * Ajoute une luciole au voisinage.
@@ -109,6 +89,8 @@ int is_in_essaim(uint16_t);
  * @param addr adresse de la nouvelle voisine
  */
 void add_to_essaim(uint16_t);
+
+int essaim_flashing_count();
 
 #include "arduiciole_xbee.h"
 
