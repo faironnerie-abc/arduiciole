@@ -100,12 +100,12 @@ void xbee_init(cmd_t *cmd) {
 
       if (atResponse.isOk()) {
         digitalWrite(CLED, HIGH);
+        
 #ifdef DEBUG
         altSoftSerial.print("*** START ON XBEE ");
         altSoftSerial.print(((uint32_t*)atResponse.getValue())[0], HEX);
         altSoftSerial.println("***");
 #endif
-        // TODO : Set SL in spread packet
       }
       else {
         error_mode(ERROR_BAD_XBEE_RESPONSE);
@@ -120,6 +120,9 @@ void xbee_init(cmd_t *cmd) {
   }
 }
 
+/*
+ * @see arduiciole_xbee.h#xbee_transmit()
+ */
 void xbee_transmit() {
 #ifdef DEBUG
   digitalWrite(11, HIGH); // DEBUG
@@ -138,46 +141,9 @@ void xbee_transmit() {
 #endif
 }
 
-void xbee_flush() {
-  uint8_t i = 0;
-
-  while (i++ < 6) {
-    xbee.readPacket();
-  }
-}
-
-void _xbee_handle_tx_status() {
-  tx_status_expected--;
-#ifdef DEBUG
-  altSoftSerial.print("[XBE] TX_STATUS ");
-
-  xbee.getResponse().getZBTxStatusResponse(tx_status);
-
-  if (tx_status.isSuccess()) {
-    altSoftSerial.print("[SUCCESS] ");
-  }
-  else {
-    altSoftSerial.print("[FAILED] ");
-  }
-
-  altSoftSerial.print(tx_status_expected);
-  altSoftSerial.println(" restant(s)");
-#endif
-}
-
-void xbee_wait_tx_status() {
-  unsigned long clock = millis() + ZB_TX_STATUS_TIMEOUT;
-
-  while (millis() < clock && tx_status_expected > 0) {
-    xbee.readPacket();
-
-    if (xbee.getResponse().isAvailable() &&
-      xbee.getResponse().getApiId() == ZB_TX_STATUS_RESPONSE) {
-      _xbee_handle_tx_status();
-    }
-  }
-}
-
+/*
+ * @see arduiciole_xbee.h#xbee_receive()
+ */
 cmd_t xbee_receive(unsigned long to, uint8_t **data) {
   xbee.readPacket(to);
 
@@ -242,8 +208,22 @@ cmd_t xbee_receive(unsigned long to, uint8_t **data) {
      * Cas où l'on recevrait un confirmation d'envoi.
      */
     else if (xbee.getResponse().getApiId() == ZB_TX_STATUS_RESPONSE) {
-      _xbee_handle_tx_status();
+      tx_status_expected--;
 #ifdef DEBUG
+      altSoftSerial.print("[XBE] TX_STATUS ");
+
+      xbee.getResponse().getZBTxStatusResponse(tx_status);
+
+      if (tx_status.isSuccess()) {
+        altSoftSerial.print("[SUCCESS] ");
+      }
+      else {
+        altSoftSerial.print("[FAILED] ");
+      }
+
+      altSoftSerial.print(tx_status_expected);
+      altSoftSerial.println(" restant(s)");
+
       return CMD_TX_STATUS;
 #endif
     }
