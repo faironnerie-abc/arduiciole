@@ -42,10 +42,10 @@ void xbee_spread() {
 #endif
   xbee.send(tx_broadcast);
   tx_status_expected++;
-  xbee_wait_tx_status();
+  //xbee_wait_tx_status();
 #ifdef DEBUG
-  altSoftSerial.print("SPREAD DELAY ");
-  altSoftSerial.println((millis() - clock));
+  //altSoftSerial.print("SPREAD DELAY ");
+  //altSoftSerial.println((millis() - clock));
 #endif
 
   last_spread = millis();

@@ -27,6 +27,8 @@ AltSoftSerial altSoftSerial;
 cmd_t message = CMD_SYNC;
 luciole_t state;
 
+unsigned long cycle_length = LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH + LUCIOLE_ADJUST_BASE_DELAY;
+
 /*
  * @see arduiciole.h#error_mode
  */
@@ -47,13 +49,29 @@ void listen(unsigned long time_out) {
     if (cmd != CMD_NONE) {
         switch(cmd) {
         case CMD_SYNC:
-          clock2 = millis();
-
-          state.swarm_cumul += (clock2 - min(clock2, state.start_at + LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY));
+          /*
+           * On cherche à déterminer le décalage entre le début du cycle de cette
+           * luciole, et le début de celle dont on vient de recevoir le SYNC.
+           * Pour prendre en compte la latence liée au réseau, on soustrait
+           * la valeur LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY au délai déterminé.
+           * Cependant, si le paquet est réçu alors que la luciole est à une
+           * distance temporelle inférieure à LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY,
+           * il faut considérer que le paquet a été envoyé à la fin du cycle précédent
+           * et adapter notre calcul en conséquence relativement à `cycle_length`.
+           */
+          clock2 = (millis() - state.start_at + cycle_length - LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY) % cycle_length;
+#ifdef DEBUG
+          altSoftSerial.print("SYNC @ ");
+          altSoftSerial.print(millis());
+          altSoftSerial.print(" | REMOTE CLOCK ");
+          altSoftSerial.println(clock2);
+#endif
+          state.swarm_cumul += clock2;
           state.swarm_size  += 1;
+
           break;
         case CMD_RESET:
-          delay(random(1000, 5000));
+          delay(random(LUCIOLE_RESET_MIN_DELAY, LUCIOLE_RESET_MAX_DELAY));
           break;
         }
   	}
@@ -89,23 +107,34 @@ void flash() {
  * @see arduiciole.h#sync
  */
 void sync() {
-  listen (LUCIOLE_WAIT_PHASE_LENGTH);
+  //
+  // Le cycle de la luciole, sans la période d'ajustement, doit
+  // durer LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH ms.
+  // On attend donc le temps restant, en lisant les paquets.
+  //
+
+  long until = state.start_at + LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH;
+  until -= millis();
+
+  listen (max(0, until));
 }
 
 /**
  * Ajustement de l'état de la luciole.
  */
 void adjust() {
+  unsigned long adjust_delay = LUCIOLE_ADJUST_BASE_DELAY;
+
   if (state.swarm_size) {
     unsigned long mean = state.swarm_cumul / state.swarm_size;
-    long d = mean - (LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH) / 2;
+    long d = mean - cycle_length / 2;
 
 #ifdef DEBUG
-    altSoftSerial.print("ADJUST : ");
+    altSoftSerial.print("ADJUST mean = ");
     altSoftSerial.print(mean);
-    altSoftSerial.print(" > ");
-    altSoftSerial.print((LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH) / 2);
-    altSoftSerial.print(" > ");
+    altSoftSerial.print(" | half = ");
+    altSoftSerial.print(cycle_length / 2);
+    altSoftSerial.print(" | d = ");
     altSoftSerial.println(d);
 #endif
     //
@@ -128,14 +157,13 @@ void adjust() {
     altSoftSerial.println(d);
 #endif
 
-    delay(LUCIOLE_ADJUST_BASE_DELAY+d);
+    adjust_delay += d;
+  }
 
-    state.swarm_cumul = 0;
-    state.swarm_size  = 0;
-  }
-  else {
-    delay(LUCIOLE_ADJUST_BASE_DELAY);
-  }
+  state.swarm_cumul = 0;
+  state.swarm_size  = 0;
+
+  listen(adjust_delay);
 }
 
 /**
@@ -172,14 +200,18 @@ void setup() {
 void loop() {
   state.start_at = millis();
 
-  xbee_spread();
-
   //
   // Émission de lumière.
   // Bon ok, plus d'électrons que de photons...
   //
 
   flash();
+
+  //
+  // Diffusion de l'adresse si besoin.
+  //
+
+  xbee_spread();
 
   //
   // Phase de synchronisation.
