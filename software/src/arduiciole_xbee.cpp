@@ -36,7 +36,7 @@ void xbee_spread() {
   }
 
 #ifdef DEBUG
-  altSoftSerial.print("SPREAD @ ");
+  altSoftSerial.print("[XBE] SPREAD @ ");
   altSoftSerial.println(millis());
 #endif
 
@@ -62,8 +62,7 @@ void xbee_add_to_swarm(XBeeAddress64& addr) {
   zb_swarm_size = min(LUCIOLE_VIEW, zb_swarm_size + 1);
 
 #ifdef DEBUG
-  altSoftSerial.print("Nouveau voisin : ");
-  altSoftSerial.print(addr.getMsb(), HEX);
+  altSoftSerial.print("[SWA] Nouveau voisin : ");
   altSoftSerial.println(addr.getLsb(), HEX);
 #endif
 }
@@ -102,8 +101,9 @@ void xbee_init(cmd_t *cmd) {
       if (atResponse.isOk()) {
         digitalWrite(CLED, HIGH);
 #ifdef DEBUG
-        altSoftSerial.print("ATSL ");
-        altSoftSerial.println(((uint32_t*)atResponse.getValue())[0], HEX);
+        altSoftSerial.print("*** START ON XBEE ");
+        altSoftSerial.print(((uint32_t*)atResponse.getValue())[0], HEX);
+        altSoftSerial.println("***");
 #endif
         // TODO : Set SL in spread packet
       }
@@ -129,7 +129,7 @@ void xbee_transmit() {
     xbee.send(tx);
     tx_status_expected++;
 #ifdef DEBUG
-    altSoftSerial.print("OUT TO ");
+    altSoftSerial.print("[>TX] TO ");
     altSoftSerial.println(tx.getAddress64().getLsb(), HEX);
 #endif
   }
@@ -149,7 +149,7 @@ void xbee_flush() {
 void _xbee_handle_tx_status() {
   tx_status_expected--;
 #ifdef DEBUG
-  altSoftSerial.print("TX_STATUS ");
+  altSoftSerial.print("[XBE] TX_STATUS ");
 
   xbee.getResponse().getZBTxStatusResponse(tx_status);
 
@@ -178,7 +178,7 @@ void xbee_wait_tx_status() {
   }
 }
 
-cmd_t xbee_receive(unsigned long to) {
+cmd_t xbee_receive(unsigned long to, uint8_t **data) {
   xbee.readPacket(to);
 
   if (xbee.getResponse().isAvailable()) {
@@ -189,6 +189,7 @@ cmd_t xbee_receive(unsigned long to) {
 
     if (xbee.getResponse().getApiId() == ZB_RX_RESPONSE) {
       cmd_t cmd = (cmd_t) rx.getData()[0];
+      *data = rx.getData();
 
 #ifdef DEBUG
       digitalWrite(7, HIGH);
@@ -197,7 +198,7 @@ cmd_t xbee_receive(unsigned long to) {
       xbee.getResponse().getZBRxResponse(rx);
 
 #ifdef DEBUG
-      altSoftSerial.print("IN FROM ");
+      altSoftSerial.print("[<RX] FROM ");
       altSoftSerial.println(rx.getRemoteAddress64().getLsb(), HEX);
 
       delay(50);
@@ -213,7 +214,7 @@ cmd_t xbee_receive(unsigned long to) {
        */
       case CMD_SWARM:
 #ifdef DEBUG
-        altSoftSerial.print("CMD_SWARM @ ");
+        altSoftSerial.print("[CMD] SWARM @ ");
         altSoftSerial.println(millis());
 #endif
 
@@ -248,7 +249,7 @@ cmd_t xbee_receive(unsigned long to) {
     }
 #ifdef DEBUG
     else {
-      altSoftSerial.print("API ID inconnu : ");
+      altSoftSerial.print("[XBE] API ID inconnu : ");
       altSoftSerial.println(xbee.getResponse().getApiId(), HEX);
     }
 

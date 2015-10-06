@@ -8,7 +8,7 @@ void xbee_init(cmd_t*);
 void xbee_transmit();
 void xbee_flush();
 void xbee_wait_tx_status();
-cmd_t xbee_receive(unsigned long);
+cmd_t xbee_receive(unsigned long, uint8_t**);
 
 void xbee_spread();
 

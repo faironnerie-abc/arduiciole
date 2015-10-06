@@ -45,9 +45,10 @@ void error_mode(uint8_t error) {
 void listen(unsigned long time_out) {
   unsigned long clock = millis(), clock2;
   uint8_t cmd;
+  uint8_t *data;
 
   while (millis() < clock + time_out) {
-    cmd = xbee_receive(max(1, time_out - (millis() - clock)));
+    cmd = xbee_receive(max(1, time_out - (millis() - clock)), &data);
 
     if (cmd != CMD_NONE) {
         switch(cmd) {
@@ -67,7 +68,7 @@ void listen(unsigned long time_out) {
           clock2 = clock2 % cycle_length;
 
 #ifdef DEBUG
-          altSoftSerial.print("SYNC @ ");
+          altSoftSerial.print("[CMD] SYNC @ ");
           altSoftSerial.print(millis() - state.start_at);
           altSoftSerial.print(" | REMOTE CLOCK ");
           altSoftSerial.println(clock2);
@@ -78,10 +79,24 @@ void listen(unsigned long time_out) {
           break;
         case CMD_RESET:
           delay(random(LUCIOLE_RESET_MIN_DELAY, LUCIOLE_RESET_MAX_DELAY));
+
+#ifdef DEBUG
+          altSoftSerial.println("[CMD] RESET");
+#endif
+
+          break;
+        case CMD_EPSILON:
+          state.epsilon = data[1] / 255.0;
+
+#ifdef DEBUG
+          altSoftSerial.print("[SET] EPSILON = ");
+          altSoftSerial.println(state.epsilon);
+#endif
+
           break;
 #ifdef DEBUG
         case CMD_TX_STATUS:
-          altSoftSerial.print("TX STATUS @ ");
+          altSoftSerial.print("[CMD] TX STATUS @ ");
           altSoftSerial.println(millis() - state.start_at);
           break;
 #endif
@@ -97,11 +112,6 @@ void flash() {
   //
   // Dawn
   //
-
-#ifdef DEBUG
-  altSoftSerial.print("TRANSMIT @ ");
-  altSoftSerial.println(millis() - state.start_at);
-#endif
 
   xbee_transmit();
 
@@ -154,7 +164,7 @@ void adjust() {
     }
 
 #ifdef DEBUG
-    altSoftSerial.print("ADJUST mean = ");
+    altSoftSerial.print("[ADJ] mean = ");
     altSoftSerial.print(mean);
     altSoftSerial.print(" | half = ");
     altSoftSerial.print(cycle_length / 2);
@@ -165,13 +175,13 @@ void adjust() {
     // Atténuation pour augmenter la durée nécessaire à la synchro.
     //
 
-    d = round(LUCIOLE_ADJUST_EPSILON * d);
+    d = round(state.epsilon * d);
 
     d = max(-LUCIOLE_ADJUST_BASE_DELAY, d);
     d = min( LUCIOLE_ADJUST_BASE_DELAY, d);
 
 #ifdef DEBUG
-    altSoftSerial.print("Délai d'ajustement ");
+    altSoftSerial.print("[ADJ] Délai d'ajustement ");
     altSoftSerial.println(d);
 #endif
 
@@ -211,6 +221,15 @@ void setup() {
   pinMode(7, OUTPUT);
   pinMode(11, OUTPUT);
 #endif
+
+  //
+  // Initialisation de l'état de la luciole
+  //
+
+  state.start_at = 0;
+  state.swarm_cumul = 0;
+  state.swarm_size = 0;
+  state.epsilon = LUCIOLE_ADJUST_EPSILON;
 
   //
   // XBee initialization

@@ -25,6 +25,7 @@ extern AltSoftSerial altSoftSerial;
 #define CMD_DEBUG     0x03
 #define CMD_SWARM     0x04
 #define CMD_TX_STATUS 0x05
+#define CMD_EPSILON   0x06
 
 //
 // Paramètres des lucioles
@@ -62,7 +63,7 @@ extern AltSoftSerial altSoftSerial;
 # define LUCIOLE_DELAY_BETWEEN_FLASH 250
 #endif
 
-#define LUCIOLE_ADJUST_EPSILON 0.25
+#define LUCIOLE_ADJUST_EPSILON 0.15
 #define LUCIOLE_ADJUST_BASE_DELAY 500
 #define LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY 150
 
@@ -94,7 +95,8 @@ typedef uint8_t cmd_t;
 typedef struct {
   unsigned long start_at;
   unsigned long swarm_cumul;
-  uint8_t swarm_size;
+  uint8_t       swarm_size;
+  float         epsilon;
 } luciole_t;
 
 /**
@@ -162,7 +164,7 @@ void sync();
  * voisins, en atténuant le déplacement via le facteur LUCIOLE_ADJUST_EPSILON.
  *
  */
-void adjust()
+void adjust();
 
 #include "arduiciole_xbee.h"
 
