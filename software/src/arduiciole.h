@@ -19,11 +19,12 @@ extern AltSoftSerial altSoftSerial;
 // Définition des commandes contenues dans les paquets.
 //
 
-#define CMD_NONE  0x00
-#define CMD_SYNC  0x01
-#define CMD_RESET 0x02
-#define CMD_DEBUG 0x03
-#define CMD_SWARM 0x04
+#define CMD_NONE      0x00
+#define CMD_SYNC      0x01
+#define CMD_RESET     0x02
+#define CMD_DEBUG     0x03
+#define CMD_SWARM     0x04
+#define CMD_TX_STATUS 0x05
 
 //
 // Paramètres des lucioles
@@ -61,9 +62,9 @@ extern AltSoftSerial altSoftSerial;
 # define LUCIOLE_DELAY_BETWEEN_FLASH 250
 #endif
 
-#define LUCIOLE_ADJUST_EPSILON 1
+#define LUCIOLE_ADJUST_EPSILON 0.25
 #define LUCIOLE_ADJUST_BASE_DELAY 500
-#define LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY 500
+#define LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY 150
 
 #define LUCIOLE_RESET_MIN_DELAY 1000
 #define LUCIOLE_RESET_MAX_DELAY 5000

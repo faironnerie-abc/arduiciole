@@ -34,19 +34,14 @@ void xbee_spread() {
   if (last_spread && millis() < last_spread + XBEE_SPREAD_DELAY) {
     return;
   }
+
 #ifdef DEBUG
-  unsigned long clock = millis();
-  digitalWrite(11, LOW);
   altSoftSerial.print("SPREAD @ ");
   altSoftSerial.println(millis());
 #endif
+
   xbee.send(tx_broadcast);
   tx_status_expected++;
-  //xbee_wait_tx_status();
-#ifdef DEBUG
-  //altSoftSerial.print("SPREAD DELAY ");
-  //altSoftSerial.println((millis() - clock));
-#endif
 
   last_spread = millis();
 }
@@ -108,7 +103,7 @@ void xbee_init(cmd_t *cmd) {
         digitalWrite(CLED, HIGH);
 #ifdef DEBUG
         altSoftSerial.print("ATSL ");
-        altSoftSerial.println(atResponse.getValueLength());
+        altSoftSerial.println(((uint32_t*)atResponse.getValue())[0], HEX);
 #endif
         // TODO : Set SL in spread packet
       }
@@ -134,8 +129,7 @@ void xbee_transmit() {
     xbee.send(tx);
     tx_status_expected++;
 #ifdef DEBUG
-    altSoftSerial.print("paquet envoyé à ");
-    altSoftSerial.print(tx.getAddress64().getMsb(), HEX);
+    altSoftSerial.print("OUT TO ");
     altSoftSerial.println(tx.getAddress64().getLsb(), HEX);
 #endif
   }
@@ -155,15 +149,15 @@ void xbee_flush() {
 void _xbee_handle_tx_status() {
   tx_status_expected--;
 #ifdef DEBUG
-  altSoftSerial.print("Tx Status reçu ");
+  altSoftSerial.print("TX_STATUS ");
 
   xbee.getResponse().getZBTxStatusResponse(tx_status);
 
   if (tx_status.isSuccess()) {
-    altSoftSerial.print("[succès] ");
+    altSoftSerial.print("[SUCCESS] ");
   }
   else {
-    altSoftSerial.print("[échec] ");
+    altSoftSerial.print("[FAILED] ");
   }
 
   altSoftSerial.print(tx_status_expected);
@@ -203,8 +197,7 @@ cmd_t xbee_receive(unsigned long to) {
       xbee.getResponse().getZBRxResponse(rx);
 
 #ifdef DEBUG
-      altSoftSerial.print("paquet reçu de : ");
-      altSoftSerial.print(rx.getRemoteAddress64().getMsb(), HEX);
+      altSoftSerial.print("IN FROM ");
       altSoftSerial.println(rx.getRemoteAddress64().getLsb(), HEX);
 
       delay(50);
@@ -249,6 +242,9 @@ cmd_t xbee_receive(unsigned long to) {
      */
     else if (xbee.getResponse().getApiId() == ZB_TX_STATUS_RESPONSE) {
       _xbee_handle_tx_status();
+#ifdef DEBUG
+      return CMD_TX_STATUS;
+#endif
     }
 #ifdef DEBUG
     else {

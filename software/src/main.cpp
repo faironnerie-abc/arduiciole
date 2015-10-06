@@ -59,10 +59,13 @@ void listen(unsigned long time_out) {
            * il faut considérer que le paquet a été envoyé à la fin du cycle précédent
            * et adapter notre calcul en conséquence relativement à `cycle_length`.
            */
-          clock2 = (millis() - state.start_at + cycle_length - LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY) % cycle_length;
+          clock2 = millis() - state.start_at;
+          clock2 = clock2 + cycle_length - LUCIOLE_ADJUST_ESTIMATE_MEAN_TX_DELAY;
+          clock2 = clock2 % cycle_length;
+
 #ifdef DEBUG
           altSoftSerial.print("SYNC @ ");
-          altSoftSerial.print(millis());
+          altSoftSerial.print(millis() - state.start_at);
           altSoftSerial.print(" | REMOTE CLOCK ");
           altSoftSerial.println(clock2);
 #endif
@@ -73,6 +76,12 @@ void listen(unsigned long time_out) {
         case CMD_RESET:
           delay(random(LUCIOLE_RESET_MIN_DELAY, LUCIOLE_RESET_MAX_DELAY));
           break;
+#ifdef DEBUG
+        case CMD_TX_STATUS:
+          altSoftSerial.print("TX STATUS @ ");
+          altSoftSerial.println(millis() - state.start_at);
+          break;
+#endif
         }
   	}
   }
@@ -85,6 +94,11 @@ void flash() {
   //
   // Dawn
   //
+
+#ifdef DEBUG
+  altSoftSerial.print("TRANSMIT @ ");
+  altSoftSerial.println(millis() - state.start_at);
+#endif
 
   xbee_transmit();
 
@@ -116,7 +130,7 @@ void sync() {
   long until = state.start_at + LUCIOLE_FLASH_PHASE_LENGTH + LUCIOLE_WAIT_PHASE_LENGTH;
   until -= millis();
 
-  listen (max(0, until));
+  listen (max(1, until));
 }
 
 /**
@@ -127,7 +141,14 @@ void adjust() {
 
   if (state.swarm_size) {
     unsigned long mean = state.swarm_cumul / state.swarm_size;
-    long d = mean - cycle_length / 2;
+    long d;
+
+    if (mean < cycle_length / 2) {
+      d = mean;
+    }
+    else {
+      d = cycle_length / 2 - mean;
+    }
 
 #ifdef DEBUG
     altSoftSerial.print("ADJUST mean = ");
