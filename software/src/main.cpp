@@ -39,6 +39,9 @@ void error_mode(uint8_t error) {
   }
 }
 
+/*
+ * @see arduiciole.h#listen()
+ */
 void listen(unsigned long time_out) {
   unsigned long clock = millis(), clock2;
   uint8_t cmd;
@@ -106,7 +109,7 @@ void flash() {
     HELPER_ANALOG_WRITE(i, 1);
   HELPER_DIGITAL_WRITE(HIGH, 0);
 
-  listen(LUCIOLE_FLASH_LENGTH);
+  listen(LUCIOLE_FLASH_LENGTH - min(LUCIOLE_FLASH_LENGTH, millis() - state.start_at + 255));
 
   //
   // Twilight
@@ -118,7 +121,7 @@ void flash() {
 }
 
 /*
- * @see arduiciole.h#sync
+ * @see arduiciole.h#sync()
  */
 void sync() {
   //
@@ -133,8 +136,8 @@ void sync() {
   listen (max(1, until));
 }
 
-/**
- * Ajustement de l'état de la luciole.
+/*
+ * @see arduiciole.h#adjust()
  */
 void adjust() {
   unsigned long adjust_delay = LUCIOLE_ADJUST_BASE_DELAY;
@@ -163,12 +166,6 @@ void adjust() {
     //
 
     d = round(LUCIOLE_ADJUST_EPSILON * d);
-
-    //
-    // Le délai d'ajustement doit être compris dans
-    //        [-LUCIOLE_ADJUST_BASE_DELAY; LUCIOLE_ADJUST_BASE_DELAY].
-    // On obtiendra ainsi un délai final entre 0 et 2 * LUCIOLE_ADJUST_BASE_DELAY.
-    //
 
     d = max(-LUCIOLE_ADJUST_BASE_DELAY, d);
     d = min( LUCIOLE_ADJUST_BASE_DELAY, d);
@@ -204,9 +201,16 @@ void setup() {
 
   pinMode(HLED, OUTPUT);
   pinMode(LLED, OUTPUT);
+
+#ifdef DEBUG
+  //
+  // LEDs de débogage.
+  //
+
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
   pinMode(11, OUTPUT);
+#endif
 
   //
   // XBee initialization

@@ -108,14 +108,61 @@ typedef struct {
 void error_mode(uint8_t);
 
 /**
+ * Écoute des paquets en provenance du module XBee.
+ *
+ * On lit les paquets tant que le timeout n'a pas été atteint. On utilise pour
+ * cela la fonction `xbee_receive()` définie dans arduiciole_xbee.h. Cette dernière
+ * méthode gère la gestion des paquets et retourne une commande lorsque cela est
+ * nécessaire.
+ *
+ * Cette méthode doit être appelée le plus souvent possible afin de lire le plus
+ * de paquets posible. Elle remplace donc la méthode `delay()` habituelle.
+ *
+ * Description des actions ayant un impact sur la luciole :
+ *
+ * - "CMD_SYNC" : action de synchronisation avec le voisinage.
+ * - "CMD_RESET" : désynchronisation. On applique pour cela un délai aléatoire
+ *   compris entre LUCIOLE_RESET_MIN_DELAY et LUCIOLE_RESET_MAX_DELAY ;
+ *
+ * @param time_out
+ */
+void listen(unsigned long);
+
+/**
  * Émission d'un flash sous la forme d'un paquet diffusé sur le réseau ZigBee.
+ *
+ * Un paquet est transmis à chaque membre du voisinage pour les informer du
+ * nouveau cycle entamé par la luciole. Les LEDs sont ensuite allumer puis,
+ * la luciole rentre dans une phase d'écoute jusqu'à atteindre le délai voulu
+ * pour cette phase. Les LEDs sont ensuite éteintes progressivement. La durée de
+ * cette phase est définie par LUCIOLE_FLASH_LENGTH.
  */
 void flash();
 
 /**
  * Phase de synchronisation de la luciole.
+ *
+ * Il s'agit d'une phase intermédiaire durant laquelle la luciole est éteinte
+ * mais à l'écoute des transmissions venant de ses voisines. La durée de cette
+ * phase est définie par LUCIOLE_WAIT_PHASE_LENGTH.
  */
 void sync();
+
+/**
+ * Ajustement de l'état de la luciole.
+ *
+ * La valeur non-ajustée de cette phase est LUCIOLE_ADJUST_BASE_DELAY. On
+ * calcule ensuite une durée à ajouter ou à soustraire en fonction des
+ * informations reçues de la part des autres lucioles.
+ *
+ * La valeur d'ajustement est comprise dans [-LUCIOLE_ADJUST_BASE_DELAY; LUCIOLE_ADJUST_BASE_DELAY].
+ * On obtiendra ainsi un délai final compris entre 0 et 2 * LUCIOLE_ADJUST_BASE_DELAY.
+ *
+ * Cette valeur traduit la volonté de se rapprocher de la phase moyenne des
+ * voisins, en atténuant le déplacement via le facteur LUCIOLE_ADJUST_EPSILON.
+ *
+ */
+void adjust()
 
 #include "arduiciole_xbee.h"
 
