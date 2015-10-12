@@ -80,26 +80,31 @@ void listen(unsigned long time_out) {
         case CMD_RESET:
           delay(random(LUCIOLE_RESET_MIN_DELAY, LUCIOLE_RESET_MAX_DELAY));
 
-#ifdef DEBUG
-          altSoftSerial.println("[CMD] RESET");
-#endif
+          DEBUG_PRINT("[CMD] RESET")
 
           break;
         case CMD_EPSILON:
           state.epsilon = data[1] / 255.0;
 
-#ifdef DEBUG
-          altSoftSerial.print("[SET] EPSILON = ");
-          altSoftSerial.println(state.epsilon);
-#endif
+          DEBUG_PRINT_VAL("[SET] EPSILON = ", state.epsilon)
 
           break;
-#ifdef DEBUG
-        case CMD_TX_STATUS:
-          altSoftSerial.print("[CMD] TX STATUS @ ");
-          altSoftSerial.println(millis() - state.start_at);
+        case CMD_ON:
+          state.enabled = LUCIOLE_ON;
+
+          DEBUG_PRINT("[SET] ENABLED ON")
+
           break;
-#endif
+        case CMD_OFF:
+          state.enabled = LUCIOLE_OFF;
+
+          DEBUG_PRINT("[SET] ENABLED OFF")
+
+          break;
+        case CMD_TX_STATUS:
+          DEBUG_PRINT_VAL("[CMD] TX STATUS @ ", millis() - state.start_at)
+
+          break;
         }
   	}
   }
@@ -163,14 +168,10 @@ void adjust() {
       d = cycle_length / 2 - mean;
     }
 
-#ifdef DEBUG
-    altSoftSerial.print("[ADJ] mean = ");
-    altSoftSerial.print(mean);
-    altSoftSerial.print(" | half = ");
-    altSoftSerial.print(cycle_length / 2);
-    altSoftSerial.print(" | d = ");
-    altSoftSerial.println(d);
-#endif
+    DEBUG_PRINT_VAL("[ADJ] mean = ", mean)
+    DEBUG_PRINT_VAL("      half = ", cycle_length / 2)
+    DEBUG_PRINT_VAL("      d    = ", d)
+    
     //
     // Atténuation pour augmenter la durée nécessaire à la synchro.
     //
@@ -180,10 +181,7 @@ void adjust() {
     d = max(-LUCIOLE_ADJUST_BASE_DELAY, d);
     d = min( LUCIOLE_ADJUST_BASE_DELAY, d);
 
-#ifdef DEBUG
-    altSoftSerial.print("[ADJ] Délai d'ajustement ");
-    altSoftSerial.println(d);
-#endif
+    DEBUG_PRINT_VAL("[ADJ] Délai d'ajustement ", d)
 
     adjust_delay += d;
   }
@@ -230,6 +228,7 @@ void setup() {
   state.swarm_cumul = 0;
   state.swarm_size = 0;
   state.epsilon = LUCIOLE_ADJUST_EPSILON;
+  state.enabled = LUCIOLE_ON;
 
   //
   // XBee initialization
@@ -242,30 +241,35 @@ void setup() {
  * Boucle principale de l'Arduino.
  */
 void loop() {
-  state.start_at = millis();
+  if (state.enabled == LUCIOLE_ON) {
+    state.start_at = millis();
 
-  //
-  // Émission de lumière.
-  // Bon ok, plus d'électrons que de photons...
-  //
+    //
+    // Émission de lumière.
+    // Bon ok, plus d'électrons que de photons...
+    //
 
-  flash();
+    flash();
 
-  //
-  // Diffusion de l'adresse si besoin.
-  //
+    //
+    // Diffusion de l'adresse si besoin.
+    //
 
-  xbee_spread();
+    xbee_spread();
 
-  //
-  // Phase de synchronisation.
-  //
+    //
+    // Phase de synchronisation.
+    //
 
-  sync();
+    sync();
 
-  //
-  // Phase d'ajustement.
-  //
+    //
+    // Phase d'ajustement.
+    //
 
-  adjust();
+    adjust();
+  }
+  else {
+    listen(1000);
+  }
 }
