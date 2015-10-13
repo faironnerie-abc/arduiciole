@@ -35,10 +35,7 @@ void xbee_spread() {
     return;
   }
 
-#ifdef DEBUG
-  altSoftSerial.print("[XBE] SPREAD @ ");
-  altSoftSerial.println(millis());
-#endif
+  DEBUG_PRINT_VAL("[XBE] SPREAD @ ", millis())
 
   xbee.send(tx_broadcast);
   tx_status_expected++;
@@ -61,10 +58,7 @@ void xbee_add_to_swarm(XBeeAddress64& addr) {
   zb_swarm_offset = (zb_swarm_offset + 1) % LUCIOLE_VIEW;
   zb_swarm_size = min(LUCIOLE_VIEW, zb_swarm_size + 1);
 
-#ifdef DEBUG
-  altSoftSerial.print("[SWA] Nouveau voisin : ");
-  altSoftSerial.println(addr.getLsb(), HEX);
-#endif
+  DEBUG_PRINT_VAL_HEX("[SWA] Nouveau voisin : ", addr.getLsb())
 }
 
 /**
@@ -100,12 +94,7 @@ void xbee_init(cmd_t *cmd) {
 
       if (atResponse.isOk()) {
         digitalWrite(CLED, HIGH);
-        
-#ifdef DEBUG
-        altSoftSerial.print("*** START ON XBEE ");
-        altSoftSerial.print(((uint32_t*)atResponse.getValue())[0], HEX);
-        altSoftSerial.println("***");
-#endif
+        DEBUG_PRINT_VAL_HEX(">>> START ON XBEE ", ((uint32_t*)atResponse.getValue())[0]);
       }
       else {
         error_mode(ERROR_BAD_XBEE_RESPONSE);
@@ -124,21 +113,16 @@ void xbee_init(cmd_t *cmd) {
  * @see arduiciole_xbee.h#xbee_transmit()
  */
 void xbee_transmit() {
-#ifdef DEBUG
-  digitalWrite(11, HIGH); // DEBUG
-#endif
+  DEBUG_DIGITAL_WRITE(11, HIGH)
+
   for (uint8_t i = 0; i < zb_swarm_size; i++) {
     tx.setAddress64(zb_swarm[i]);
     xbee.send(tx);
     tx_status_expected++;
-#ifdef DEBUG
-    altSoftSerial.print("[>TX] TO ");
-    altSoftSerial.println(tx.getAddress64().getLsb(), HEX);
-#endif
+    DEBUG_PRINT_VAL_HEX("[>TX] TO ", tx.getAddress64().getLsb())
   }
-#ifdef DEBUG
-  digitalWrite(11, LOW);
-#endif
+
+  DEBUG_DIGITAL_WRITE(11, LOW)
 }
 
 /*
@@ -149,28 +133,21 @@ cmd_t xbee_receive(unsigned long to, uint8_t **data) {
 
   if (xbee.getResponse().isAvailable()) {
 
-#ifdef DEBUG
-    digitalWrite(6, HIGH);
-#endif
+    DEBUG_DIGITAL_WRITE(6, HIGH)
 
     if (xbee.getResponse().getApiId() == ZB_RX_RESPONSE) {
       cmd_t cmd = (cmd_t) rx.getData()[0];
       *data = rx.getData();
 
-#ifdef DEBUG
-      digitalWrite(7, HIGH);
-#endif
+      DEBUG_DIGITAL_WRITE(7, HIGH)
 
       xbee.getResponse().getZBRxResponse(rx);
 
-#ifdef DEBUG
-      altSoftSerial.print("[<RX] FROM ");
-      altSoftSerial.println(rx.getRemoteAddress64().getLsb(), HEX);
+      DEBUG_PRINT_VAL_HEX("[<RX] FROM ", rx.getRemoteAddress64().getLsb())
+      DEBUG_DELAY(50)
+      DEBUG_DIGITAL_WRITE(6, LOW);
+      DEBUG_DIGITAL_WRITE(7, LOW);
 
-      delay(50);
-      digitalWrite(6, LOW);
-      digitalWrite(7, LOW);
-#endif
       switch(cmd) {
       /*
        * Paquet d'essaimage.
@@ -179,10 +156,7 @@ cmd_t xbee_receive(unsigned long to, uint8_t **data) {
        * pour mettre à jour le voisinage.
        */
       case CMD_SWARM:
-#ifdef DEBUG
-        altSoftSerial.print("[CMD] SWARM @ ");
-        altSoftSerial.println(millis());
-#endif
+        DEBUG_PRINT_VAL("[CMD] SWARM @ ", millis())
 
         if (!xbee_is_in_swarm(rx.getRemoteAddress64())) {
           if (zb_swarm_size < LUCIOLE_VIEW) {

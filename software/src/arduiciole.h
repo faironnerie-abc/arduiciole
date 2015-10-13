@@ -26,6 +26,11 @@ extern AltSoftSerial altSoftSerial;
 #define CMD_SWARM     0x04
 #define CMD_TX_STATUS 0x05
 #define CMD_EPSILON   0x06
+#define CMD_ON        0x07
+#define CMD_OFF       0x08
+
+#define LUCIOLE_OFF 0x00
+#define LUCIOLE_ON  0xFF
 
 //
 // Paramètres des lucioles
@@ -97,6 +102,7 @@ typedef struct {
   unsigned long swarm_cumul;
   uint8_t       swarm_size;
   float         epsilon;
+  uint8_t       enabled;
 } luciole_t;
 
 /**
