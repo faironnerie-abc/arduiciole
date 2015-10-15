@@ -9,4 +9,4 @@ Each of our arduiciole is tied up to an hellium balloon. We will try to produce 
 and 30 of them, for a national science event called "Fête de la science". This show will 
 take place in the university library of Le Havre (76, France).
 
-![arduiciole case design](https://raw.githubusercontent.com/faironnerie-abc/arduiciole-box/master/screenshot.jpg)
+![arduiciole case design](https://raw.githubusercontent.com/faironnerie-abc/arduiciole/master/assets/affiche.jpg)
